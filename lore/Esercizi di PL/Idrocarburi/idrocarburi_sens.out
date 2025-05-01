@@ -1,0 +1,229 @@
+GLPK 4.65 - SENSITIVITY ANALYSIS REPORT                                                                         Page   1
+
+Problem:    idrocarburi
+Objective:  profits = 7166.666667 (MAXimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+     1 Limite_minimo[A,Super]
+                    BS    1100.00000   -1100.00000        .           366.66667        .         7166.66667 Limite_massimo[A,Super]
+                                            .               +Inf     1235.29412       1.66667    9000.00000 y[C]
+
+     2 Limite_minimo[A,Normale]
+                    BS    1900.00000   -1900.00000        .          1900.00000       -.60606    6015.15152 x[A,Verde]
+                                            .               +Inf     2633.33333        .         7166.66667 Limite_massimo[A,Super]
+
+     3 Limite_minimo[A,Verde]
+                    BS        .             .             .              .               -Inf    7166.66667
+                                            .               +Inf         .             .66667    7166.66667 x[A,Verde]
+
+     4 Limite_minimo[B,Super]
+                    NL        .             .             .         -1150.00000          -Inf   11000.00000 Limite_massimo[A,Normale]
+                                          -3.33333          +Inf      550.00000       3.33333    5333.33333 Limite_minimo[C,Super]
+
+     5 Limite_minimo[B,Normale]
+                    NL        .             .             .          -400.00000          -Inf    8500.00000 x[B,Normale]
+                                          -3.33333          +Inf     1100.00000       3.33333    3500.00000 Limite_massimo[C,Super]
+
+     6 Limite_minimo[B,Verde]
+                    BS        .             .             .              .               -Inf    7166.66667
+                                            .               +Inf     1222.22222       4.00000    7166.66667 x[B,Verde]
+
+     7 Limite_minimo[C,Super]
+                    BS    1100.00000   -1100.00000        .              .            -.75758    6333.33333 y[D]
+                                            .               +Inf     1833.33333        .         7166.66667 Limite_massimo[A,Super]
+
+     8 Limite_minimo[C,Normale]
+                    BS    2900.00000   -2900.00000        .          2166.66667        .         7166.66667 Limite_massimo[A,Super]
+                                            .               +Inf     4000.00000        .75758    9363.63636 y[D]
+
+     9 Limite_minimo[C,Verde]
+                    BS        .             .             .              .               -Inf    7166.66667
+                                            .               +Inf     1352.94118        .66667    7166.66667 x[C,Verde]
+
+    10 Limite_minimo[D,Super]
+                    BS        .             .             .              .             .         7166.66667 x[D,Normale]
+                                            .               +Inf     1000.00000        .83333    7166.66667 y[D]
+
+GLPK 4.65 - SENSITIVITY ANALYSIS REPORT                                                                         Page   2
+
+Problem:    idrocarburi
+Objective:  profits = 7166.666667 (MAXimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    11 Limite_minimo[D,Normale]
+                    BS        .             .             .              .               -Inf    7166.66667
+                                            .               +Inf         .             .         7166.66667 x[D,Normale]
+
+    12 Limite_minimo[D,Verde]
+                    BS        .             .             .              .               -Inf    7166.66667
+                                            .               +Inf         .             .66667    7166.66667 x[D,Verde]
+
+    13 Limite_massimo[A,Super]
+                    NU        .             .               -Inf     -733.33333        .         7166.66667 Limite_massimo[C,Super]
+                                            .             .          1100.00000          +Inf    7166.66667 Limite_minimo[C,Super]
+
+    14 Limite_massimo[A,Normale]
+                    BS    -766.66667     766.66667          -Inf    -1333.33333      -1.47059    8294.11765 y[D]
+                                            .             .           -33.33333        .         7166.66667 Limite_massimo[A,Super]
+
+    15 Limite_massimo[A,Verde]
+                    BS        .             .               -Inf     -947.05882       -.95238    7166.66667 x[C,Verde]
+                                            .             .           518.18182       2.22222    7166.66667 x[A,Verde]
+
+    16 Limite_massimo[B,Super]
+                    BS   -2200.00000    2200.00000          -Inf    -2470.58824       -.83333    9000.00000 y[C]
+                                            .             .              .             .83333    5333.33333 y[B]
+
+    17 Limite_massimo[B,Normale]
+                    BS   -4800.00000    4800.00000          -Inf    -6000.00000       -.69444   10500.00000 y[D]
+                                            .             .         -3176.47059        .13889    6500.00000 y[C]
+
+    18 Limite_massimo[B,Verde]
+                    BS        .             .               -Inf         .            -.66667    7166.66667 x[A,Verde]
+                                            .             .              .               +Inf    7166.66667
+
+    19 Limite_massimo[C,Super]
+                    BS    -733.33333     733.33333          -Inf    -1666.66667       -.89286    7821.42857 y[D]
+                                            .             .            33.33333        .         7166.66667 Limite_massimo[A,Super]
+
+    20 Limite_massimo[C,Normale]
+                    BS   -2433.33333    2433.33333          -Inf    -3166.66667        .         7166.66667 Limite_massimo[A,Super]
+                                            .             .         -2433.33333        .54054    5851.35135 x[A,Verde]
+
+GLPK 4.65 - SENSITIVITY ANALYSIS REPORT                                                                         Page   3
+
+Problem:    idrocarburi
+Objective:  profits = 7166.666667 (MAXimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    21 Limite_massimo[C,Verde]
+                    BS        .             .               -Inf         .            -.66667    7166.66667 x[A,Verde]
+                                            .             .              .               +Inf    7166.66667
+
+    22 Limite_massimo[D,Super]
+                    BS   -3666.66667    3666.66667          -Inf    -3666.66667        .         7166.66667 x[D,Normale]
+                                            .             .              .             .50000    5333.33333 y[B]
+
+    23 Limite_massimo[D,Normale]
+                    BS   -5333.33333    5333.33333          -Inf    -6666.66667       -.62500   10500.00000 y[D]
+                                            .             .         -5333.33333        .         7166.66667 x[D,Normale]
+
+    24 Limite_massimo[D,Verde]
+                    BS        .             .               -Inf         .            -.66667    7166.66667 x[A,Verde]
+                                            .             .              .               +Inf    7166.66667
+
+    25 Risorse[A]   NU        .             .               -Inf    -1727.27273      -4.16667     -30.30303 Limite_minimo[A,Normale]
+                                           4.16667        .          1769.23077          +Inf   14538.46154 Limite_massimo[A,Normale]
+
+    26 Risorse[B]   NU        .             .               -Inf    -1222.22222      -7.50000   -2000.00000 Limite_massimo[C,Super]
+                                           7.50000        .          2111.11111          +Inf   23000.00000 Limite_minimo[A,Normale]
+
+    27 Risorse[C]   NU        .             .               -Inf    -1352.94118      -4.16667    1529.41176 Limite_massimo[A,Normale]
+                                           4.16667        .         11000.00000          +Inf   53000.00000 Limite_massimo[C,Super]
+
+    28 Risorse[D]   NU        .             .               -Inf         .           -4.16667    7166.66667 Limite_minimo[D,Super]
+                                           4.16667        .          1000.00000          +Inf   11333.33333 Limite_minimo[C,Super]
+
+    29 Prodotti[Super]
+                    NS        .             .             .         -1000.00000          -Inf   11333.33333 Limite_minimo[C,Super]
+                                          -4.16667        .           785.71429          +Inf    3892.85714 Limite_massimo[C,Super]
+
+    30 Prodotti[Normale]
+                    NS        .             .             .        -11000.00000          -Inf   53000.00000 Limite_massimo[C,Super]
+                                          -4.16667        .          1352.94118          +Inf    1529.41176 Limite_massimo[A,Normale]
+
+GLPK 4.65 - SENSITIVITY ANALYSIS REPORT                                                                         Page   4
+
+Problem:    idrocarburi
+Objective:  profits = 7166.666667 (MAXimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    31 Prodotti[Verde]
+                    NS        .             .             .                -Inf          -Inf          +Inf
+                                          -3.50000        .              .               +Inf    7166.66667 Limite_massimo[B,Verde]
+
+    32 profits      BS    7166.66667   -7166.66667          -Inf     6333.33333      -1.00000        .      y[D]
+                                            .               +Inf     7166.66667          +Inf          +Inf
+
+GLPK 4.65 - SENSITIVITY ANALYSIS REPORT                                                                         Page   5
+
+Problem:    idrocarburi
+Objective:  profits = 7166.666667 (MAXimum)
+
+   No. Column name  St      Activity      Obj coef   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+     1 x[A,Super]   BS    1100.00000        .             .           366.66667        .         7166.66667 Limite_massimo[A,Super]
+                                            .               +Inf     1235.29412       1.66667    9000.00000 y[C]
+
+     2 x[A,Normale] BS    1900.00000        .             .          1900.00000       -.60606    6015.15152 x[A,Verde]
+                                            .               +Inf     2633.33333        .         7166.66667 Limite_massimo[A,Super]
+
+     3 x[A,Verde]   NL        .             .             .              .               -Inf    7166.66667 Limite_minimo[A,Verde]
+                                           -.66667          +Inf         .             .66667    7166.66667 Limite_massimo[A,Verde]
+
+     4 x[B,Super]   BS    1466.66667        .             .              .           -1.25000    5333.33333 y[B]
+                                            .               +Inf     1647.05882       1.25000    9000.00000 y[C]
+
+     5 x[B,Normale] BS     533.33333        .             .           352.94118      -1.25000    6500.00000 y[C]
+                                            .               +Inf     2000.00000       2.50000    8500.00000 Limite_minimo[B,Normale]
+
+     6 x[B,Verde]   NL        .             .             .              .               -Inf    7166.66667 Limite_minimo[B,Verde]
+                                          -4.00000          +Inf     1222.22222       4.00000    2277.77778 Limite_massimo[C,Super]
+
+     7 x[C,Super]   BS    1100.00000        .             .              .            -.75758    6333.33333 y[D]
+                                            .               +Inf     1833.33333        .         7166.66667 Limite_massimo[A,Super]
+
+     8 x[C,Normale] BS    2900.00000        .             .          2166.66667        .         7166.66667 Limite_massimo[A,Super]
+                                            .               +Inf     4000.00000        .75758    9363.63636 y[D]
+
+     9 x[C,Verde]   NL        .             .             .              .               -Inf    7166.66667 Limite_minimo[C,Verde]
+                                           -.66667          +Inf     1352.94118        .66667    6264.70588 Limite_massimo[A,Normale]
+
+    10 x[D,Super]   BS        .             .             .              .             .         7166.66667 x[D,Normale]
+                                            .               +Inf     1000.00000        .83333    7166.66667 y[D]
+
+GLPK 4.65 - SENSITIVITY ANALYSIS REPORT                                                                         Page   6
+
+Problem:    idrocarburi
+Objective:  profits = 7166.666667 (MAXimum)
+
+   No. Column name  St      Activity      Obj coef   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    11 x[D,Normale] NL        .             .             .              .               -Inf    7166.66667 Limite_minimo[D,Normale]
+                                            .               +Inf         .             .         7166.66667 Limite_minimo[D,Super]
+
+    12 x[D,Verde]   NL        .             .             .              .               -Inf    7166.66667 Limite_minimo[D,Verde]
+                                           -.66667          +Inf         .             .66667    7166.66667 Limite_minimo[D,Super]
+
+    13 y[A]         NU    3000.00000      -3.00000        .          1272.72727      -4.16667    5151.51515 Limite_minimo[A,Normale]
+                                           1.16667    3000.00000     4769.23077          +Inf    9230.76923 Limite_massimo[A,Normale]
+
+    14 y[B]         NU    2000.00000      -6.00000        .           777.77778      -7.50000    5333.33333 Limite_massimo[C,Super]
+                                           1.50000    2000.00000     4111.11111          +Inf   10333.33333 Limite_minimo[A,Normale]
+
+    15 y[C]         NU    4000.00000      -4.00000        .          2647.05882      -4.16667    6941.17647 Limite_massimo[A,Normale]
+                                            .16667    4000.00000    15000.00000          +Inf    9000.00000 Limite_massimo[C,Super]
+
+    16 y[D]         NL        .           -5.00000        .              .               -Inf    7166.66667 Limite_minimo[D,Super]
+                                           -.83333    1000.00000     1000.00000      -4.16667    6333.33333 Limite_minimo[C,Super]
+
+    17 z[Super]     BS    3666.66667       5.50000        .              .            5.00000    5333.33333 y[B]
+                                            .               +Inf     4117.64706       6.00000    9000.00000 y[C]
+
+    18 z[Normale]   BS    5333.33333       4.50000        .          3529.41176       4.37500    6500.00000 y[C]
+                                            .               +Inf     6666.66667       5.12500   10500.00000 y[D]
+
+    19 z[Verde]     BS        .            3.50000        .              .               -Inf    7166.66667
+                                            .               +Inf         .            4.16667    7166.66667 x[A,Verde]
+
+End of report

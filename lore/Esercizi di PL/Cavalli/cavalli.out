@@ -1,0 +1,52 @@
+Problem:    cavalli
+Rows:       6
+Columns:    5
+Non-zeros:  13
+Status:     OPTIMAL
+Objective:  z = 60 (MAXimum)
+
+   No.   Row name   St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 LimiteBudget NU            57                          57       1.05263 
+     2 z            B             60                             
+     3 VincitaMinima[Fulmine]
+                    NU             0                          -0      0.350877 
+     4 VincitaMinima[Freccia]
+                    NU             0                          -0      0.263158 
+     5 VincitaMinima[Dardo]
+                    NU             0                          -0      0.210526 
+     6 VincitaMinima[Lampo]
+                    NU             0                          -0      0.175439 
+
+   No. Column name  St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 puntata[Fulmine]
+                    B             20             0               
+     2 puntata[Freccia]
+                    B             15             0               
+     3 puntata[Dardo]
+                    B             12             0               
+     4 puntata[Lampo]
+                    B             10             0               
+     5 vincitaMinima
+                    B             60             0               
+
+Karush-Kuhn-Tucker optimality conditions:
+
+KKT.PE: max.abs.err = 1.42e-14 on row 1
+        max.rel.err = 1.24e-16 on row 1
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.DE: max.abs.err = 2.22e-16 on column 1
+        max.rel.err = 7.15e-17 on column 1
+        High quality
+
+KKT.DB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output

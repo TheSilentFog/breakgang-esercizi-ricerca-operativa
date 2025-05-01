@@ -1,0 +1,59 @@
+GLPK 4.65 - SENSITIVITY ANALYSIS REPORT                                                                         Page   1
+
+Problem:    cavalli
+Objective:  z = 60 (MAXimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+     1 LimiteBudget NU      57.00000        .               -Inf         .           -1.05263        .      vincitaMinima
+                                           1.05263      57.00000           +Inf          +Inf          +Inf
+
+     2 z            BS      60.00000     -60.00000          -Inf         .           -1.00000        .      VincitaMinima[Fulmine]
+                                            .               +Inf       60.00000          +Inf          +Inf
+
+     3 VincitaMinima[Fulmine]
+                    NU        .             .               -Inf     -171.00000       -.35088        .      puntata[Lampo]
+                                            .35088        .            92.43243          +Inf      92.43243 puntata[Fulmine]
+
+     4 VincitaMinima[Freccia]
+                    NU        .             .               -Inf     -228.00000       -.26316        .      vincitaMinima
+                                            .26316        .            81.42857          +Inf      81.42857 puntata[Freccia]
+
+     5 VincitaMinima[Dardo]
+                    NU        .             .               -Inf     -285.00000       -.21053        .      vincitaMinima
+                                            .21053        .            76.00000          +Inf      76.00000 puntata[Dardo]
+
+     6 VincitaMinima[Lampo]
+                    NU        .             .               -Inf     -342.00000       -.17544        .      puntata[Fulmine]
+                                            .17544        .            72.76596          +Inf      72.76596 puntata[Lampo]
+
+GLPK 4.65 - SENSITIVITY ANALYSIS REPORT                                                                         Page   2
+
+Problem:    cavalli
+Objective:  z = 60 (MAXimum)
+
+   No. Column name  St      Activity      Obj coef   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+     1 puntata[Fulmine]
+                    BS      20.00000        .             .              .           -3.00000        .      VincitaMinima[Dardo]
+                                            .               +Inf       57.00000       1.62162      92.43243 VincitaMinima[Fulmine]
+
+     2 puntata[Freccia]
+                    BS      15.00000        .             .              .           -4.00000        .      VincitaMinima[Fulmine]
+                                            .               +Inf       57.00000       1.42857      81.42857 VincitaMinima[Freccia]
+
+     3 puntata[Dardo]
+                    BS      12.00000        .             .              .           -5.00000        .      LimiteBudget
+                                            .               +Inf       57.00000       1.33333      76.00000 VincitaMinima[Dardo]
+
+     4 puntata[Lampo]
+                    BS      10.00000        .             .              .           -6.00000        .      VincitaMinima[Fulmine]
+                                            .               +Inf       57.00000       1.27660      72.76596 VincitaMinima[Lampo]
+
+     5 vincitaMinima
+                    BS      60.00000       1.00000        .              .             .             .      VincitaMinima[Fulmine]
+                                            .               +Inf       60.00000          +Inf          +Inf
+
+End of report
