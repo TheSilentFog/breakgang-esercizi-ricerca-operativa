@@ -1,4 +1,5 @@
-# Patate
+# Patate  (PL-2)
+
 # Tante variabili quante sono i fornitori
 # Variabili non negative perchè non esistono quantità negative
 # Tableau 3 righe e 5 colonne (2 di slack)
