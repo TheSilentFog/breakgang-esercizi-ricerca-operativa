@@ -1,0 +1,42 @@
+Problem:    mod_secondo_punto
+Rows:       2
+Columns:    7 (7 integer, 7 binary)
+Non-zeros:  14
+Status:     INTEGER OPTIMAL
+Objective:  assegna_terminali = 8005 (MINimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 vincolo_scelta
+                                   2             2             = 
+     2 assegna_terminali
+                                8005                             
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 terminali[Tolosa]
+                    *              0             0             1 
+     2 terminali[Nizza]
+                    *              0             0             1 
+     3 terminali[Marsiglia]
+                    *              0             0             1 
+     4 terminali[Lione]
+                    *              1             0             1 
+     5 terminali[Limoges]
+                    *              1             0             1 
+     6 terminali[Digione]
+                    *              0             0             1 
+     7 terminali[Parigi]
+                    *              0             0             1 
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output
