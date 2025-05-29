@@ -1,0 +1,124 @@
+Problem:    mod
+Rows:       31
+Columns:    16
+Non-zeros:  79
+Status:     OPTIMAL
+Objective:  felicita = 5532.195846 (MAXimum)
+
+   No.   Row name   St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 produzione_min[Svegliallegra]
+                    B        1468.84           600               
+     2 produzione_min['Frollino del M.']
+                    NL          1200          1200                   -0.064911 
+     3 produzione_min['Alba Radiosa']
+                    B          12000          6000               
+     4 produzione_min['ProntiVia!']
+                    B        5574.48          3600               
+     5 produzione_max[Svegliallegra]
+                    B        1468.84                        3600 
+     6 produzione_max['Frollino del M.']
+                    B           1200                        6000 
+     7 produzione_max['Alba Radiosa']
+                    NU         12000                       12000       0.42322 
+     8 produzione_max['ProntiVia!']
+                    B        5574.48                        6000 
+     9 impiego_ricetta[Farina]
+                    B       -91.3353                          -0 
+    10 impiego_ricetta[Uova]
+                    NU             0                          -0       2.04748 
+    11 impiego_ricetta[Zucchero]
+                    NU             0                          -0      0.511869 
+    12 impiego_ricetta[Burro]
+                    NU             0                          -0       1.02374 
+    13 impiego_ricetta[Latte]
+                    B       -216.944                          -0 
+    14 impiego_ricetta[Additivi]
+                    NU             0                          -0       1.02374 
+    15 impiego_ricetta[Nocciole]
+                    B       -453.116                          -0 
+    16 impiego_ricetta[Acqua]
+                    NU             0                          -0         < eps
+    17 impiego_minimo[Farina]
+                    NL          5400          5400                   -0.511869 
+    18 impiego_minimo[Uova]
+                    B        2535.22          2400               
+    19 impiego_minimo[Zucchero]
+                    B        4031.22          3840               
+    20 impiego_minimo[Burro]
+                    B        1757.45          1680               
+    21 impiego_minimo[Latte]
+                    NL          3840          3840                    -1.53561 
+    22 impiego_minimo[Additivi]
+                    B         1296.5          1200               
+    23 impiego_minimo[Nocciole]
+                    NL           600           600                    -5.11869 
+    24 impiego_minimo[Acqua]
+                    B        1544.33            -0               
+    25 tempi_lavoro[Svegliallegra]
+                    NS             0            -0             =       195.846 
+    26 tempi_lavoro['Frollino del M.']
+                    NS             0            -0             =       195.846 
+    27 tempi_lavoro['Alba Radiosa']
+                    NS             0            -0             =       195.846 
+    28 tempi_lavoro['ProntiVia!']
+                    NS             0            -0             =       195.846 
+    29 limite_tempo_nel_forno
+                    NU            60                          60       195.846 
+    30 budget_cap   NU         21600                       21600     0.0237389 
+    31 felicita     B         5532.2                             
+
+   No. Column name  St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 produzione[Svegliallegra]
+                    B        1468.84             0               
+     2 produzione['Frollino del M.']
+                    B           1200             0               
+     3 produzione['Alba Radiosa']
+                    B          12000             0               
+     4 produzione['ProntiVia!']
+                    B        5574.48             0               
+     5 impiego[Farina]
+                    B           5400             0               
+     6 impiego[Uova]
+                    B        2535.22             0               
+     7 impiego[Zucchero]
+                    B        4031.22             0               
+     8 impiego[Burro]
+                    B        1757.45             0               
+     9 impiego[Latte]
+                    B           3840             0               
+    10 impiego[Additivi]
+                    B         1296.5             0               
+    11 impiego[Nocciole]
+                    B            600             0               
+    12 impiego[Acqua]
+                    B        1544.33             0               
+    13 tempo_nel_forno[Svegliallegra]
+                    B        8.90208             0               
+    14 tempo_nel_forno['Frollino del M.']
+                    B            4.8             0               
+    15 tempo_nel_forno['Alba Radiosa']
+                    B             24             0               
+    16 tempo_nel_forno['ProntiVia!']
+                    B        22.2979             0               
+
+Karush-Kuhn-Tucker optimality conditions:
+
+KKT.PE: max.abs.err = 1.11e-11 on row 1
+        max.rel.err = 3.79e-15 on row 1
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.DE: max.abs.err = 2.84e-14 on column 13
+        max.rel.err = 2.85e-15 on column 12
+        High quality
+
+KKT.DB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output
