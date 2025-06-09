@@ -1,0 +1,86 @@
+Problem:    mod
+Rows:       13
+Columns:    15
+Non-zeros:  51
+Status:     OPTIMAL
+Objective:  fatturato = 3530.060673 (MAXimum)
+
+   No.   Row name   St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 coerenza_materiali[R1]
+                    NS             0            -0             =      -120.022 
+     2 coerenza_materiali[R2]
+                    NS             0            -0             =    -0.0706012 
+     3 coerenza_materiali[R3]
+                    NS             0            -0             =      -353.006 
+     4 coerenza_scorie[S1]
+                    NS             0            -0             =     -0.882515 
+     5 coerenza_scorie[S2]
+                    NS             0            -0             =     -0.635411 
+     6 coerenza_scorie[S3]
+                    NS             0            -0             =     -0.353006 
+     7 coerenza_ripartizione[S1]
+                    NS             0            -0             =     -0.882515 
+     8 coerenza_ripartizione[S2]
+                    NS             0            -0             =     -0.635411 
+     9 coerenza_ripartizione[S3]
+                    NS             0            -0             =     -0.353006 
+    10 bound_ripartizione_impianto[Imp1]
+                    B        375.069                        1250 
+    11 bound_ripartizione_impianto[Imp2]
+                    B        1765.03                        3400 
+    12 bound_budget NU          1000                        1000       3.53006 
+    13 fatturato    B        3530.06                             
+
+   No. Column name  St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 produzione[1]
+                    NL             0             0                    -382.526 
+     2 produzione[2]
+                    NL             0             0                    -40.8715 
+     3 produzione[3]
+                    B        2.20629             0               
+     4 acquisto_materia[R1]
+                    B        12.1346             0               
+     5 acquisto_materia[R2]
+                    B        1323.77             0               
+     6 acquisto_materia[R3]
+                    B         1.5444             0               
+     7 avanzi_scorie[S1]
+                    B        341.975             0               
+     8 avanzi_scorie[S2]
+                    B        1765.03             0               
+     9 avanzi_scorie[S3]
+                    B        33.0943             0               
+    10 ripartizione[Imp1,S1]
+                    B        341.975             0               
+    11 ripartizione[Imp2,S1]
+                    NL             0             0                   -0.353006 
+    12 ripartizione[Imp1,S2]
+                    NL             0             0                   -0.423607 
+    13 ripartizione[Imp2,S2]
+                    B        1765.03             0               
+    14 ripartizione[Imp1,S3]
+                    B        33.0943             0               
+    15 ripartizione[Imp2,S3]
+                    NL             0             0                  -0.0353006 
+
+Karush-Kuhn-Tucker optimality conditions:
+
+KKT.PE: max.abs.err = 2.27e-13 on row 2
+        max.rel.err = 1.66e-16 on row 7
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.DE: max.abs.err = 2.27e-13 on column 3
+        max.rel.err = 7.10e-17 on column 3
+        High quality
+
+KKT.DB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output

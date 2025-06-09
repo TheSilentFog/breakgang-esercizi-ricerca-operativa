@@ -1,0 +1,59 @@
+set prodotti :=
+1
+2
+3
+;
+
+set materie :=
+R1
+R2
+R3
+;
+
+set scorie :=
+S1
+S2
+S3
+;
+
+set impianto :=
+Imp1
+Imp2
+;
+
+param ricetta :
+         1      2      3 :=
+R1     2.3    4.5    5.5
+R2     850    520    600
+R3     0.8    0.9    0.7
+;
+param scarti :
+       1     2     3 :=
+S1   470   210   155
+S2   820   720   800
+S3    80    10    15
+;
+param capacita :=
+Imp1   1250
+Imp2   3400
+;
+
+param budget := 1000;
+param costi_trasporto :
+           S1     S2     S3 :=
+Imp1     0.25   0.30   0.10
+Imp2     0.35   0.18   0.11
+;
+
+
+param costi_materie :=
+R1   34
+R2   0.02
+R3   100
+;
+
+param profitti :=
+    1       1200
+    2       1500
+    3       1600
+   ;
