@@ -1,0 +1,43 @@
+set prodotti :=
+    'merendine'
+    'brioches'
+    'biscotti normali'
+    'biscotti speciali'
+    'tortine'
+;
+
+set ingredienti :=
+    'pasta'
+    'zucchero'
+    'marmellata'
+    'cioccolato'
+    'acqua'
+;
+
+param vendita_merendine :=
+    'merendine'         8
+    'brioches'          6
+    'biscotti normali' 12
+    'biscotti speciali' 14
+    'tortine'          10
+;
+
+param composizione :
+                    'merendine'           'brioches'      'biscotti normali'   'biscotti speciali'   'tortine' :=
+    'pasta'              20                  40                   70                    25             20
+    'zucchero'           25                  15                   10                    20             30
+    'marmellata'         40                  30                    0                    10             10
+    'cioccolato'         10                   0                   15                    40             30
+    'acqua'               5                  15                    5                     5             10
+;
+
+param disponibilita_ingredienti :=
+'pasta'      999999
+'zucchero'   300
+'marmellata' 320
+'cioccolato' 240
+'acqua'      999999
+;
+
+end;
+

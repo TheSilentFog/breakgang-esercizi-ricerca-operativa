@@ -1,0 +1,94 @@
+Problem:    mod
+Rows:       21
+Columns:    16
+Non-zeros:  53
+Status:     OPTIMAL
+Objective:  costi_periodo = 178700 (MINimum)
+
+   No.   Row name   St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 limite_produzione[1]
+                    NU           110                         110           -20 
+     2 limite_produzione[2]
+                    NU           110                         110           -30 
+     3 limite_produzione[3]
+                    NU           110                         110           -40 
+     4 limite_produzione[4]
+                    NU           110                         110           -50 
+     5 limite_appalto[1]
+                    B              0                          60 
+     6 limite_appalto[2]
+                    B             20                          60 
+     7 limite_appalto[3]
+                    NU            60                          60           -10 
+     8 limite_appalto[4]
+                    NU            60                          60           -20 
+     9 soddisfacimento_domanda[1]
+                    B           -110                        -100 
+    10 soddisfacimento_domanda[2]
+                    B           -140                        -130 
+    11 soddisfacimento_domanda[3]
+                    B           -180                        -150 
+    12 soddisfacimento_domanda[4]
+                    NU          -200                        -200          -350 
+    13 scarto_magazzino[2]
+                    NS          -100          -100             =          -320 
+    14 scarto_magazzino[3]
+                    NS          -130          -130             =          -330 
+    15 scarto_magazzino[4]
+                    NS          -150          -150             =          -340 
+    16 magazzino_iniziale
+                    NS             0            -0             =          -310 
+    17 costi_mensili[1]
+                    NS             0            -0             =             1 
+    18 costi_mensili[2]
+                    NS             0            -0             =             1 
+    19 costi_mensili[3]
+                    NS             0            -0             =             1 
+    20 costi_mensili[4]
+                    NS             0            -0             =             1 
+    21 costi_periodo
+                    B         178700                             
+
+   No. Column name  St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 magazzino[1] B              0             0               
+     2 magazzino[2] B             10             0               
+     3 magazzino[3] B             10             0               
+     4 magazzino[4] B             30             0               
+     5 produzione[1]
+                    B            110             0               
+     6 produzione[2]
+                    B            110             0               
+     7 produzione[3]
+                    B            110             0               
+     8 produzione[4]
+                    B            110             0               
+     9 appalto[1]   NL             0             0                          10 
+    10 appalto[2]   B             20             0               
+    11 appalto[3]   B             60             0               
+    12 appalto[4]   B             60             0               
+    13 costi[1]     B          33000             0               
+    14 costi[2]     B          39700             0               
+    15 costi[3]     B          52900             0               
+    16 costi[4]     B          53100             0               
+
+Karush-Kuhn-Tucker optimality conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.DE: max.abs.err = 0.00e+00 on column 0
+        max.rel.err = 0.00e+00 on column 0
+        High quality
+
+KKT.DB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output

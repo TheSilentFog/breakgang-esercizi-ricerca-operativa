@@ -1,0 +1,145 @@
+Problem:    mod
+Rows:       37
+Columns:    20
+Non-zeros:  124
+Status:     INFEASIBLE (FINAL)
+Objective:  profitto = 16800 (MAXimum)
+
+   No.   Row name   St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 coerenza_produzione_ingredienti[pasta]
+                    NS             0            -0             =         < eps
+     2 coerenza_produzione_ingredienti[zucchero]
+                    NS             0            -0             =         < eps
+     3 coerenza_produzione_ingredienti[marmellata]
+                    NS             0            -0             =         < eps
+     4 coerenza_produzione_ingredienti[cioccolato]
+                    NS             0            -0             =           -70 
+     5 coerenza_produzione_ingredienti[acqua]
+                    NS             0            -0             =         < eps
+     6 coerenza_produzione_scatole[merendine]
+                    NS             0            -0             =         < eps
+     7 coerenza_produzione_scatole[brioches]
+                    NS             0            -0             =         < eps
+     8 coerenza_produzione_scatole['biscotti normali']
+                    NS             0            -0             =         < eps
+     9 coerenza_produzione_scatole['biscotti speciali']
+                    NS             0            -0             =         < eps
+    10 coerenza_produzione_scatole[tortine]
+                    NS             0            -0             =         < eps
+    11 limite_ingredienti[pasta]
+                    B        797.143                      999999 
+    12 limite_ingredienti[zucchero]
+                    B        274.286                         300 
+    13 limite_ingredienti[marmellata]
+                    B        257.143                         320 
+    14 limite_ingredienti[cioccolato]
+                    NU           240                         240            70 
+    15 limite_ingredienti[acqua]
+                    B        145.714                      999999 
+    16 produzione_vincolata_lw
+                    B        102.857            -0               
+    17 produzione_vincolata_up
+                    NU             0                          -0            18 
+    18 avanzi[marmellata]
+                    B        257.143           288               
+    19 avanzi[cioccolato]
+                    B            240           216               
+    20 ripartizione_scatole_lw[merendine]
+                    B        34.2857            -0               
+    21 ripartizione_scatole_lw[brioches]
+                    B        102.857            -0               
+    22 ripartizione_scatole_lw['biscotti normali']
+                    B        137.143            -0               
+    23 ripartizione_scatole_lw['biscotti speciali']
+                    B        34.2857            -0               
+    24 ripartizione_scatole_lw[tortine]
+                    B        34.2857            -0               
+    25 ripartizione_scatole_up[merendine]
+                    NU             0                          -0         < eps
+    26 ripartizione_scatole_up[brioches]
+                    NU             0                          -0         < eps
+    27 ripartizione_scatole_up['biscotti normali']
+                    NU             0                          -0         < eps
+    28 ripartizione_scatole_up['biscotti speciali']
+                    B              0                          -0 
+    29 ripartizione_scatole_up[tortine]
+                    NU             0                          -0         < eps
+    30 ripartizione_scatole_totali_lw
+                    B        342.857            -0               
+    31 ripartizione_scatole_totali_up
+                    NU             0                          -0         < eps
+    32 ripartizione_produzione_totale[merendine]
+                    NL             0            -0                          -5 
+    33 ripartizione_produzione_totale[brioches]
+                    B        342.857            -0               
+    34 ripartizione_produzione_totale['biscotti normali']
+                    B        514.286            -0               
+    35 ripartizione_produzione_totale['biscotti speciali']
+                    NL             0            -0                         -38 
+    36 ripartizione_produzione_totale[tortine]
+                    NL             0            -0                         -17 
+    37 profitto     B          16800                             
+
+   No. Column name  St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 produzione[merendine]
+                    B        171.429             0               
+     2 produzione[brioches]
+                    B        514.286             0               
+     3 produzione['biscotti normali']
+                    B        685.714             0               
+     4 produzione['biscotti speciali']
+                    B        171.429             0               
+     5 produzione[tortine]
+                    B        171.429             0               
+     6 consumo_ingredienti[pasta]
+                    B        797.143             0               
+     7 consumo_ingredienti[zucchero]
+                    B        274.286             0               
+     8 consumo_ingredienti[marmellata]
+                    B        257.143             0               
+     9 consumo_ingredienti[cioccolato]
+                    B            240             0               
+    10 consumo_ingredienti[acqua]
+                    B        145.714             0               
+    11 scatole[piccole,merendine]
+                    B        68.5714             0               
+    12 scatole[grandi,merendine]
+                    B        102.857             0               
+    13 scatole[piccole,brioches]
+                    B        205.714             0               
+    14 scatole[grandi,brioches]
+                    B        308.571             0               
+    15 scatole[piccole,'biscotti normali']
+                    B        274.286             0               
+    16 scatole[grandi,'biscotti normali']
+                    B        411.429             0               
+    17 scatole[piccole,'biscotti speciali']
+                    B        68.5714             0               
+    18 scatole[grandi,'biscotti speciali']
+                    B        102.857             0               
+    19 scatole[piccole,tortine]
+                    B        68.5714             0               
+    20 scatole[grandi,tortine]
+                    B        102.857             0               
+
+Karush-Kuhn-Tucker optimality conditions:
+
+KKT.PE: max.abs.err = 1.00e-10 on row 11
+        max.rel.err = 1.14e-13 on row 15
+        High quality
+
+KKT.PB: max.abs.err = 3.09e+01 on row 18
+        max.rel.err = 1.07e-01 on row 18
+        PRIMAL SOLUTION IS INFEASIBLE
+
+KKT.DE: max.abs.err = 6.68e-14 on column 19
+        max.rel.err = 6.68e-14 on column 19
+        High quality
+
+KKT.DB: max.abs.err = 1.55e-14 on row 31
+        max.rel.err = 1.55e-14 on row 31
+        High quality
+
+End of output

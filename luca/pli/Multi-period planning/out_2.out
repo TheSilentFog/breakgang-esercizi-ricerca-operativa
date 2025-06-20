@@ -1,0 +1,71 @@
+Problem:    mod_2
+Rows:       16
+Columns:    12 (6 integer, 0 binary)
+Non-zeros:  41
+Status:     INTEGER OPTIMAL
+Objective:  costi_periodo = 119500 (MINimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 limite_produzione[1]
+                                 105                         110 
+     2 limite_produzione[2]
+                                 105                         110 
+     3 limite_produzione[3]
+                                 105                         110 
+     4 limite_appalto[1]
+                                   0                          60 
+     5 limite_appalto[2]
+                                  30                          60 
+     6 limite_appalto[3]
+                                  45                          60 
+     7 soddisfacimento_domanda[1]
+                                -110                        -100 
+     8 soddisfacimento_domanda[2]
+                                -145                        -130 
+     9 soddisfacimento_domanda[3]
+                                -160                        -150 
+    10 scarto_magazzino[2]
+                                -130          -130             = 
+    11 scarto_magazzino[3]
+                                -150          -150             = 
+    12 magazzino_iniziale
+                                -100          -100             = 
+    13 costi_mensili[1]
+                                   0            -0             = 
+    14 costi_mensili[2]
+                                   0            -0             = 
+    15 costi_mensili[3]
+                                   0            -0             = 
+    16 costi_periodo
+                              119500                             
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 magazzino[1]                5             0               
+     2 magazzino[2]               10             0               
+     3 magazzino[3]               10             0               
+     4 produzione[1]
+                    *              7             0               
+     5 produzione[2]
+                    *              7             0               
+     6 produzione[3]
+                    *              7             0               
+     7 appalto[1]   *              0             0               
+     8 appalto[2]   *              2             0               
+     9 appalto[3]   *              3             0               
+    10 costi[1]                31550             0               
+    11 costi[2]                41500             0               
+    12 costi[3]                46450             0               
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output
