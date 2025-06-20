@@ -1,0 +1,46 @@
+Problem:    01
+Rows:       2
+Columns:    12
+Non-zeros:  24
+Status:     OPTIMAL
+Objective:  z1 = 150 (MAXimum)
+
+   No.   Row name   St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 Vincolo      NU           300                         300           0.5 
+     2 z1           B            150                             
+
+   No. Column name  St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 x[1]         NL             0             0                        -4.5 
+     2 x[2]         NL             0             0                        -0.5 
+     3 x[3]         NL             0             0                        -3.5 
+     4 x[4]         NL             0             0                          -2 
+     5 x[5]         NL             0             0                          -6 
+     6 x[6]         B        5.17241             0               
+     7 x[7]         NL             0             0                        -0.5 
+     8 x[8]         NL             0             0                        -5.5 
+     9 x[9]         NL             0             0                        -2.5 
+    10 x[10]        NL             0             0                        -2.5 
+    11 x[11]        NL             0             0                          -2 
+    12 x[12]        NL             0             0                          -1 
+
+Karush-Kuhn-Tucker optimality conditions:
+
+KKT.PE: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+KKT.DE: max.abs.err = 0.00e+000 on column 0
+        max.rel.err = 0.00e+000 on column 0
+        High quality
+
+KKT.DB: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+End of output

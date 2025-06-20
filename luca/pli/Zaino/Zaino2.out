@@ -1,0 +1,38 @@
+Problem:    01
+Rows:       2
+Columns:    12 (12 integer, 0 binary)
+Non-zeros:  24
+Status:     INTEGER OPTIMAL
+Objective:  z2 = 148 (MAXimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 Vincolo                   300                         300 
+     2 z2                        148                             
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 x[1]         *              0             0               
+     2 x[2]         *              0             0               
+     3 x[3]         *              0             0               
+     4 x[4]         *              0             0               
+     5 x[5]         *              0             0               
+     6 x[6]         *              3             0               
+     7 x[7]         *              2             0               
+     8 x[8]         *              0             0               
+     9 x[9]         *              0             0               
+    10 x[10]        *              0             0               
+    11 x[11]        *              0             0               
+    12 x[12]        *              1             0               
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+End of output
