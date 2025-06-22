@@ -1,0 +1,286 @@
+Problem:    mod
+Rows:       26
+Columns:    105 (105 integer, 105 binary)
+Non-zeros:  210
+Status:     INTEGER OPTIMAL
+Objective:  utilizzo_container_totali = 4 (MINimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 mono_contanier[1]
+                                   1             1             = 
+     2 mono_contanier[2]
+                                   1             1             = 
+     3 mono_contanier[3]
+                                   1             1             = 
+     4 mono_contanier[4]
+                                   1             1             = 
+     5 mono_contanier[5]
+                                   1             1             = 
+     6 mono_contanier[6]
+                                   1             1             = 
+     7 mono_contanier[7]
+                                   1             1             = 
+     8 mono_contanier[8]
+                                   1             1             = 
+     9 mono_contanier[9]
+                                   1             1             = 
+    10 mono_contanier[10]
+                                   1             1             = 
+    11 mono_contanier[11]
+                                   1             1             = 
+    12 mono_contanier[12]
+                                   1             1             = 
+    13 mono_contanier[13]
+                                   1             1             = 
+    14 mono_contanier[14]
+                                   1             1             = 
+    15 mono_contanier[15]
+                                   1             1             = 
+    16 mono_contanier[16]
+                                   1             1             = 
+    17 mono_contanier[17]
+                                   1             1             = 
+    18 mono_contanier[18]
+                                   1             1             = 
+    19 mono_contanier[19]
+                                   1             1             = 
+    20 mono_contanier[20]
+                                   1             1             = 
+    21 limite_capacita[1]
+                                  -1                          -0 
+    22 limite_capacita[2]
+                                   0                          -0 
+    23 limite_capacita[3]
+                                   0                          -0 
+    24 limite_capacita[4]
+                                   0                          -0 
+    25 limite_capacita[5]
+                                  -1                          -0 
+    26 utilizzo_container_totali
+                                   4                             
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 posizionamento[1,1]
+                    *              0             0             1 
+     2 posizionamento[1,2]
+                    *              0             0             1 
+     3 posizionamento[1,3]
+                    *              0             0             1 
+     4 posizionamento[1,4]
+                    *              0             0             1 
+     5 posizionamento[1,5]
+                    *              1             0             1 
+     6 posizionamento[2,1]
+                    *              0             0             1 
+     7 posizionamento[2,2]
+                    *              0             0             1 
+     8 posizionamento[2,3]
+                    *              1             0             1 
+     9 posizionamento[2,4]
+                    *              0             0             1 
+    10 posizionamento[2,5]
+                    *              0             0             1 
+    11 posizionamento[3,1]
+                    *              1             0             1 
+    12 posizionamento[3,2]
+                    *              0             0             1 
+    13 posizionamento[3,3]
+                    *              0             0             1 
+    14 posizionamento[3,4]
+                    *              0             0             1 
+    15 posizionamento[3,5]
+                    *              0             0             1 
+    16 posizionamento[4,1]
+                    *              1             0             1 
+    17 posizionamento[4,2]
+                    *              0             0             1 
+    18 posizionamento[4,3]
+                    *              0             0             1 
+    19 posizionamento[4,4]
+                    *              0             0             1 
+    20 posizionamento[4,5]
+                    *              0             0             1 
+    21 posizionamento[5,1]
+                    *              0             0             1 
+    22 posizionamento[5,2]
+                    *              1             0             1 
+    23 posizionamento[5,3]
+                    *              0             0             1 
+    24 posizionamento[5,4]
+                    *              0             0             1 
+    25 posizionamento[5,5]
+                    *              0             0             1 
+    26 posizionamento[6,1]
+                    *              0             0             1 
+    27 posizionamento[6,2]
+                    *              0             0             1 
+    28 posizionamento[6,3]
+                    *              1             0             1 
+    29 posizionamento[6,4]
+                    *              0             0             1 
+    30 posizionamento[6,5]
+                    *              0             0             1 
+    31 posizionamento[7,1]
+                    *              0             0             1 
+    32 posizionamento[7,2]
+                    *              0             0             1 
+    33 posizionamento[7,3]
+                    *              0             0             1 
+    34 posizionamento[7,4]
+                    *              0             0             1 
+    35 posizionamento[7,5]
+                    *              1             0             1 
+    36 posizionamento[8,1]
+                    *              1             0             1 
+    37 posizionamento[8,2]
+                    *              0             0             1 
+    38 posizionamento[8,3]
+                    *              0             0             1 
+    39 posizionamento[8,4]
+                    *              0             0             1 
+    40 posizionamento[8,5]
+                    *              0             0             1 
+    41 posizionamento[9,1]
+                    *              0             0             1 
+    42 posizionamento[9,2]
+                    *              1             0             1 
+    43 posizionamento[9,3]
+                    *              0             0             1 
+    44 posizionamento[9,4]
+                    *              0             0             1 
+    45 posizionamento[9,5]
+                    *              0             0             1 
+    46 posizionamento[10,1]
+                    *              1             0             1 
+    47 posizionamento[10,2]
+                    *              0             0             1 
+    48 posizionamento[10,3]
+                    *              0             0             1 
+    49 posizionamento[10,4]
+                    *              0             0             1 
+    50 posizionamento[10,5]
+                    *              0             0             1 
+    51 posizionamento[11,1]
+                    *              0             0             1 
+    52 posizionamento[11,2]
+                    *              1             0             1 
+    53 posizionamento[11,3]
+                    *              0             0             1 
+    54 posizionamento[11,4]
+                    *              0             0             1 
+    55 posizionamento[11,5]
+                    *              0             0             1 
+    56 posizionamento[12,1]
+                    *              0             0             1 
+    57 posizionamento[12,2]
+                    *              1             0             1 
+    58 posizionamento[12,3]
+                    *              0             0             1 
+    59 posizionamento[12,4]
+                    *              0             0             1 
+    60 posizionamento[12,5]
+                    *              0             0             1 
+    61 posizionamento[13,1]
+                    *              1             0             1 
+    62 posizionamento[13,2]
+                    *              0             0             1 
+    63 posizionamento[13,3]
+                    *              0             0             1 
+    64 posizionamento[13,4]
+                    *              0             0             1 
+    65 posizionamento[13,5]
+                    *              0             0             1 
+    66 posizionamento[14,1]
+                    *              0             0             1 
+    67 posizionamento[14,2]
+                    *              0             0             1 
+    68 posizionamento[14,3]
+                    *              0             0             1 
+    69 posizionamento[14,4]
+                    *              0             0             1 
+    70 posizionamento[14,5]
+                    *              1             0             1 
+    71 posizionamento[15,1]
+                    *              0             0             1 
+    72 posizionamento[15,2]
+                    *              1             0             1 
+    73 posizionamento[15,3]
+                    *              0             0             1 
+    74 posizionamento[15,4]
+                    *              0             0             1 
+    75 posizionamento[15,5]
+                    *              0             0             1 
+    76 posizionamento[16,1]
+                    *              0             0             1 
+    77 posizionamento[16,2]
+                    *              0             0             1 
+    78 posizionamento[16,3]
+                    *              1             0             1 
+    79 posizionamento[16,4]
+                    *              0             0             1 
+    80 posizionamento[16,5]
+                    *              0             0             1 
+    81 posizionamento[17,1]
+                    *              0             0             1 
+    82 posizionamento[17,2]
+                    *              0             0             1 
+    83 posizionamento[17,3]
+                    *              1             0             1 
+    84 posizionamento[17,4]
+                    *              0             0             1 
+    85 posizionamento[17,5]
+                    *              0             0             1 
+    86 posizionamento[18,1]
+                    *              0             0             1 
+    87 posizionamento[18,2]
+                    *              0             0             1 
+    88 posizionamento[18,3]
+                    *              0             0             1 
+    89 posizionamento[18,4]
+                    *              0             0             1 
+    90 posizionamento[18,5]
+                    *              1             0             1 
+    91 posizionamento[19,1]
+                    *              0             0             1 
+    92 posizionamento[19,2]
+                    *              0             0             1 
+    93 posizionamento[19,3]
+                    *              1             0             1 
+    94 posizionamento[19,4]
+                    *              0             0             1 
+    95 posizionamento[19,5]
+                    *              0             0             1 
+    96 posizionamento[20,1]
+                    *              0             0             1 
+    97 posizionamento[20,2]
+                    *              0             0             1 
+    98 posizionamento[20,3]
+                    *              0             0             1 
+    99 posizionamento[20,4]
+                    *              0             0             1 
+   100 posizionamento[20,5]
+                    *              1             0             1 
+   101 container_usato[1]
+                    *              1             0             1 
+   102 container_usato[2]
+                    *              1             0             1 
+   103 container_usato[3]
+                    *              1             0             1 
+   104 container_usato[4]
+                    *              0             0             1 
+   105 container_usato[5]
+                    *              1             0             1 
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output
