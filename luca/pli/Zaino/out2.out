@@ -1,0 +1,38 @@
+Problem:    mod
+Rows:       2
+Columns:    12 (12 integer, 0 binary)
+Non-zeros:  24
+Status:     INTEGER OPTIMAL
+Objective:  guadagno = 148 (MAXimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 max_zaino                 300                         300 
+     2 guadagno                  148                             
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 zaino[Obj1]  *              0             0               
+     2 zaino[Obj2]  *              0             0               
+     3 zaino[Obj3]  *              0             0               
+     4 zaino[Obj4]  *              0             0               
+     5 zaino[Obj5]  *              0             0               
+     6 zaino[Obj6]  *              3             0               
+     7 zaino[Obj7]  *              2             0               
+     8 zaino[Obj8]  *              0             0               
+     9 zaino[Obj9]  *              0             0               
+    10 zaino[Obj10] *              0             0               
+    11 zaino[Obj11] *              0             0               
+    12 zaino[Obj12] *              1             0               
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output

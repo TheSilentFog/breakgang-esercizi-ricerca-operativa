@@ -2,11 +2,11 @@
 
 set oggetti;
 
-param volume    {oggetti};  # Litri / confezione
-param valore    {oggetti};  # euro  / confezione
+param volume    {oggetti};  # Litri / oggetti
+param valore    {oggetti};  # euro  / oggetti
 param capacitad;            # litri
 
-var zaino       {oggetti} >= 0 integer; # confezioni
+var zaino       {oggetti} >= 0 binary; # oggetti
 
 s.t. max_zaino:
     sum{o in oggetti} zaino[o] * volume[o] <= capacitad;
