@@ -1,0 +1,3507 @@
+Problem:    mod
+Rows:       1053
+Columns:    729 (729 integer, 729 binary)
+Non-zeros:  3645
+Status:     INTEGER OPTIMAL
+Objective:  0 (MINimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 predisposizione[1,1,1]
+                                   1             1               
+     2 predisposizione[1,1,2]
+                                   0            -0               
+     3 predisposizione[1,1,3]
+                                   0            -0               
+     4 predisposizione[1,1,4]
+                                   0            -0               
+     5 predisposizione[1,1,5]
+                                   0            -0               
+     6 predisposizione[1,1,6]
+                                   0            -0               
+     7 predisposizione[1,1,7]
+                                   0            -0               
+     8 predisposizione[1,1,8]
+                                   0            -0               
+     9 predisposizione[1,1,9]
+                                   0            -0               
+    10 predisposizione[1,2,1]
+                                   0            -0               
+    11 predisposizione[1,2,2]
+                                   0            -0               
+    12 predisposizione[1,2,3]
+                                   0            -0               
+    13 predisposizione[1,2,4]
+                                   0            -0               
+    14 predisposizione[1,2,5]
+                                   0            -0               
+    15 predisposizione[1,2,6]
+                                   1            -0               
+    16 predisposizione[1,2,7]
+                                   0            -0               
+    17 predisposizione[1,2,8]
+                                   0            -0               
+    18 predisposizione[1,2,9]
+                                   0            -0               
+    19 predisposizione[1,3,1]
+                                   0            -0               
+    20 predisposizione[1,3,2]
+                                   0            -0               
+    21 predisposizione[1,3,3]
+                                   0            -0               
+    22 predisposizione[1,3,4]
+                                   0            -0               
+    23 predisposizione[1,3,5]
+                                   0            -0               
+    24 predisposizione[1,3,6]
+                                   0            -0               
+    25 predisposizione[1,3,7]
+                                   0            -0               
+    26 predisposizione[1,3,8]
+                                   0            -0               
+    27 predisposizione[1,3,9]
+                                   1            -0               
+    28 predisposizione[1,4,1]
+                                   0            -0               
+    29 predisposizione[1,4,2]
+                                   1             1               
+    30 predisposizione[1,4,3]
+                                   0            -0               
+    31 predisposizione[1,4,4]
+                                   0            -0               
+    32 predisposizione[1,4,5]
+                                   0            -0               
+    33 predisposizione[1,4,6]
+                                   0            -0               
+    34 predisposizione[1,4,7]
+                                   0            -0               
+    35 predisposizione[1,4,8]
+                                   0            -0               
+    36 predisposizione[1,4,9]
+                                   0            -0               
+    37 predisposizione[1,5,1]
+                                   0            -0               
+    38 predisposizione[1,5,2]
+                                   0            -0               
+    39 predisposizione[1,5,3]
+                                   0            -0               
+    40 predisposizione[1,5,4]
+                                   0            -0               
+    41 predisposizione[1,5,5]
+                                   0            -0               
+    42 predisposizione[1,5,6]
+                                   0            -0               
+    43 predisposizione[1,5,7]
+                                   0            -0               
+    44 predisposizione[1,5,8]
+                                   1            -0               
+    45 predisposizione[1,5,9]
+                                   0            -0               
+    46 predisposizione[1,6,1]
+                                   0            -0               
+    47 predisposizione[1,6,2]
+                                   0            -0               
+    48 predisposizione[1,6,3]
+                                   0            -0               
+    49 predisposizione[1,6,4]
+                                   1            -0               
+    50 predisposizione[1,6,5]
+                                   0            -0               
+    51 predisposizione[1,6,6]
+                                   0            -0               
+    52 predisposizione[1,6,7]
+                                   0            -0               
+    53 predisposizione[1,6,8]
+                                   0            -0               
+    54 predisposizione[1,6,9]
+                                   0            -0               
+    55 predisposizione[1,7,1]
+                                   0            -0               
+    56 predisposizione[1,7,2]
+                                   0            -0               
+    57 predisposizione[1,7,3]
+                                   0            -0               
+    58 predisposizione[1,7,4]
+                                   0            -0               
+    59 predisposizione[1,7,5]
+                                   1            -0               
+    60 predisposizione[1,7,6]
+                                   0            -0               
+    61 predisposizione[1,7,7]
+                                   0            -0               
+    62 predisposizione[1,7,8]
+                                   0            -0               
+    63 predisposizione[1,7,9]
+                                   0            -0               
+    64 predisposizione[1,8,1]
+                                   0            -0               
+    65 predisposizione[1,8,2]
+                                   0            -0               
+    66 predisposizione[1,8,3]
+                                   1            -0               
+    67 predisposizione[1,8,4]
+                                   0            -0               
+    68 predisposizione[1,8,5]
+                                   0            -0               
+    69 predisposizione[1,8,6]
+                                   0            -0               
+    70 predisposizione[1,8,7]
+                                   0            -0               
+    71 predisposizione[1,8,8]
+                                   0            -0               
+    72 predisposizione[1,8,9]
+                                   0            -0               
+    73 predisposizione[1,9,1]
+                                   0            -0               
+    74 predisposizione[1,9,2]
+                                   0            -0               
+    75 predisposizione[1,9,3]
+                                   0            -0               
+    76 predisposizione[1,9,4]
+                                   0            -0               
+    77 predisposizione[1,9,5]
+                                   0            -0               
+    78 predisposizione[1,9,6]
+                                   0            -0               
+    79 predisposizione[1,9,7]
+                                   1            -0               
+    80 predisposizione[1,9,8]
+                                   0            -0               
+    81 predisposizione[1,9,9]
+                                   0            -0               
+    82 predisposizione[2,1,1]
+                                   0            -0               
+    83 predisposizione[2,1,2]
+                                   0            -0               
+    84 predisposizione[2,1,3]
+                                   0            -0               
+    85 predisposizione[2,1,4]
+                                   0            -0               
+    86 predisposizione[2,1,5]
+                                   0            -0               
+    87 predisposizione[2,1,6]
+                                   0            -0               
+    88 predisposizione[2,1,7]
+                                   1            -0               
+    89 predisposizione[2,1,8]
+                                   0            -0               
+    90 predisposizione[2,1,9]
+                                   0            -0               
+    91 predisposizione[2,2,1]
+                                   0            -0               
+    92 predisposizione[2,2,2]
+                                   1             1               
+    93 predisposizione[2,2,3]
+                                   0            -0               
+    94 predisposizione[2,2,4]
+                                   0            -0               
+    95 predisposizione[2,2,5]
+                                   0            -0               
+    96 predisposizione[2,2,6]
+                                   0            -0               
+    97 predisposizione[2,2,7]
+                                   0            -0               
+    98 predisposizione[2,2,8]
+                                   0            -0               
+    99 predisposizione[2,2,9]
+                                   0            -0               
+   100 predisposizione[2,3,1]
+                                   0            -0               
+   101 predisposizione[2,3,2]
+                                   0            -0               
+   102 predisposizione[2,3,3]
+                                   0            -0               
+   103 predisposizione[2,3,4]
+                                   0            -0               
+   104 predisposizione[2,3,5]
+                                   0            -0               
+   105 predisposizione[2,3,6]
+                                   0            -0               
+   106 predisposizione[2,3,7]
+                                   0            -0               
+   107 predisposizione[2,3,8]
+                                   1            -0               
+   108 predisposizione[2,3,9]
+                                   0            -0               
+   109 predisposizione[2,4,1]
+                                   0            -0               
+   110 predisposizione[2,4,2]
+                                   0            -0               
+   111 predisposizione[2,4,3]
+                                   0            -0               
+   112 predisposizione[2,4,4]
+                                   0            -0               
+   113 predisposizione[2,4,5]
+                                   1            -0               
+   114 predisposizione[2,4,6]
+                                   0            -0               
+   115 predisposizione[2,4,7]
+                                   0            -0               
+   116 predisposizione[2,4,8]
+                                   0            -0               
+   117 predisposizione[2,4,9]
+                                   0            -0               
+   118 predisposizione[2,5,1]
+                                   0            -0               
+   119 predisposizione[2,5,2]
+                                   0            -0               
+   120 predisposizione[2,5,3]
+                                   1             1               
+   121 predisposizione[2,5,4]
+                                   0            -0               
+   122 predisposizione[2,5,5]
+                                   0            -0               
+   123 predisposizione[2,5,6]
+                                   0            -0               
+   124 predisposizione[2,5,7]
+                                   0            -0               
+   125 predisposizione[2,5,8]
+                                   0            -0               
+   126 predisposizione[2,5,9]
+                                   0            -0               
+   127 predisposizione[2,6,1]
+                                   0            -0               
+   128 predisposizione[2,6,2]
+                                   0            -0               
+   129 predisposizione[2,6,3]
+                                   0            -0               
+   130 predisposizione[2,6,4]
+                                   0            -0               
+   131 predisposizione[2,6,5]
+                                   0            -0               
+   132 predisposizione[2,6,6]
+                                   0            -0               
+   133 predisposizione[2,6,7]
+                                   0            -0               
+   134 predisposizione[2,6,8]
+                                   0            -0               
+   135 predisposizione[2,6,9]
+                                   1            -0               
+   136 predisposizione[2,7,1]
+                                   0            -0               
+   137 predisposizione[2,7,2]
+                                   0            -0               
+   138 predisposizione[2,7,3]
+                                   0            -0               
+   139 predisposizione[2,7,4]
+                                   1            -0               
+   140 predisposizione[2,7,5]
+                                   0            -0               
+   141 predisposizione[2,7,6]
+                                   0            -0               
+   142 predisposizione[2,7,7]
+                                   0            -0               
+   143 predisposizione[2,7,8]
+                                   0            -0               
+   144 predisposizione[2,7,9]
+                                   0            -0               
+   145 predisposizione[2,8,1]
+                                   0            -0               
+   146 predisposizione[2,8,2]
+                                   0            -0               
+   147 predisposizione[2,8,3]
+                                   0            -0               
+   148 predisposizione[2,8,4]
+                                   0            -0               
+   149 predisposizione[2,8,5]
+                                   0            -0               
+   150 predisposizione[2,8,6]
+                                   1            -0               
+   151 predisposizione[2,8,7]
+                                   0            -0               
+   152 predisposizione[2,8,8]
+                                   0            -0               
+   153 predisposizione[2,8,9]
+                                   0            -0               
+   154 predisposizione[2,9,1]
+                                   1            -0               
+   155 predisposizione[2,9,2]
+                                   0            -0               
+   156 predisposizione[2,9,3]
+                                   0            -0               
+   157 predisposizione[2,9,4]
+                                   0            -0               
+   158 predisposizione[2,9,5]
+                                   0            -0               
+   159 predisposizione[2,9,6]
+                                   0            -0               
+   160 predisposizione[2,9,7]
+                                   0            -0               
+   161 predisposizione[2,9,8]
+                                   0            -0               
+   162 predisposizione[2,9,9]
+                                   0            -0               
+   163 predisposizione[3,1,1]
+                                   0            -0               
+   164 predisposizione[3,1,2]
+                                   0            -0               
+   165 predisposizione[3,1,3]
+                                   1            -0               
+   166 predisposizione[3,1,4]
+                                   0            -0               
+   167 predisposizione[3,1,5]
+                                   0            -0               
+   168 predisposizione[3,1,6]
+                                   0            -0               
+   169 predisposizione[3,1,7]
+                                   0            -0               
+   170 predisposizione[3,1,8]
+                                   0            -0               
+   171 predisposizione[3,1,9]
+                                   0            -0               
+   172 predisposizione[3,2,1]
+                                   0            -0               
+   173 predisposizione[3,2,2]
+                                   0            -0               
+   174 predisposizione[3,2,3]
+                                   0            -0               
+   175 predisposizione[3,2,4]
+                                   0            -0               
+   176 predisposizione[3,2,5]
+                                   1            -0               
+   177 predisposizione[3,2,6]
+                                   0            -0               
+   178 predisposizione[3,2,7]
+                                   0            -0               
+   179 predisposizione[3,2,8]
+                                   0            -0               
+   180 predisposizione[3,2,9]
+                                   0            -0               
+   181 predisposizione[3,3,1]
+                                   0            -0               
+   182 predisposizione[3,3,2]
+                                   0            -0               
+   183 predisposizione[3,3,3]
+                                   0            -0               
+   184 predisposizione[3,3,4]
+                                   1             1               
+   185 predisposizione[3,3,5]
+                                   0            -0               
+   186 predisposizione[3,3,6]
+                                   0            -0               
+   187 predisposizione[3,3,7]
+                                   0            -0               
+   188 predisposizione[3,3,8]
+                                   0            -0               
+   189 predisposizione[3,3,9]
+                                   0            -0               
+   190 predisposizione[3,4,1]
+                                   0            -0               
+   191 predisposizione[3,4,2]
+                                   0            -0               
+   192 predisposizione[3,4,3]
+                                   0            -0               
+   193 predisposizione[3,4,4]
+                                   0            -0               
+   194 predisposizione[3,4,5]
+                                   0            -0               
+   195 predisposizione[3,4,6]
+                                   1            -0               
+   196 predisposizione[3,4,7]
+                                   0            -0               
+   197 predisposizione[3,4,8]
+                                   0            -0               
+   198 predisposizione[3,4,9]
+                                   0            -0               
+   199 predisposizione[3,5,1]
+                                   0            -0               
+   200 predisposizione[3,5,2]
+                                   0            -0               
+   201 predisposizione[3,5,3]
+                                   0            -0               
+   202 predisposizione[3,5,4]
+                                   0            -0               
+   203 predisposizione[3,5,5]
+                                   0            -0               
+   204 predisposizione[3,5,6]
+                                   0            -0               
+   205 predisposizione[3,5,7]
+                                   1            -0               
+   206 predisposizione[3,5,8]
+                                   0            -0               
+   207 predisposizione[3,5,9]
+                                   0            -0               
+   208 predisposizione[3,6,1]
+                                   1             1               
+   209 predisposizione[3,6,2]
+                                   0            -0               
+   210 predisposizione[3,6,3]
+                                   0            -0               
+   211 predisposizione[3,6,4]
+                                   0            -0               
+   212 predisposizione[3,6,5]
+                                   0            -0               
+   213 predisposizione[3,6,6]
+                                   0            -0               
+   214 predisposizione[3,6,7]
+                                   0            -0               
+   215 predisposizione[3,6,8]
+                                   0            -0               
+   216 predisposizione[3,6,9]
+                                   0            -0               
+   217 predisposizione[3,7,1]
+                                   0            -0               
+   218 predisposizione[3,7,2]
+                                   0            -0               
+   219 predisposizione[3,7,3]
+                                   0            -0               
+   220 predisposizione[3,7,4]
+                                   0            -0               
+   221 predisposizione[3,7,5]
+                                   0            -0               
+   222 predisposizione[3,7,6]
+                                   0            -0               
+   223 predisposizione[3,7,7]
+                                   0            -0               
+   224 predisposizione[3,7,8]
+                                   0            -0               
+   225 predisposizione[3,7,9]
+                                   1            -0               
+   226 predisposizione[3,8,1]
+                                   0            -0               
+   227 predisposizione[3,8,2]
+                                   0            -0               
+   228 predisposizione[3,8,3]
+                                   0            -0               
+   229 predisposizione[3,8,4]
+                                   0            -0               
+   230 predisposizione[3,8,5]
+                                   0            -0               
+   231 predisposizione[3,8,6]
+                                   0            -0               
+   232 predisposizione[3,8,7]
+                                   0            -0               
+   233 predisposizione[3,8,8]
+                                   1            -0               
+   234 predisposizione[3,8,9]
+                                   0            -0               
+   235 predisposizione[3,9,1]
+                                   0            -0               
+   236 predisposizione[3,9,2]
+                                   1            -0               
+   237 predisposizione[3,9,3]
+                                   0            -0               
+   238 predisposizione[3,9,4]
+                                   0            -0               
+   239 predisposizione[3,9,5]
+                                   0            -0               
+   240 predisposizione[3,9,6]
+                                   0            -0               
+   241 predisposizione[3,9,7]
+                                   0            -0               
+   242 predisposizione[3,9,8]
+                                   0            -0               
+   243 predisposizione[3,9,9]
+                                   0            -0               
+   244 predisposizione[4,1,1]
+                                   0            -0               
+   245 predisposizione[4,1,2]
+                                   1            -0               
+   246 predisposizione[4,1,3]
+                                   0            -0               
+   247 predisposizione[4,1,4]
+                                   0            -0               
+   248 predisposizione[4,1,5]
+                                   0            -0               
+   249 predisposizione[4,1,6]
+                                   0            -0               
+   250 predisposizione[4,1,7]
+                                   0            -0               
+   251 predisposizione[4,1,8]
+                                   0            -0               
+   252 predisposizione[4,1,9]
+                                   0            -0               
+   253 predisposizione[4,2,1]
+                                   0            -0               
+   254 predisposizione[4,2,2]
+                                   0            -0               
+   255 predisposizione[4,2,3]
+                                   0            -0               
+   256 predisposizione[4,2,4]
+                                   0            -0               
+   257 predisposizione[4,2,5]
+                                   0            -0               
+   258 predisposizione[4,2,6]
+                                   0            -0               
+   259 predisposizione[4,2,7]
+                                   0            -0               
+   260 predisposizione[4,2,8]
+                                   0            -0               
+   261 predisposizione[4,2,9]
+                                   1            -0               
+   262 predisposizione[4,3,1]
+                                   0            -0               
+   263 predisposizione[4,3,2]
+                                   0            -0               
+   264 predisposizione[4,3,3]
+                                   1             1               
+   265 predisposizione[4,3,4]
+                                   0            -0               
+   266 predisposizione[4,3,5]
+                                   0            -0               
+   267 predisposizione[4,3,6]
+                                   0            -0               
+   268 predisposizione[4,3,7]
+                                   0            -0               
+   269 predisposizione[4,3,8]
+                                   0            -0               
+   270 predisposizione[4,3,9]
+                                   0            -0               
+   271 predisposizione[4,4,1]
+                                   1            -0               
+   272 predisposizione[4,4,2]
+                                   0            -0               
+   273 predisposizione[4,4,3]
+                                   0            -0               
+   274 predisposizione[4,4,4]
+                                   0            -0               
+   275 predisposizione[4,4,5]
+                                   0            -0               
+   276 predisposizione[4,4,6]
+                                   0            -0               
+   277 predisposizione[4,4,7]
+                                   0            -0               
+   278 predisposizione[4,4,8]
+                                   0            -0               
+   279 predisposizione[4,4,9]
+                                   0            -0               
+   280 predisposizione[4,5,1]
+                                   0            -0               
+   281 predisposizione[4,5,2]
+                                   0            -0               
+   282 predisposizione[4,5,3]
+                                   0            -0               
+   283 predisposizione[4,5,4]
+                                   1            -0               
+   284 predisposizione[4,5,5]
+                                   0            -0               
+   285 predisposizione[4,5,6]
+                                   0            -0               
+   286 predisposizione[4,5,7]
+                                   0            -0               
+   287 predisposizione[4,5,8]
+                                   0            -0               
+   288 predisposizione[4,5,9]
+                                   0            -0               
+   289 predisposizione[4,6,1]
+                                   0            -0               
+   290 predisposizione[4,6,2]
+                                   0            -0               
+   291 predisposizione[4,6,3]
+                                   0            -0               
+   292 predisposizione[4,6,4]
+                                   0            -0               
+   293 predisposizione[4,6,5]
+                                   1             1               
+   294 predisposizione[4,6,6]
+                                   0            -0               
+   295 predisposizione[4,6,7]
+                                   0            -0               
+   296 predisposizione[4,6,8]
+                                   0            -0               
+   297 predisposizione[4,6,9]
+                                   0            -0               
+   298 predisposizione[4,7,1]
+                                   0            -0               
+   299 predisposizione[4,7,2]
+                                   0            -0               
+   300 predisposizione[4,7,3]
+                                   0            -0               
+   301 predisposizione[4,7,4]
+                                   0            -0               
+   302 predisposizione[4,7,5]
+                                   0            -0               
+   303 predisposizione[4,7,6]
+                                   0            -0               
+   304 predisposizione[4,7,7]
+                                   0            -0               
+   305 predisposizione[4,7,8]
+                                   1            -0               
+   306 predisposizione[4,7,9]
+                                   0            -0               
+   307 predisposizione[4,8,1]
+                                   0            -0               
+   308 predisposizione[4,8,2]
+                                   0            -0               
+   309 predisposizione[4,8,3]
+                                   0            -0               
+   310 predisposizione[4,8,4]
+                                   0            -0               
+   311 predisposizione[4,8,5]
+                                   0            -0               
+   312 predisposizione[4,8,6]
+                                   0            -0               
+   313 predisposizione[4,8,7]
+                                   1            -0               
+   314 predisposizione[4,8,8]
+                                   0            -0               
+   315 predisposizione[4,8,9]
+                                   0            -0               
+   316 predisposizione[4,9,1]
+                                   0            -0               
+   317 predisposizione[4,9,2]
+                                   0            -0               
+   318 predisposizione[4,9,3]
+                                   0            -0               
+   319 predisposizione[4,9,4]
+                                   0            -0               
+   320 predisposizione[4,9,5]
+                                   0            -0               
+   321 predisposizione[4,9,6]
+                                   1             1               
+   322 predisposizione[4,9,7]
+                                   0            -0               
+   323 predisposizione[4,9,8]
+                                   0            -0               
+   324 predisposizione[4,9,9]
+                                   0            -0               
+   325 predisposizione[5,1,1]
+                                   0            -0               
+   326 predisposizione[5,1,2]
+                                   0            -0               
+   327 predisposizione[5,1,3]
+                                   0            -0               
+   328 predisposizione[5,1,4]
+                                   0            -0               
+   329 predisposizione[5,1,5]
+                                   0            -0               
+   330 predisposizione[5,1,6]
+                                   1            -0               
+   331 predisposizione[5,1,7]
+                                   0            -0               
+   332 predisposizione[5,1,8]
+                                   0            -0               
+   333 predisposizione[5,1,9]
+                                   0            -0               
+   334 predisposizione[5,2,1]
+                                   0            -0               
+   335 predisposizione[5,2,2]
+                                   0            -0               
+   336 predisposizione[5,2,3]
+                                   0            -0               
+   337 predisposizione[5,2,4]
+                                   0            -0               
+   338 predisposizione[5,2,5]
+                                   0            -0               
+   339 predisposizione[5,2,6]
+                                   0            -0               
+   340 predisposizione[5,2,7]
+                                   1             1               
+   341 predisposizione[5,2,8]
+                                   0            -0               
+   342 predisposizione[5,2,9]
+                                   0            -0               
+   343 predisposizione[5,3,1]
+                                   0            -0               
+   344 predisposizione[5,3,2]
+                                   0            -0               
+   345 predisposizione[5,3,3]
+                                   0            -0               
+   346 predisposizione[5,3,4]
+                                   0            -0               
+   347 predisposizione[5,3,5]
+                                   1            -0               
+   348 predisposizione[5,3,6]
+                                   0            -0               
+   349 predisposizione[5,3,7]
+                                   0            -0               
+   350 predisposizione[5,3,8]
+                                   0            -0               
+   351 predisposizione[5,3,9]
+                                   0            -0               
+   352 predisposizione[5,4,1]
+                                   0            -0               
+   353 predisposizione[5,4,2]
+                                   0            -0               
+   354 predisposizione[5,4,3]
+                                   1            -0               
+   355 predisposizione[5,4,4]
+                                   0            -0               
+   356 predisposizione[5,4,5]
+                                   0            -0               
+   357 predisposizione[5,4,6]
+                                   0            -0               
+   358 predisposizione[5,4,7]
+                                   0            -0               
+   359 predisposizione[5,4,8]
+                                   0            -0               
+   360 predisposizione[5,4,9]
+                                   0            -0               
+   361 predisposizione[5,5,1]
+                                   0            -0               
+   362 predisposizione[5,5,2]
+                                   1            -0               
+   363 predisposizione[5,5,3]
+                                   0            -0               
+   364 predisposizione[5,5,4]
+                                   0            -0               
+   365 predisposizione[5,5,5]
+                                   0            -0               
+   366 predisposizione[5,5,6]
+                                   0            -0               
+   367 predisposizione[5,5,7]
+                                   0            -0               
+   368 predisposizione[5,5,8]
+                                   0            -0               
+   369 predisposizione[5,5,9]
+                                   0            -0               
+   370 predisposizione[5,6,1]
+                                   0            -0               
+   371 predisposizione[5,6,2]
+                                   0            -0               
+   372 predisposizione[5,6,3]
+                                   0            -0               
+   373 predisposizione[5,6,4]
+                                   0            -0               
+   374 predisposizione[5,6,5]
+                                   0            -0               
+   375 predisposizione[5,6,6]
+                                   0            -0               
+   376 predisposizione[5,6,7]
+                                   0            -0               
+   377 predisposizione[5,6,8]
+                                   1            -0               
+   378 predisposizione[5,6,9]
+                                   0            -0               
+   379 predisposizione[5,7,1]
+                                   1            -0               
+   380 predisposizione[5,7,2]
+                                   0            -0               
+   381 predisposizione[5,7,3]
+                                   0            -0               
+   382 predisposizione[5,7,4]
+                                   0            -0               
+   383 predisposizione[5,7,5]
+                                   0            -0               
+   384 predisposizione[5,7,6]
+                                   0            -0               
+   385 predisposizione[5,7,7]
+                                   0            -0               
+   386 predisposizione[5,7,8]
+                                   0            -0               
+   387 predisposizione[5,7,9]
+                                   0            -0               
+   388 predisposizione[5,8,1]
+                                   0            -0               
+   389 predisposizione[5,8,2]
+                                   0            -0               
+   390 predisposizione[5,8,3]
+                                   0            -0               
+   391 predisposizione[5,8,4]
+                                   1             1               
+   392 predisposizione[5,8,5]
+                                   0            -0               
+   393 predisposizione[5,8,6]
+                                   0            -0               
+   394 predisposizione[5,8,7]
+                                   0            -0               
+   395 predisposizione[5,8,8]
+                                   0            -0               
+   396 predisposizione[5,8,9]
+                                   0            -0               
+   397 predisposizione[5,9,1]
+                                   0            -0               
+   398 predisposizione[5,9,2]
+                                   0            -0               
+   399 predisposizione[5,9,3]
+                                   0            -0               
+   400 predisposizione[5,9,4]
+                                   0            -0               
+   401 predisposizione[5,9,5]
+                                   0            -0               
+   402 predisposizione[5,9,6]
+                                   0            -0               
+   403 predisposizione[5,9,7]
+                                   0            -0               
+   404 predisposizione[5,9,8]
+                                   0            -0               
+   405 predisposizione[5,9,9]
+                                   1            -0               
+   406 predisposizione[6,1,1]
+                                   0            -0               
+   407 predisposizione[6,1,2]
+                                   0            -0               
+   408 predisposizione[6,1,3]
+                                   0            -0               
+   409 predisposizione[6,1,4]
+                                   0            -0               
+   410 predisposizione[6,1,5]
+                                   0            -0               
+   411 predisposizione[6,1,6]
+                                   0            -0               
+   412 predisposizione[6,1,7]
+                                   0            -0               
+   413 predisposizione[6,1,8]
+                                   1             1               
+   414 predisposizione[6,1,9]
+                                   0            -0               
+   415 predisposizione[6,2,1]
+                                   0            -0               
+   416 predisposizione[6,2,2]
+                                   0            -0               
+   417 predisposizione[6,2,3]
+                                   0            -0               
+   418 predisposizione[6,2,4]
+                                   1            -0               
+   419 predisposizione[6,2,5]
+                                   0            -0               
+   420 predisposizione[6,2,6]
+                                   0            -0               
+   421 predisposizione[6,2,7]
+                                   0            -0               
+   422 predisposizione[6,2,8]
+                                   0            -0               
+   423 predisposizione[6,2,9]
+                                   0            -0               
+   424 predisposizione[6,3,1]
+                                   1            -0               
+   425 predisposizione[6,3,2]
+                                   0            -0               
+   426 predisposizione[6,3,3]
+                                   0            -0               
+   427 predisposizione[6,3,4]
+                                   0            -0               
+   428 predisposizione[6,3,5]
+                                   0            -0               
+   429 predisposizione[6,3,6]
+                                   0            -0               
+   430 predisposizione[6,3,7]
+                                   0            -0               
+   431 predisposizione[6,3,8]
+                                   0            -0               
+   432 predisposizione[6,3,9]
+                                   0            -0               
+   433 predisposizione[6,4,1]
+                                   0            -0               
+   434 predisposizione[6,4,2]
+                                   0            -0               
+   435 predisposizione[6,4,3]
+                                   0            -0               
+   436 predisposizione[6,4,4]
+                                   0            -0               
+   437 predisposizione[6,4,5]
+                                   0            -0               
+   438 predisposizione[6,4,6]
+                                   0            -0               
+   439 predisposizione[6,4,7]
+                                   0            -0               
+   440 predisposizione[6,4,8]
+                                   0            -0               
+   441 predisposizione[6,4,9]
+                                   1             1               
+   442 predisposizione[6,5,1]
+                                   0            -0               
+   443 predisposizione[6,5,2]
+                                   0            -0               
+   444 predisposizione[6,5,3]
+                                   0            -0               
+   445 predisposizione[6,5,4]
+                                   0            -0               
+   446 predisposizione[6,5,5]
+                                   0            -0               
+   447 predisposizione[6,5,6]
+                                   1            -0               
+   448 predisposizione[6,5,7]
+                                   0            -0               
+   449 predisposizione[6,5,8]
+                                   0            -0               
+   450 predisposizione[6,5,9]
+                                   0            -0               
+   451 predisposizione[6,6,1]
+                                   0            -0               
+   452 predisposizione[6,6,2]
+                                   0            -0               
+   453 predisposizione[6,6,3]
+                                   0            -0               
+   454 predisposizione[6,6,4]
+                                   0            -0               
+   455 predisposizione[6,6,5]
+                                   0            -0               
+   456 predisposizione[6,6,6]
+                                   0            -0               
+   457 predisposizione[6,6,7]
+                                   1            -0               
+   458 predisposizione[6,6,8]
+                                   0            -0               
+   459 predisposizione[6,6,9]
+                                   0            -0               
+   460 predisposizione[6,7,1]
+                                   0            -0               
+   461 predisposizione[6,7,2]
+                                   1             1               
+   462 predisposizione[6,7,3]
+                                   0            -0               
+   463 predisposizione[6,7,4]
+                                   0            -0               
+   464 predisposizione[6,7,5]
+                                   0            -0               
+   465 predisposizione[6,7,6]
+                                   0            -0               
+   466 predisposizione[6,7,7]
+                                   0            -0               
+   467 predisposizione[6,7,8]
+                                   0            -0               
+   468 predisposizione[6,7,9]
+                                   0            -0               
+   469 predisposizione[6,8,1]
+                                   0            -0               
+   470 predisposizione[6,8,2]
+                                   0            -0               
+   471 predisposizione[6,8,3]
+                                   0            -0               
+   472 predisposizione[6,8,4]
+                                   0            -0               
+   473 predisposizione[6,8,5]
+                                   1            -0               
+   474 predisposizione[6,8,6]
+                                   0            -0               
+   475 predisposizione[6,8,7]
+                                   0            -0               
+   476 predisposizione[6,8,8]
+                                   0            -0               
+   477 predisposizione[6,8,9]
+                                   0            -0               
+   478 predisposizione[6,9,1]
+                                   0            -0               
+   479 predisposizione[6,9,2]
+                                   0            -0               
+   480 predisposizione[6,9,3]
+                                   1            -0               
+   481 predisposizione[6,9,4]
+                                   0            -0               
+   482 predisposizione[6,9,5]
+                                   0            -0               
+   483 predisposizione[6,9,6]
+                                   0            -0               
+   484 predisposizione[6,9,7]
+                                   0            -0               
+   485 predisposizione[6,9,8]
+                                   0            -0               
+   486 predisposizione[6,9,9]
+                                   0            -0               
+   487 predisposizione[7,1,1]
+                                   0            -0               
+   488 predisposizione[7,1,2]
+                                   0            -0               
+   489 predisposizione[7,1,3]
+                                   0            -0               
+   490 predisposizione[7,1,4]
+                                   0            -0               
+   491 predisposizione[7,1,5]
+                                   0            -0               
+   492 predisposizione[7,1,6]
+                                   0            -0               
+   493 predisposizione[7,1,7]
+                                   0            -0               
+   494 predisposizione[7,1,8]
+                                   0            -0               
+   495 predisposizione[7,1,9]
+                                   1             1               
+   496 predisposizione[7,2,1]
+                                   1            -0               
+   497 predisposizione[7,2,2]
+                                   0            -0               
+   498 predisposizione[7,2,3]
+                                   0            -0               
+   499 predisposizione[7,2,4]
+                                   0            -0               
+   500 predisposizione[7,2,5]
+                                   0            -0               
+   501 predisposizione[7,2,6]
+                                   0            -0               
+   502 predisposizione[7,2,7]
+                                   0            -0               
+   503 predisposizione[7,2,8]
+                                   0            -0               
+   504 predisposizione[7,2,9]
+                                   0            -0               
+   505 predisposizione[7,3,1]
+                                   0            -0               
+   506 predisposizione[7,3,2]
+                                   0            -0               
+   507 predisposizione[7,3,3]
+                                   0            -0               
+   508 predisposizione[7,3,4]
+                                   0            -0               
+   509 predisposizione[7,3,5]
+                                   0            -0               
+   510 predisposizione[7,3,6]
+                                   1            -0               
+   511 predisposizione[7,3,7]
+                                   0            -0               
+   512 predisposizione[7,3,8]
+                                   0            -0               
+   513 predisposizione[7,3,9]
+                                   0            -0               
+   514 predisposizione[7,4,1]
+                                   0            -0               
+   515 predisposizione[7,4,2]
+                                   0            -0               
+   516 predisposizione[7,4,3]
+                                   0            -0               
+   517 predisposizione[7,4,4]
+                                   0            -0               
+   518 predisposizione[7,4,5]
+                                   0            -0               
+   519 predisposizione[7,4,6]
+                                   0            -0               
+   520 predisposizione[7,4,7]
+                                   0            -0               
+   521 predisposizione[7,4,8]
+                                   1             1               
+   522 predisposizione[7,4,9]
+                                   0            -0               
+   523 predisposizione[7,5,1]
+                                   0            -0               
+   524 predisposizione[7,5,2]
+                                   0            -0               
+   525 predisposizione[7,5,3]
+                                   0            -0               
+   526 predisposizione[7,5,4]
+                                   0            -0               
+   527 predisposizione[7,5,5]
+                                   1            -0               
+   528 predisposizione[7,5,6]
+                                   0            -0               
+   529 predisposizione[7,5,7]
+                                   0            -0               
+   530 predisposizione[7,5,8]
+                                   0            -0               
+   531 predisposizione[7,5,9]
+                                   0            -0               
+   532 predisposizione[7,6,1]
+                                   0            -0               
+   533 predisposizione[7,6,2]
+                                   0            -0               
+   534 predisposizione[7,6,3]
+                                   1            -0               
+   535 predisposizione[7,6,4]
+                                   0            -0               
+   536 predisposizione[7,6,5]
+                                   0            -0               
+   537 predisposizione[7,6,6]
+                                   0            -0               
+   538 predisposizione[7,6,7]
+                                   0            -0               
+   539 predisposizione[7,6,8]
+                                   0            -0               
+   540 predisposizione[7,6,9]
+                                   0            -0               
+   541 predisposizione[7,7,1]
+                                   0            -0               
+   542 predisposizione[7,7,2]
+                                   0            -0               
+   543 predisposizione[7,7,3]
+                                   0            -0               
+   544 predisposizione[7,7,4]
+                                   0            -0               
+   545 predisposizione[7,7,5]
+                                   0            -0               
+   546 predisposizione[7,7,6]
+                                   0            -0               
+   547 predisposizione[7,7,7]
+                                   1             1               
+   548 predisposizione[7,7,8]
+                                   0            -0               
+   549 predisposizione[7,7,9]
+                                   0            -0               
+   550 predisposizione[7,8,1]
+                                   0            -0               
+   551 predisposizione[7,8,2]
+                                   1            -0               
+   552 predisposizione[7,8,3]
+                                   0            -0               
+   553 predisposizione[7,8,4]
+                                   0            -0               
+   554 predisposizione[7,8,5]
+                                   0            -0               
+   555 predisposizione[7,8,6]
+                                   0            -0               
+   556 predisposizione[7,8,7]
+                                   0            -0               
+   557 predisposizione[7,8,8]
+                                   0            -0               
+   558 predisposizione[7,8,9]
+                                   0            -0               
+   559 predisposizione[7,9,1]
+                                   0            -0               
+   560 predisposizione[7,9,2]
+                                   0            -0               
+   561 predisposizione[7,9,3]
+                                   0            -0               
+   562 predisposizione[7,9,4]
+                                   1            -0               
+   563 predisposizione[7,9,5]
+                                   0            -0               
+   564 predisposizione[7,9,6]
+                                   0            -0               
+   565 predisposizione[7,9,7]
+                                   0            -0               
+   566 predisposizione[7,9,8]
+                                   0            -0               
+   567 predisposizione[7,9,9]
+                                   0            -0               
+   568 predisposizione[8,1,1]
+                                   0            -0               
+   569 predisposizione[8,1,2]
+                                   0            -0               
+   570 predisposizione[8,1,3]
+                                   0            -0               
+   571 predisposizione[8,1,4]
+                                   0            -0               
+   572 predisposizione[8,1,5]
+                                   1            -0               
+   573 predisposizione[8,1,6]
+                                   0            -0               
+   574 predisposizione[8,1,7]
+                                   0            -0               
+   575 predisposizione[8,1,8]
+                                   0            -0               
+   576 predisposizione[8,1,9]
+                                   0            -0               
+   577 predisposizione[8,2,1]
+                                   0            -0               
+   578 predisposizione[8,2,2]
+                                   0            -0               
+   579 predisposizione[8,2,3]
+                                   1             1               
+   580 predisposizione[8,2,4]
+                                   0            -0               
+   581 predisposizione[8,2,5]
+                                   0            -0               
+   582 predisposizione[8,2,6]
+                                   0            -0               
+   583 predisposizione[8,2,7]
+                                   0            -0               
+   584 predisposizione[8,2,8]
+                                   0            -0               
+   585 predisposizione[8,2,9]
+                                   0            -0               
+   586 predisposizione[8,3,1]
+                                   0            -0               
+   587 predisposizione[8,3,2]
+                                   0            -0               
+   588 predisposizione[8,3,3]
+                                   0            -0               
+   589 predisposizione[8,3,4]
+                                   0            -0               
+   590 predisposizione[8,3,5]
+                                   0            -0               
+   591 predisposizione[8,3,6]
+                                   0            -0               
+   592 predisposizione[8,3,7]
+                                   1            -0               
+   593 predisposizione[8,3,8]
+                                   0            -0               
+   594 predisposizione[8,3,9]
+                                   0            -0               
+   595 predisposizione[8,4,1]
+                                   0            -0               
+   596 predisposizione[8,4,2]
+                                   0            -0               
+   597 predisposizione[8,4,3]
+                                   0            -0               
+   598 predisposizione[8,4,4]
+                                   1            -0               
+   599 predisposizione[8,4,5]
+                                   0            -0               
+   600 predisposizione[8,4,6]
+                                   0            -0               
+   601 predisposizione[8,4,7]
+                                   0            -0               
+   602 predisposizione[8,4,8]
+                                   0            -0               
+   603 predisposizione[8,4,9]
+                                   0            -0               
+   604 predisposizione[8,5,1]
+                                   0            -0               
+   605 predisposizione[8,5,2]
+                                   0            -0               
+   606 predisposizione[8,5,3]
+                                   0            -0               
+   607 predisposizione[8,5,4]
+                                   0            -0               
+   608 predisposizione[8,5,5]
+                                   0            -0               
+   609 predisposizione[8,5,6]
+                                   0            -0               
+   610 predisposizione[8,5,7]
+                                   0            -0               
+   611 predisposizione[8,5,8]
+                                   0            -0               
+   612 predisposizione[8,5,9]
+                                   1             1               
+   613 predisposizione[8,6,1]
+                                   0            -0               
+   614 predisposizione[8,6,2]
+                                   1            -0               
+   615 predisposizione[8,6,3]
+                                   0            -0               
+   616 predisposizione[8,6,4]
+                                   0            -0               
+   617 predisposizione[8,6,5]
+                                   0            -0               
+   618 predisposizione[8,6,6]
+                                   0            -0               
+   619 predisposizione[8,6,7]
+                                   0            -0               
+   620 predisposizione[8,6,8]
+                                   0            -0               
+   621 predisposizione[8,6,9]
+                                   0            -0               
+   622 predisposizione[8,7,1]
+                                   0            -0               
+   623 predisposizione[8,7,2]
+                                   0            -0               
+   624 predisposizione[8,7,3]
+                                   0            -0               
+   625 predisposizione[8,7,4]
+                                   0            -0               
+   626 predisposizione[8,7,5]
+                                   0            -0               
+   627 predisposizione[8,7,6]
+                                   1            -0               
+   628 predisposizione[8,7,7]
+                                   0            -0               
+   629 predisposizione[8,7,8]
+                                   0            -0               
+   630 predisposizione[8,7,9]
+                                   0            -0               
+   631 predisposizione[8,8,1]
+                                   1             1               
+   632 predisposizione[8,8,2]
+                                   0            -0               
+   633 predisposizione[8,8,3]
+                                   0            -0               
+   634 predisposizione[8,8,4]
+                                   0            -0               
+   635 predisposizione[8,8,5]
+                                   0            -0               
+   636 predisposizione[8,8,6]
+                                   0            -0               
+   637 predisposizione[8,8,7]
+                                   0            -0               
+   638 predisposizione[8,8,8]
+                                   0            -0               
+   639 predisposizione[8,8,9]
+                                   0            -0               
+   640 predisposizione[8,9,1]
+                                   0            -0               
+   641 predisposizione[8,9,2]
+                                   0            -0               
+   642 predisposizione[8,9,3]
+                                   0            -0               
+   643 predisposizione[8,9,4]
+                                   0            -0               
+   644 predisposizione[8,9,5]
+                                   0            -0               
+   645 predisposizione[8,9,6]
+                                   0            -0               
+   646 predisposizione[8,9,7]
+                                   0            -0               
+   647 predisposizione[8,9,8]
+                                   1            -0               
+   648 predisposizione[8,9,9]
+                                   0            -0               
+   649 predisposizione[9,1,1]
+                                   0            -0               
+   650 predisposizione[9,1,2]
+                                   0            -0               
+   651 predisposizione[9,1,3]
+                                   0            -0               
+   652 predisposizione[9,1,4]
+                                   1            -0               
+   653 predisposizione[9,1,5]
+                                   0            -0               
+   654 predisposizione[9,1,6]
+                                   0            -0               
+   655 predisposizione[9,1,7]
+                                   0            -0               
+   656 predisposizione[9,1,8]
+                                   0            -0               
+   657 predisposizione[9,1,9]
+                                   0            -0               
+   658 predisposizione[9,2,1]
+                                   0            -0               
+   659 predisposizione[9,2,2]
+                                   0            -0               
+   660 predisposizione[9,2,3]
+                                   0            -0               
+   661 predisposizione[9,2,4]
+                                   0            -0               
+   662 predisposizione[9,2,5]
+                                   0            -0               
+   663 predisposizione[9,2,6]
+                                   0            -0               
+   664 predisposizione[9,2,7]
+                                   0            -0               
+   665 predisposizione[9,2,8]
+                                   1            -0               
+   666 predisposizione[9,2,9]
+                                   0            -0               
+   667 predisposizione[9,3,1]
+                                   0            -0               
+   668 predisposizione[9,3,2]
+                                   1             1               
+   669 predisposizione[9,3,3]
+                                   0            -0               
+   670 predisposizione[9,3,4]
+                                   0            -0               
+   671 predisposizione[9,3,5]
+                                   0            -0               
+   672 predisposizione[9,3,6]
+                                   0            -0               
+   673 predisposizione[9,3,7]
+                                   0            -0               
+   674 predisposizione[9,3,8]
+                                   0            -0               
+   675 predisposizione[9,3,9]
+                                   0            -0               
+   676 predisposizione[9,4,1]
+                                   0            -0               
+   677 predisposizione[9,4,2]
+                                   0            -0               
+   678 predisposizione[9,4,3]
+                                   0            -0               
+   679 predisposizione[9,4,4]
+                                   0            -0               
+   680 predisposizione[9,4,5]
+                                   0            -0               
+   681 predisposizione[9,4,6]
+                                   0            -0               
+   682 predisposizione[9,4,7]
+                                   1            -0               
+   683 predisposizione[9,4,8]
+                                   0            -0               
+   684 predisposizione[9,4,9]
+                                   0            -0               
+   685 predisposizione[9,5,1]
+                                   1            -0               
+   686 predisposizione[9,5,2]
+                                   0            -0               
+   687 predisposizione[9,5,3]
+                                   0            -0               
+   688 predisposizione[9,5,4]
+                                   0            -0               
+   689 predisposizione[9,5,5]
+                                   0            -0               
+   690 predisposizione[9,5,6]
+                                   0            -0               
+   691 predisposizione[9,5,7]
+                                   0            -0               
+   692 predisposizione[9,5,8]
+                                   0            -0               
+   693 predisposizione[9,5,9]
+                                   0            -0               
+   694 predisposizione[9,6,1]
+                                   0            -0               
+   695 predisposizione[9,6,2]
+                                   0            -0               
+   696 predisposizione[9,6,3]
+                                   0            -0               
+   697 predisposizione[9,6,4]
+                                   0            -0               
+   698 predisposizione[9,6,5]
+                                   0            -0               
+   699 predisposizione[9,6,6]
+                                   1             1               
+   700 predisposizione[9,6,7]
+                                   0            -0               
+   701 predisposizione[9,6,8]
+                                   0            -0               
+   702 predisposizione[9,6,9]
+                                   0            -0               
+   703 predisposizione[9,7,1]
+                                   0            -0               
+   704 predisposizione[9,7,2]
+                                   0            -0               
+   705 predisposizione[9,7,3]
+                                   1            -0               
+   706 predisposizione[9,7,4]
+                                   0            -0               
+   707 predisposizione[9,7,5]
+                                   0            -0               
+   708 predisposizione[9,7,6]
+                                   0            -0               
+   709 predisposizione[9,7,7]
+                                   0            -0               
+   710 predisposizione[9,7,8]
+                                   0            -0               
+   711 predisposizione[9,7,9]
+                                   0            -0               
+   712 predisposizione[9,8,1]
+                                   0            -0               
+   713 predisposizione[9,8,2]
+                                   0            -0               
+   714 predisposizione[9,8,3]
+                                   0            -0               
+   715 predisposizione[9,8,4]
+                                   0            -0               
+   716 predisposizione[9,8,5]
+                                   0            -0               
+   717 predisposizione[9,8,6]
+                                   0            -0               
+   718 predisposizione[9,8,7]
+                                   0            -0               
+   719 predisposizione[9,8,8]
+                                   0            -0               
+   720 predisposizione[9,8,9]
+                                   1            -0               
+   721 predisposizione[9,9,1]
+                                   0            -0               
+   722 predisposizione[9,9,2]
+                                   0            -0               
+   723 predisposizione[9,9,3]
+                                   0            -0               
+   724 predisposizione[9,9,4]
+                                   0            -0               
+   725 predisposizione[9,9,5]
+                                   1             1               
+   726 predisposizione[9,9,6]
+                                   0            -0               
+   727 predisposizione[9,9,7]
+                                   0            -0               
+   728 predisposizione[9,9,8]
+                                   0            -0               
+   729 predisposizione[9,9,9]
+                                   0            -0               
+   730 unico_valore_cella[1,1]
+                                   1             1             = 
+   731 unico_valore_cella[1,2]
+                                   1             1             = 
+   732 unico_valore_cella[1,3]
+                                   1             1             = 
+   733 unico_valore_cella[1,4]
+                                   1             1             = 
+   734 unico_valore_cella[1,5]
+                                   1             1             = 
+   735 unico_valore_cella[1,6]
+                                   1             1             = 
+   736 unico_valore_cella[1,7]
+                                   1             1             = 
+   737 unico_valore_cella[1,8]
+                                   1             1             = 
+   738 unico_valore_cella[1,9]
+                                   1             1             = 
+   739 unico_valore_cella[2,1]
+                                   1             1             = 
+   740 unico_valore_cella[2,2]
+                                   1             1             = 
+   741 unico_valore_cella[2,3]
+                                   1             1             = 
+   742 unico_valore_cella[2,4]
+                                   1             1             = 
+   743 unico_valore_cella[2,5]
+                                   1             1             = 
+   744 unico_valore_cella[2,6]
+                                   1             1             = 
+   745 unico_valore_cella[2,7]
+                                   1             1             = 
+   746 unico_valore_cella[2,8]
+                                   1             1             = 
+   747 unico_valore_cella[2,9]
+                                   1             1             = 
+   748 unico_valore_cella[3,1]
+                                   1             1             = 
+   749 unico_valore_cella[3,2]
+                                   1             1             = 
+   750 unico_valore_cella[3,3]
+                                   1             1             = 
+   751 unico_valore_cella[3,4]
+                                   1             1             = 
+   752 unico_valore_cella[3,5]
+                                   1             1             = 
+   753 unico_valore_cella[3,6]
+                                   1             1             = 
+   754 unico_valore_cella[3,7]
+                                   1             1             = 
+   755 unico_valore_cella[3,8]
+                                   1             1             = 
+   756 unico_valore_cella[3,9]
+                                   1             1             = 
+   757 unico_valore_cella[4,1]
+                                   1             1             = 
+   758 unico_valore_cella[4,2]
+                                   1             1             = 
+   759 unico_valore_cella[4,3]
+                                   1             1             = 
+   760 unico_valore_cella[4,4]
+                                   1             1             = 
+   761 unico_valore_cella[4,5]
+                                   1             1             = 
+   762 unico_valore_cella[4,6]
+                                   1             1             = 
+   763 unico_valore_cella[4,7]
+                                   1             1             = 
+   764 unico_valore_cella[4,8]
+                                   1             1             = 
+   765 unico_valore_cella[4,9]
+                                   1             1             = 
+   766 unico_valore_cella[5,1]
+                                   1             1             = 
+   767 unico_valore_cella[5,2]
+                                   1             1             = 
+   768 unico_valore_cella[5,3]
+                                   1             1             = 
+   769 unico_valore_cella[5,4]
+                                   1             1             = 
+   770 unico_valore_cella[5,5]
+                                   1             1             = 
+   771 unico_valore_cella[5,6]
+                                   1             1             = 
+   772 unico_valore_cella[5,7]
+                                   1             1             = 
+   773 unico_valore_cella[5,8]
+                                   1             1             = 
+   774 unico_valore_cella[5,9]
+                                   1             1             = 
+   775 unico_valore_cella[6,1]
+                                   1             1             = 
+   776 unico_valore_cella[6,2]
+                                   1             1             = 
+   777 unico_valore_cella[6,3]
+                                   1             1             = 
+   778 unico_valore_cella[6,4]
+                                   1             1             = 
+   779 unico_valore_cella[6,5]
+                                   1             1             = 
+   780 unico_valore_cella[6,6]
+                                   1             1             = 
+   781 unico_valore_cella[6,7]
+                                   1             1             = 
+   782 unico_valore_cella[6,8]
+                                   1             1             = 
+   783 unico_valore_cella[6,9]
+                                   1             1             = 
+   784 unico_valore_cella[7,1]
+                                   1             1             = 
+   785 unico_valore_cella[7,2]
+                                   1             1             = 
+   786 unico_valore_cella[7,3]
+                                   1             1             = 
+   787 unico_valore_cella[7,4]
+                                   1             1             = 
+   788 unico_valore_cella[7,5]
+                                   1             1             = 
+   789 unico_valore_cella[7,6]
+                                   1             1             = 
+   790 unico_valore_cella[7,7]
+                                   1             1             = 
+   791 unico_valore_cella[7,8]
+                                   1             1             = 
+   792 unico_valore_cella[7,9]
+                                   1             1             = 
+   793 unico_valore_cella[8,1]
+                                   1             1             = 
+   794 unico_valore_cella[8,2]
+                                   1             1             = 
+   795 unico_valore_cella[8,3]
+                                   1             1             = 
+   796 unico_valore_cella[8,4]
+                                   1             1             = 
+   797 unico_valore_cella[8,5]
+                                   1             1             = 
+   798 unico_valore_cella[8,6]
+                                   1             1             = 
+   799 unico_valore_cella[8,7]
+                                   1             1             = 
+   800 unico_valore_cella[8,8]
+                                   1             1             = 
+   801 unico_valore_cella[8,9]
+                                   1             1             = 
+   802 unico_valore_cella[9,1]
+                                   1             1             = 
+   803 unico_valore_cella[9,2]
+                                   1             1             = 
+   804 unico_valore_cella[9,3]
+                                   1             1             = 
+   805 unico_valore_cella[9,4]
+                                   1             1             = 
+   806 unico_valore_cella[9,5]
+                                   1             1             = 
+   807 unico_valore_cella[9,6]
+                                   1             1             = 
+   808 unico_valore_cella[9,7]
+                                   1             1             = 
+   809 unico_valore_cella[9,8]
+                                   1             1             = 
+   810 unico_valore_cella[9,9]
+                                   1             1             = 
+   811 unico_valore_riga[1,1]
+                                   1             1             = 
+   812 unico_valore_riga[1,2]
+                                   1             1             = 
+   813 unico_valore_riga[1,3]
+                                   1             1             = 
+   814 unico_valore_riga[1,4]
+                                   1             1             = 
+   815 unico_valore_riga[1,5]
+                                   1             1             = 
+   816 unico_valore_riga[1,6]
+                                   1             1             = 
+   817 unico_valore_riga[1,7]
+                                   1             1             = 
+   818 unico_valore_riga[1,8]
+                                   1             1             = 
+   819 unico_valore_riga[1,9]
+                                   1             1             = 
+   820 unico_valore_riga[2,1]
+                                   1             1             = 
+   821 unico_valore_riga[2,2]
+                                   1             1             = 
+   822 unico_valore_riga[2,3]
+                                   1             1             = 
+   823 unico_valore_riga[2,4]
+                                   1             1             = 
+   824 unico_valore_riga[2,5]
+                                   1             1             = 
+   825 unico_valore_riga[2,6]
+                                   1             1             = 
+   826 unico_valore_riga[2,7]
+                                   1             1             = 
+   827 unico_valore_riga[2,8]
+                                   1             1             = 
+   828 unico_valore_riga[2,9]
+                                   1             1             = 
+   829 unico_valore_riga[3,1]
+                                   1             1             = 
+   830 unico_valore_riga[3,2]
+                                   1             1             = 
+   831 unico_valore_riga[3,3]
+                                   1             1             = 
+   832 unico_valore_riga[3,4]
+                                   1             1             = 
+   833 unico_valore_riga[3,5]
+                                   1             1             = 
+   834 unico_valore_riga[3,6]
+                                   1             1             = 
+   835 unico_valore_riga[3,7]
+                                   1             1             = 
+   836 unico_valore_riga[3,8]
+                                   1             1             = 
+   837 unico_valore_riga[3,9]
+                                   1             1             = 
+   838 unico_valore_riga[4,1]
+                                   1             1             = 
+   839 unico_valore_riga[4,2]
+                                   1             1             = 
+   840 unico_valore_riga[4,3]
+                                   1             1             = 
+   841 unico_valore_riga[4,4]
+                                   1             1             = 
+   842 unico_valore_riga[4,5]
+                                   1             1             = 
+   843 unico_valore_riga[4,6]
+                                   1             1             = 
+   844 unico_valore_riga[4,7]
+                                   1             1             = 
+   845 unico_valore_riga[4,8]
+                                   1             1             = 
+   846 unico_valore_riga[4,9]
+                                   1             1             = 
+   847 unico_valore_riga[5,1]
+                                   1             1             = 
+   848 unico_valore_riga[5,2]
+                                   1             1             = 
+   849 unico_valore_riga[5,3]
+                                   1             1             = 
+   850 unico_valore_riga[5,4]
+                                   1             1             = 
+   851 unico_valore_riga[5,5]
+                                   1             1             = 
+   852 unico_valore_riga[5,6]
+                                   1             1             = 
+   853 unico_valore_riga[5,7]
+                                   1             1             = 
+   854 unico_valore_riga[5,8]
+                                   1             1             = 
+   855 unico_valore_riga[5,9]
+                                   1             1             = 
+   856 unico_valore_riga[6,1]
+                                   1             1             = 
+   857 unico_valore_riga[6,2]
+                                   1             1             = 
+   858 unico_valore_riga[6,3]
+                                   1             1             = 
+   859 unico_valore_riga[6,4]
+                                   1             1             = 
+   860 unico_valore_riga[6,5]
+                                   1             1             = 
+   861 unico_valore_riga[6,6]
+                                   1             1             = 
+   862 unico_valore_riga[6,7]
+                                   1             1             = 
+   863 unico_valore_riga[6,8]
+                                   1             1             = 
+   864 unico_valore_riga[6,9]
+                                   1             1             = 
+   865 unico_valore_riga[7,1]
+                                   1             1             = 
+   866 unico_valore_riga[7,2]
+                                   1             1             = 
+   867 unico_valore_riga[7,3]
+                                   1             1             = 
+   868 unico_valore_riga[7,4]
+                                   1             1             = 
+   869 unico_valore_riga[7,5]
+                                   1             1             = 
+   870 unico_valore_riga[7,6]
+                                   1             1             = 
+   871 unico_valore_riga[7,7]
+                                   1             1             = 
+   872 unico_valore_riga[7,8]
+                                   1             1             = 
+   873 unico_valore_riga[7,9]
+                                   1             1             = 
+   874 unico_valore_riga[8,1]
+                                   1             1             = 
+   875 unico_valore_riga[8,2]
+                                   1             1             = 
+   876 unico_valore_riga[8,3]
+                                   1             1             = 
+   877 unico_valore_riga[8,4]
+                                   1             1             = 
+   878 unico_valore_riga[8,5]
+                                   1             1             = 
+   879 unico_valore_riga[8,6]
+                                   1             1             = 
+   880 unico_valore_riga[8,7]
+                                   1             1             = 
+   881 unico_valore_riga[8,8]
+                                   1             1             = 
+   882 unico_valore_riga[8,9]
+                                   1             1             = 
+   883 unico_valore_riga[9,1]
+                                   1             1             = 
+   884 unico_valore_riga[9,2]
+                                   1             1             = 
+   885 unico_valore_riga[9,3]
+                                   1             1             = 
+   886 unico_valore_riga[9,4]
+                                   1             1             = 
+   887 unico_valore_riga[9,5]
+                                   1             1             = 
+   888 unico_valore_riga[9,6]
+                                   1             1             = 
+   889 unico_valore_riga[9,7]
+                                   1             1             = 
+   890 unico_valore_riga[9,8]
+                                   1             1             = 
+   891 unico_valore_riga[9,9]
+                                   1             1             = 
+   892 unico_valore_colonna[1,1]
+                                   1             1             = 
+   893 unico_valore_colonna[1,2]
+                                   1             1             = 
+   894 unico_valore_colonna[1,3]
+                                   1             1             = 
+   895 unico_valore_colonna[1,4]
+                                   1             1             = 
+   896 unico_valore_colonna[1,5]
+                                   1             1             = 
+   897 unico_valore_colonna[1,6]
+                                   1             1             = 
+   898 unico_valore_colonna[1,7]
+                                   1             1             = 
+   899 unico_valore_colonna[1,8]
+                                   1             1             = 
+   900 unico_valore_colonna[1,9]
+                                   1             1             = 
+   901 unico_valore_colonna[2,1]
+                                   1             1             = 
+   902 unico_valore_colonna[2,2]
+                                   1             1             = 
+   903 unico_valore_colonna[2,3]
+                                   1             1             = 
+   904 unico_valore_colonna[2,4]
+                                   1             1             = 
+   905 unico_valore_colonna[2,5]
+                                   1             1             = 
+   906 unico_valore_colonna[2,6]
+                                   1             1             = 
+   907 unico_valore_colonna[2,7]
+                                   1             1             = 
+   908 unico_valore_colonna[2,8]
+                                   1             1             = 
+   909 unico_valore_colonna[2,9]
+                                   1             1             = 
+   910 unico_valore_colonna[3,1]
+                                   1             1             = 
+   911 unico_valore_colonna[3,2]
+                                   1             1             = 
+   912 unico_valore_colonna[3,3]
+                                   1             1             = 
+   913 unico_valore_colonna[3,4]
+                                   1             1             = 
+   914 unico_valore_colonna[3,5]
+                                   1             1             = 
+   915 unico_valore_colonna[3,6]
+                                   1             1             = 
+   916 unico_valore_colonna[3,7]
+                                   1             1             = 
+   917 unico_valore_colonna[3,8]
+                                   1             1             = 
+   918 unico_valore_colonna[3,9]
+                                   1             1             = 
+   919 unico_valore_colonna[4,1]
+                                   1             1             = 
+   920 unico_valore_colonna[4,2]
+                                   1             1             = 
+   921 unico_valore_colonna[4,3]
+                                   1             1             = 
+   922 unico_valore_colonna[4,4]
+                                   1             1             = 
+   923 unico_valore_colonna[4,5]
+                                   1             1             = 
+   924 unico_valore_colonna[4,6]
+                                   1             1             = 
+   925 unico_valore_colonna[4,7]
+                                   1             1             = 
+   926 unico_valore_colonna[4,8]
+                                   1             1             = 
+   927 unico_valore_colonna[4,9]
+                                   1             1             = 
+   928 unico_valore_colonna[5,1]
+                                   1             1             = 
+   929 unico_valore_colonna[5,2]
+                                   1             1             = 
+   930 unico_valore_colonna[5,3]
+                                   1             1             = 
+   931 unico_valore_colonna[5,4]
+                                   1             1             = 
+   932 unico_valore_colonna[5,5]
+                                   1             1             = 
+   933 unico_valore_colonna[5,6]
+                                   1             1             = 
+   934 unico_valore_colonna[5,7]
+                                   1             1             = 
+   935 unico_valore_colonna[5,8]
+                                   1             1             = 
+   936 unico_valore_colonna[5,9]
+                                   1             1             = 
+   937 unico_valore_colonna[6,1]
+                                   1             1             = 
+   938 unico_valore_colonna[6,2]
+                                   1             1             = 
+   939 unico_valore_colonna[6,3]
+                                   1             1             = 
+   940 unico_valore_colonna[6,4]
+                                   1             1             = 
+   941 unico_valore_colonna[6,5]
+                                   1             1             = 
+   942 unico_valore_colonna[6,6]
+                                   1             1             = 
+   943 unico_valore_colonna[6,7]
+                                   1             1             = 
+   944 unico_valore_colonna[6,8]
+                                   1             1             = 
+   945 unico_valore_colonna[6,9]
+                                   1             1             = 
+   946 unico_valore_colonna[7,1]
+                                   1             1             = 
+   947 unico_valore_colonna[7,2]
+                                   1             1             = 
+   948 unico_valore_colonna[7,3]
+                                   1             1             = 
+   949 unico_valore_colonna[7,4]
+                                   1             1             = 
+   950 unico_valore_colonna[7,5]
+                                   1             1             = 
+   951 unico_valore_colonna[7,6]
+                                   1             1             = 
+   952 unico_valore_colonna[7,7]
+                                   1             1             = 
+   953 unico_valore_colonna[7,8]
+                                   1             1             = 
+   954 unico_valore_colonna[7,9]
+                                   1             1             = 
+   955 unico_valore_colonna[8,1]
+                                   1             1             = 
+   956 unico_valore_colonna[8,2]
+                                   1             1             = 
+   957 unico_valore_colonna[8,3]
+                                   1             1             = 
+   958 unico_valore_colonna[8,4]
+                                   1             1             = 
+   959 unico_valore_colonna[8,5]
+                                   1             1             = 
+   960 unico_valore_colonna[8,6]
+                                   1             1             = 
+   961 unico_valore_colonna[8,7]
+                                   1             1             = 
+   962 unico_valore_colonna[8,8]
+                                   1             1             = 
+   963 unico_valore_colonna[8,9]
+                                   1             1             = 
+   964 unico_valore_colonna[9,1]
+                                   1             1             = 
+   965 unico_valore_colonna[9,2]
+                                   1             1             = 
+   966 unico_valore_colonna[9,3]
+                                   1             1             = 
+   967 unico_valore_colonna[9,4]
+                                   1             1             = 
+   968 unico_valore_colonna[9,5]
+                                   1             1             = 
+   969 unico_valore_colonna[9,6]
+                                   1             1             = 
+   970 unico_valore_colonna[9,7]
+                                   1             1             = 
+   971 unico_valore_colonna[9,8]
+                                   1             1             = 
+   972 unico_valore_colonna[9,9]
+                                   1             1             = 
+   973 q1_1[1]                     1             1             = 
+   974 q1_1[2]                     1             1             = 
+   975 q1_1[3]                     1             1             = 
+   976 q1_1[4]                     1             1             = 
+   977 q1_1[5]                     1             1             = 
+   978 q1_1[6]                     1             1             = 
+   979 q1_1[7]                     1             1             = 
+   980 q1_1[8]                     1             1             = 
+   981 q1_1[9]                     1             1             = 
+   982 q1_2[1]                     1             1             = 
+   983 q1_2[2]                     1             1             = 
+   984 q1_2[3]                     1             1             = 
+   985 q1_2[4]                     1             1             = 
+   986 q1_2[5]                     1             1             = 
+   987 q1_2[6]                     1             1             = 
+   988 q1_2[7]                     1             1             = 
+   989 q1_2[8]                     1             1             = 
+   990 q1_2[9]                     1             1             = 
+   991 q1_3[1]                     1             1             = 
+   992 q1_3[2]                     1             1             = 
+   993 q1_3[3]                     1             1             = 
+   994 q1_3[4]                     1             1             = 
+   995 q1_3[5]                     1             1             = 
+   996 q1_3[6]                     1             1             = 
+   997 q1_3[7]                     1             1             = 
+   998 q1_3[8]                     1             1             = 
+   999 q1_3[9]                     1             1             = 
+  1000 q2_1[1]                     1             1             = 
+  1001 q2_1[2]                     1             1             = 
+  1002 q2_1[3]                     1             1             = 
+  1003 q2_1[4]                     1             1             = 
+  1004 q2_1[5]                     1             1             = 
+  1005 q2_1[6]                     1             1             = 
+  1006 q2_1[7]                     1             1             = 
+  1007 q2_1[8]                     1             1             = 
+  1008 q2_1[9]                     1             1             = 
+  1009 q2_2[1]                     1             1             = 
+  1010 q2_2[2]                     1             1             = 
+  1011 q2_2[3]                     1             1             = 
+  1012 q2_2[4]                     1             1             = 
+  1013 q2_2[5]                     1             1             = 
+  1014 q2_2[6]                     1             1             = 
+  1015 q2_2[7]                     1             1             = 
+  1016 q2_2[8]                     1             1             = 
+  1017 q2_2[9]                     1             1             = 
+  1018 q2_3[1]                     1             1             = 
+  1019 q2_3[2]                     1             1             = 
+  1020 q2_3[3]                     1             1             = 
+  1021 q2_3[4]                     1             1             = 
+  1022 q2_3[5]                     1             1             = 
+  1023 q2_3[6]                     1             1             = 
+  1024 q2_3[7]                     1             1             = 
+  1025 q2_3[8]                     1             1             = 
+  1026 q2_3[9]                     1             1             = 
+  1027 q3_1[1]                     1             1             = 
+  1028 q3_1[2]                     1             1             = 
+  1029 q3_1[3]                     1             1             = 
+  1030 q3_1[4]                     1             1             = 
+  1031 q3_1[5]                     1             1             = 
+  1032 q3_1[6]                     1             1             = 
+  1033 q3_1[7]                     1             1             = 
+  1034 q3_1[8]                     1             1             = 
+  1035 q3_1[9]                     1             1             = 
+  1036 q3_2[1]                     1             1             = 
+  1037 q3_2[2]                     1             1             = 
+  1038 q3_2[3]                     1             1             = 
+  1039 q3_2[4]                     1             1             = 
+  1040 q3_2[5]                     1             1             = 
+  1041 q3_2[6]                     1             1             = 
+  1042 q3_2[7]                     1             1             = 
+  1043 q3_2[8]                     1             1             = 
+  1044 q3_2[9]                     1             1             = 
+  1045 q3_3[1]                     1             1             = 
+  1046 q3_3[2]                     1             1             = 
+  1047 q3_3[3]                     1             1             = 
+  1048 q3_3[4]                     1             1             = 
+  1049 q3_3[5]                     1             1             = 
+  1050 q3_3[6]                     1             1             = 
+  1051 q3_3[7]                     1             1             = 
+  1052 q3_3[8]                     1             1             = 
+  1053 q3_3[9]                     1             1             = 
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 disposizioni[1,1,1]
+                    *              1             0             1 
+     2 disposizioni[1,1,2]
+                    *              0             0             1 
+     3 disposizioni[1,1,3]
+                    *              0             0             1 
+     4 disposizioni[1,1,4]
+                    *              0             0             1 
+     5 disposizioni[1,1,5]
+                    *              0             0             1 
+     6 disposizioni[1,1,6]
+                    *              0             0             1 
+     7 disposizioni[1,1,7]
+                    *              0             0             1 
+     8 disposizioni[1,1,8]
+                    *              0             0             1 
+     9 disposizioni[1,1,9]
+                    *              0             0             1 
+    10 disposizioni[1,2,1]
+                    *              0             0             1 
+    11 disposizioni[1,2,2]
+                    *              0             0             1 
+    12 disposizioni[1,2,3]
+                    *              0             0             1 
+    13 disposizioni[1,2,4]
+                    *              0             0             1 
+    14 disposizioni[1,2,5]
+                    *              0             0             1 
+    15 disposizioni[1,2,6]
+                    *              1             0             1 
+    16 disposizioni[1,2,7]
+                    *              0             0             1 
+    17 disposizioni[1,2,8]
+                    *              0             0             1 
+    18 disposizioni[1,2,9]
+                    *              0             0             1 
+    19 disposizioni[1,3,1]
+                    *              0             0             1 
+    20 disposizioni[1,3,2]
+                    *              0             0             1 
+    21 disposizioni[1,3,3]
+                    *              0             0             1 
+    22 disposizioni[1,3,4]
+                    *              0             0             1 
+    23 disposizioni[1,3,5]
+                    *              0             0             1 
+    24 disposizioni[1,3,6]
+                    *              0             0             1 
+    25 disposizioni[1,3,7]
+                    *              0             0             1 
+    26 disposizioni[1,3,8]
+                    *              0             0             1 
+    27 disposizioni[1,3,9]
+                    *              1             0             1 
+    28 disposizioni[1,4,1]
+                    *              0             0             1 
+    29 disposizioni[1,4,2]
+                    *              1             0             1 
+    30 disposizioni[1,4,3]
+                    *              0             0             1 
+    31 disposizioni[1,4,4]
+                    *              0             0             1 
+    32 disposizioni[1,4,5]
+                    *              0             0             1 
+    33 disposizioni[1,4,6]
+                    *              0             0             1 
+    34 disposizioni[1,4,7]
+                    *              0             0             1 
+    35 disposizioni[1,4,8]
+                    *              0             0             1 
+    36 disposizioni[1,4,9]
+                    *              0             0             1 
+    37 disposizioni[1,5,1]
+                    *              0             0             1 
+    38 disposizioni[1,5,2]
+                    *              0             0             1 
+    39 disposizioni[1,5,3]
+                    *              0             0             1 
+    40 disposizioni[1,5,4]
+                    *              0             0             1 
+    41 disposizioni[1,5,5]
+                    *              0             0             1 
+    42 disposizioni[1,5,6]
+                    *              0             0             1 
+    43 disposizioni[1,5,7]
+                    *              0             0             1 
+    44 disposizioni[1,5,8]
+                    *              1             0             1 
+    45 disposizioni[1,5,9]
+                    *              0             0             1 
+    46 disposizioni[1,6,1]
+                    *              0             0             1 
+    47 disposizioni[1,6,2]
+                    *              0             0             1 
+    48 disposizioni[1,6,3]
+                    *              0             0             1 
+    49 disposizioni[1,6,4]
+                    *              1             0             1 
+    50 disposizioni[1,6,5]
+                    *              0             0             1 
+    51 disposizioni[1,6,6]
+                    *              0             0             1 
+    52 disposizioni[1,6,7]
+                    *              0             0             1 
+    53 disposizioni[1,6,8]
+                    *              0             0             1 
+    54 disposizioni[1,6,9]
+                    *              0             0             1 
+    55 disposizioni[1,7,1]
+                    *              0             0             1 
+    56 disposizioni[1,7,2]
+                    *              0             0             1 
+    57 disposizioni[1,7,3]
+                    *              0             0             1 
+    58 disposizioni[1,7,4]
+                    *              0             0             1 
+    59 disposizioni[1,7,5]
+                    *              1             0             1 
+    60 disposizioni[1,7,6]
+                    *              0             0             1 
+    61 disposizioni[1,7,7]
+                    *              0             0             1 
+    62 disposizioni[1,7,8]
+                    *              0             0             1 
+    63 disposizioni[1,7,9]
+                    *              0             0             1 
+    64 disposizioni[1,8,1]
+                    *              0             0             1 
+    65 disposizioni[1,8,2]
+                    *              0             0             1 
+    66 disposizioni[1,8,3]
+                    *              1             0             1 
+    67 disposizioni[1,8,4]
+                    *              0             0             1 
+    68 disposizioni[1,8,5]
+                    *              0             0             1 
+    69 disposizioni[1,8,6]
+                    *              0             0             1 
+    70 disposizioni[1,8,7]
+                    *              0             0             1 
+    71 disposizioni[1,8,8]
+                    *              0             0             1 
+    72 disposizioni[1,8,9]
+                    *              0             0             1 
+    73 disposizioni[1,9,1]
+                    *              0             0             1 
+    74 disposizioni[1,9,2]
+                    *              0             0             1 
+    75 disposizioni[1,9,3]
+                    *              0             0             1 
+    76 disposizioni[1,9,4]
+                    *              0             0             1 
+    77 disposizioni[1,9,5]
+                    *              0             0             1 
+    78 disposizioni[1,9,6]
+                    *              0             0             1 
+    79 disposizioni[1,9,7]
+                    *              1             0             1 
+    80 disposizioni[1,9,8]
+                    *              0             0             1 
+    81 disposizioni[1,9,9]
+                    *              0             0             1 
+    82 disposizioni[2,1,1]
+                    *              0             0             1 
+    83 disposizioni[2,1,2]
+                    *              0             0             1 
+    84 disposizioni[2,1,3]
+                    *              0             0             1 
+    85 disposizioni[2,1,4]
+                    *              0             0             1 
+    86 disposizioni[2,1,5]
+                    *              0             0             1 
+    87 disposizioni[2,1,6]
+                    *              0             0             1 
+    88 disposizioni[2,1,7]
+                    *              1             0             1 
+    89 disposizioni[2,1,8]
+                    *              0             0             1 
+    90 disposizioni[2,1,9]
+                    *              0             0             1 
+    91 disposizioni[2,2,1]
+                    *              0             0             1 
+    92 disposizioni[2,2,2]
+                    *              1             0             1 
+    93 disposizioni[2,2,3]
+                    *              0             0             1 
+    94 disposizioni[2,2,4]
+                    *              0             0             1 
+    95 disposizioni[2,2,5]
+                    *              0             0             1 
+    96 disposizioni[2,2,6]
+                    *              0             0             1 
+    97 disposizioni[2,2,7]
+                    *              0             0             1 
+    98 disposizioni[2,2,8]
+                    *              0             0             1 
+    99 disposizioni[2,2,9]
+                    *              0             0             1 
+   100 disposizioni[2,3,1]
+                    *              0             0             1 
+   101 disposizioni[2,3,2]
+                    *              0             0             1 
+   102 disposizioni[2,3,3]
+                    *              0             0             1 
+   103 disposizioni[2,3,4]
+                    *              0             0             1 
+   104 disposizioni[2,3,5]
+                    *              0             0             1 
+   105 disposizioni[2,3,6]
+                    *              0             0             1 
+   106 disposizioni[2,3,7]
+                    *              0             0             1 
+   107 disposizioni[2,3,8]
+                    *              1             0             1 
+   108 disposizioni[2,3,9]
+                    *              0             0             1 
+   109 disposizioni[2,4,1]
+                    *              0             0             1 
+   110 disposizioni[2,4,2]
+                    *              0             0             1 
+   111 disposizioni[2,4,3]
+                    *              0             0             1 
+   112 disposizioni[2,4,4]
+                    *              0             0             1 
+   113 disposizioni[2,4,5]
+                    *              1             0             1 
+   114 disposizioni[2,4,6]
+                    *              0             0             1 
+   115 disposizioni[2,4,7]
+                    *              0             0             1 
+   116 disposizioni[2,4,8]
+                    *              0             0             1 
+   117 disposizioni[2,4,9]
+                    *              0             0             1 
+   118 disposizioni[2,5,1]
+                    *              0             0             1 
+   119 disposizioni[2,5,2]
+                    *              0             0             1 
+   120 disposizioni[2,5,3]
+                    *              1             0             1 
+   121 disposizioni[2,5,4]
+                    *              0             0             1 
+   122 disposizioni[2,5,5]
+                    *              0             0             1 
+   123 disposizioni[2,5,6]
+                    *              0             0             1 
+   124 disposizioni[2,5,7]
+                    *              0             0             1 
+   125 disposizioni[2,5,8]
+                    *              0             0             1 
+   126 disposizioni[2,5,9]
+                    *              0             0             1 
+   127 disposizioni[2,6,1]
+                    *              0             0             1 
+   128 disposizioni[2,6,2]
+                    *              0             0             1 
+   129 disposizioni[2,6,3]
+                    *              0             0             1 
+   130 disposizioni[2,6,4]
+                    *              0             0             1 
+   131 disposizioni[2,6,5]
+                    *              0             0             1 
+   132 disposizioni[2,6,6]
+                    *              0             0             1 
+   133 disposizioni[2,6,7]
+                    *              0             0             1 
+   134 disposizioni[2,6,8]
+                    *              0             0             1 
+   135 disposizioni[2,6,9]
+                    *              1             0             1 
+   136 disposizioni[2,7,1]
+                    *              0             0             1 
+   137 disposizioni[2,7,2]
+                    *              0             0             1 
+   138 disposizioni[2,7,3]
+                    *              0             0             1 
+   139 disposizioni[2,7,4]
+                    *              1             0             1 
+   140 disposizioni[2,7,5]
+                    *              0             0             1 
+   141 disposizioni[2,7,6]
+                    *              0             0             1 
+   142 disposizioni[2,7,7]
+                    *              0             0             1 
+   143 disposizioni[2,7,8]
+                    *              0             0             1 
+   144 disposizioni[2,7,9]
+                    *              0             0             1 
+   145 disposizioni[2,8,1]
+                    *              0             0             1 
+   146 disposizioni[2,8,2]
+                    *              0             0             1 
+   147 disposizioni[2,8,3]
+                    *              0             0             1 
+   148 disposizioni[2,8,4]
+                    *              0             0             1 
+   149 disposizioni[2,8,5]
+                    *              0             0             1 
+   150 disposizioni[2,8,6]
+                    *              1             0             1 
+   151 disposizioni[2,8,7]
+                    *              0             0             1 
+   152 disposizioni[2,8,8]
+                    *              0             0             1 
+   153 disposizioni[2,8,9]
+                    *              0             0             1 
+   154 disposizioni[2,9,1]
+                    *              1             0             1 
+   155 disposizioni[2,9,2]
+                    *              0             0             1 
+   156 disposizioni[2,9,3]
+                    *              0             0             1 
+   157 disposizioni[2,9,4]
+                    *              0             0             1 
+   158 disposizioni[2,9,5]
+                    *              0             0             1 
+   159 disposizioni[2,9,6]
+                    *              0             0             1 
+   160 disposizioni[2,9,7]
+                    *              0             0             1 
+   161 disposizioni[2,9,8]
+                    *              0             0             1 
+   162 disposizioni[2,9,9]
+                    *              0             0             1 
+   163 disposizioni[3,1,1]
+                    *              0             0             1 
+   164 disposizioni[3,1,2]
+                    *              0             0             1 
+   165 disposizioni[3,1,3]
+                    *              1             0             1 
+   166 disposizioni[3,1,4]
+                    *              0             0             1 
+   167 disposizioni[3,1,5]
+                    *              0             0             1 
+   168 disposizioni[3,1,6]
+                    *              0             0             1 
+   169 disposizioni[3,1,7]
+                    *              0             0             1 
+   170 disposizioni[3,1,8]
+                    *              0             0             1 
+   171 disposizioni[3,1,9]
+                    *              0             0             1 
+   172 disposizioni[3,2,1]
+                    *              0             0             1 
+   173 disposizioni[3,2,2]
+                    *              0             0             1 
+   174 disposizioni[3,2,3]
+                    *              0             0             1 
+   175 disposizioni[3,2,4]
+                    *              0             0             1 
+   176 disposizioni[3,2,5]
+                    *              1             0             1 
+   177 disposizioni[3,2,6]
+                    *              0             0             1 
+   178 disposizioni[3,2,7]
+                    *              0             0             1 
+   179 disposizioni[3,2,8]
+                    *              0             0             1 
+   180 disposizioni[3,2,9]
+                    *              0             0             1 
+   181 disposizioni[3,3,1]
+                    *              0             0             1 
+   182 disposizioni[3,3,2]
+                    *              0             0             1 
+   183 disposizioni[3,3,3]
+                    *              0             0             1 
+   184 disposizioni[3,3,4]
+                    *              1             0             1 
+   185 disposizioni[3,3,5]
+                    *              0             0             1 
+   186 disposizioni[3,3,6]
+                    *              0             0             1 
+   187 disposizioni[3,3,7]
+                    *              0             0             1 
+   188 disposizioni[3,3,8]
+                    *              0             0             1 
+   189 disposizioni[3,3,9]
+                    *              0             0             1 
+   190 disposizioni[3,4,1]
+                    *              0             0             1 
+   191 disposizioni[3,4,2]
+                    *              0             0             1 
+   192 disposizioni[3,4,3]
+                    *              0             0             1 
+   193 disposizioni[3,4,4]
+                    *              0             0             1 
+   194 disposizioni[3,4,5]
+                    *              0             0             1 
+   195 disposizioni[3,4,6]
+                    *              1             0             1 
+   196 disposizioni[3,4,7]
+                    *              0             0             1 
+   197 disposizioni[3,4,8]
+                    *              0             0             1 
+   198 disposizioni[3,4,9]
+                    *              0             0             1 
+   199 disposizioni[3,5,1]
+                    *              0             0             1 
+   200 disposizioni[3,5,2]
+                    *              0             0             1 
+   201 disposizioni[3,5,3]
+                    *              0             0             1 
+   202 disposizioni[3,5,4]
+                    *              0             0             1 
+   203 disposizioni[3,5,5]
+                    *              0             0             1 
+   204 disposizioni[3,5,6]
+                    *              0             0             1 
+   205 disposizioni[3,5,7]
+                    *              1             0             1 
+   206 disposizioni[3,5,8]
+                    *              0             0             1 
+   207 disposizioni[3,5,9]
+                    *              0             0             1 
+   208 disposizioni[3,6,1]
+                    *              1             0             1 
+   209 disposizioni[3,6,2]
+                    *              0             0             1 
+   210 disposizioni[3,6,3]
+                    *              0             0             1 
+   211 disposizioni[3,6,4]
+                    *              0             0             1 
+   212 disposizioni[3,6,5]
+                    *              0             0             1 
+   213 disposizioni[3,6,6]
+                    *              0             0             1 
+   214 disposizioni[3,6,7]
+                    *              0             0             1 
+   215 disposizioni[3,6,8]
+                    *              0             0             1 
+   216 disposizioni[3,6,9]
+                    *              0             0             1 
+   217 disposizioni[3,7,1]
+                    *              0             0             1 
+   218 disposizioni[3,7,2]
+                    *              0             0             1 
+   219 disposizioni[3,7,3]
+                    *              0             0             1 
+   220 disposizioni[3,7,4]
+                    *              0             0             1 
+   221 disposizioni[3,7,5]
+                    *              0             0             1 
+   222 disposizioni[3,7,6]
+                    *              0             0             1 
+   223 disposizioni[3,7,7]
+                    *              0             0             1 
+   224 disposizioni[3,7,8]
+                    *              0             0             1 
+   225 disposizioni[3,7,9]
+                    *              1             0             1 
+   226 disposizioni[3,8,1]
+                    *              0             0             1 
+   227 disposizioni[3,8,2]
+                    *              0             0             1 
+   228 disposizioni[3,8,3]
+                    *              0             0             1 
+   229 disposizioni[3,8,4]
+                    *              0             0             1 
+   230 disposizioni[3,8,5]
+                    *              0             0             1 
+   231 disposizioni[3,8,6]
+                    *              0             0             1 
+   232 disposizioni[3,8,7]
+                    *              0             0             1 
+   233 disposizioni[3,8,8]
+                    *              1             0             1 
+   234 disposizioni[3,8,9]
+                    *              0             0             1 
+   235 disposizioni[3,9,1]
+                    *              0             0             1 
+   236 disposizioni[3,9,2]
+                    *              1             0             1 
+   237 disposizioni[3,9,3]
+                    *              0             0             1 
+   238 disposizioni[3,9,4]
+                    *              0             0             1 
+   239 disposizioni[3,9,5]
+                    *              0             0             1 
+   240 disposizioni[3,9,6]
+                    *              0             0             1 
+   241 disposizioni[3,9,7]
+                    *              0             0             1 
+   242 disposizioni[3,9,8]
+                    *              0             0             1 
+   243 disposizioni[3,9,9]
+                    *              0             0             1 
+   244 disposizioni[4,1,1]
+                    *              0             0             1 
+   245 disposizioni[4,1,2]
+                    *              1             0             1 
+   246 disposizioni[4,1,3]
+                    *              0             0             1 
+   247 disposizioni[4,1,4]
+                    *              0             0             1 
+   248 disposizioni[4,1,5]
+                    *              0             0             1 
+   249 disposizioni[4,1,6]
+                    *              0             0             1 
+   250 disposizioni[4,1,7]
+                    *              0             0             1 
+   251 disposizioni[4,1,8]
+                    *              0             0             1 
+   252 disposizioni[4,1,9]
+                    *              0             0             1 
+   253 disposizioni[4,2,1]
+                    *              0             0             1 
+   254 disposizioni[4,2,2]
+                    *              0             0             1 
+   255 disposizioni[4,2,3]
+                    *              0             0             1 
+   256 disposizioni[4,2,4]
+                    *              0             0             1 
+   257 disposizioni[4,2,5]
+                    *              0             0             1 
+   258 disposizioni[4,2,6]
+                    *              0             0             1 
+   259 disposizioni[4,2,7]
+                    *              0             0             1 
+   260 disposizioni[4,2,8]
+                    *              0             0             1 
+   261 disposizioni[4,2,9]
+                    *              1             0             1 
+   262 disposizioni[4,3,1]
+                    *              0             0             1 
+   263 disposizioni[4,3,2]
+                    *              0             0             1 
+   264 disposizioni[4,3,3]
+                    *              1             0             1 
+   265 disposizioni[4,3,4]
+                    *              0             0             1 
+   266 disposizioni[4,3,5]
+                    *              0             0             1 
+   267 disposizioni[4,3,6]
+                    *              0             0             1 
+   268 disposizioni[4,3,7]
+                    *              0             0             1 
+   269 disposizioni[4,3,8]
+                    *              0             0             1 
+   270 disposizioni[4,3,9]
+                    *              0             0             1 
+   271 disposizioni[4,4,1]
+                    *              1             0             1 
+   272 disposizioni[4,4,2]
+                    *              0             0             1 
+   273 disposizioni[4,4,3]
+                    *              0             0             1 
+   274 disposizioni[4,4,4]
+                    *              0             0             1 
+   275 disposizioni[4,4,5]
+                    *              0             0             1 
+   276 disposizioni[4,4,6]
+                    *              0             0             1 
+   277 disposizioni[4,4,7]
+                    *              0             0             1 
+   278 disposizioni[4,4,8]
+                    *              0             0             1 
+   279 disposizioni[4,4,9]
+                    *              0             0             1 
+   280 disposizioni[4,5,1]
+                    *              0             0             1 
+   281 disposizioni[4,5,2]
+                    *              0             0             1 
+   282 disposizioni[4,5,3]
+                    *              0             0             1 
+   283 disposizioni[4,5,4]
+                    *              1             0             1 
+   284 disposizioni[4,5,5]
+                    *              0             0             1 
+   285 disposizioni[4,5,6]
+                    *              0             0             1 
+   286 disposizioni[4,5,7]
+                    *              0             0             1 
+   287 disposizioni[4,5,8]
+                    *              0             0             1 
+   288 disposizioni[4,5,9]
+                    *              0             0             1 
+   289 disposizioni[4,6,1]
+                    *              0             0             1 
+   290 disposizioni[4,6,2]
+                    *              0             0             1 
+   291 disposizioni[4,6,3]
+                    *              0             0             1 
+   292 disposizioni[4,6,4]
+                    *              0             0             1 
+   293 disposizioni[4,6,5]
+                    *              1             0             1 
+   294 disposizioni[4,6,6]
+                    *              0             0             1 
+   295 disposizioni[4,6,7]
+                    *              0             0             1 
+   296 disposizioni[4,6,8]
+                    *              0             0             1 
+   297 disposizioni[4,6,9]
+                    *              0             0             1 
+   298 disposizioni[4,7,1]
+                    *              0             0             1 
+   299 disposizioni[4,7,2]
+                    *              0             0             1 
+   300 disposizioni[4,7,3]
+                    *              0             0             1 
+   301 disposizioni[4,7,4]
+                    *              0             0             1 
+   302 disposizioni[4,7,5]
+                    *              0             0             1 
+   303 disposizioni[4,7,6]
+                    *              0             0             1 
+   304 disposizioni[4,7,7]
+                    *              0             0             1 
+   305 disposizioni[4,7,8]
+                    *              1             0             1 
+   306 disposizioni[4,7,9]
+                    *              0             0             1 
+   307 disposizioni[4,8,1]
+                    *              0             0             1 
+   308 disposizioni[4,8,2]
+                    *              0             0             1 
+   309 disposizioni[4,8,3]
+                    *              0             0             1 
+   310 disposizioni[4,8,4]
+                    *              0             0             1 
+   311 disposizioni[4,8,5]
+                    *              0             0             1 
+   312 disposizioni[4,8,6]
+                    *              0             0             1 
+   313 disposizioni[4,8,7]
+                    *              1             0             1 
+   314 disposizioni[4,8,8]
+                    *              0             0             1 
+   315 disposizioni[4,8,9]
+                    *              0             0             1 
+   316 disposizioni[4,9,1]
+                    *              0             0             1 
+   317 disposizioni[4,9,2]
+                    *              0             0             1 
+   318 disposizioni[4,9,3]
+                    *              0             0             1 
+   319 disposizioni[4,9,4]
+                    *              0             0             1 
+   320 disposizioni[4,9,5]
+                    *              0             0             1 
+   321 disposizioni[4,9,6]
+                    *              1             0             1 
+   322 disposizioni[4,9,7]
+                    *              0             0             1 
+   323 disposizioni[4,9,8]
+                    *              0             0             1 
+   324 disposizioni[4,9,9]
+                    *              0             0             1 
+   325 disposizioni[5,1,1]
+                    *              0             0             1 
+   326 disposizioni[5,1,2]
+                    *              0             0             1 
+   327 disposizioni[5,1,3]
+                    *              0             0             1 
+   328 disposizioni[5,1,4]
+                    *              0             0             1 
+   329 disposizioni[5,1,5]
+                    *              0             0             1 
+   330 disposizioni[5,1,6]
+                    *              1             0             1 
+   331 disposizioni[5,1,7]
+                    *              0             0             1 
+   332 disposizioni[5,1,8]
+                    *              0             0             1 
+   333 disposizioni[5,1,9]
+                    *              0             0             1 
+   334 disposizioni[5,2,1]
+                    *              0             0             1 
+   335 disposizioni[5,2,2]
+                    *              0             0             1 
+   336 disposizioni[5,2,3]
+                    *              0             0             1 
+   337 disposizioni[5,2,4]
+                    *              0             0             1 
+   338 disposizioni[5,2,5]
+                    *              0             0             1 
+   339 disposizioni[5,2,6]
+                    *              0             0             1 
+   340 disposizioni[5,2,7]
+                    *              1             0             1 
+   341 disposizioni[5,2,8]
+                    *              0             0             1 
+   342 disposizioni[5,2,9]
+                    *              0             0             1 
+   343 disposizioni[5,3,1]
+                    *              0             0             1 
+   344 disposizioni[5,3,2]
+                    *              0             0             1 
+   345 disposizioni[5,3,3]
+                    *              0             0             1 
+   346 disposizioni[5,3,4]
+                    *              0             0             1 
+   347 disposizioni[5,3,5]
+                    *              1             0             1 
+   348 disposizioni[5,3,6]
+                    *              0             0             1 
+   349 disposizioni[5,3,7]
+                    *              0             0             1 
+   350 disposizioni[5,3,8]
+                    *              0             0             1 
+   351 disposizioni[5,3,9]
+                    *              0             0             1 
+   352 disposizioni[5,4,1]
+                    *              0             0             1 
+   353 disposizioni[5,4,2]
+                    *              0             0             1 
+   354 disposizioni[5,4,3]
+                    *              1             0             1 
+   355 disposizioni[5,4,4]
+                    *              0             0             1 
+   356 disposizioni[5,4,5]
+                    *              0             0             1 
+   357 disposizioni[5,4,6]
+                    *              0             0             1 
+   358 disposizioni[5,4,7]
+                    *              0             0             1 
+   359 disposizioni[5,4,8]
+                    *              0             0             1 
+   360 disposizioni[5,4,9]
+                    *              0             0             1 
+   361 disposizioni[5,5,1]
+                    *              0             0             1 
+   362 disposizioni[5,5,2]
+                    *              1             0             1 
+   363 disposizioni[5,5,3]
+                    *              0             0             1 
+   364 disposizioni[5,5,4]
+                    *              0             0             1 
+   365 disposizioni[5,5,5]
+                    *              0             0             1 
+   366 disposizioni[5,5,6]
+                    *              0             0             1 
+   367 disposizioni[5,5,7]
+                    *              0             0             1 
+   368 disposizioni[5,5,8]
+                    *              0             0             1 
+   369 disposizioni[5,5,9]
+                    *              0             0             1 
+   370 disposizioni[5,6,1]
+                    *              0             0             1 
+   371 disposizioni[5,6,2]
+                    *              0             0             1 
+   372 disposizioni[5,6,3]
+                    *              0             0             1 
+   373 disposizioni[5,6,4]
+                    *              0             0             1 
+   374 disposizioni[5,6,5]
+                    *              0             0             1 
+   375 disposizioni[5,6,6]
+                    *              0             0             1 
+   376 disposizioni[5,6,7]
+                    *              0             0             1 
+   377 disposizioni[5,6,8]
+                    *              1             0             1 
+   378 disposizioni[5,6,9]
+                    *              0             0             1 
+   379 disposizioni[5,7,1]
+                    *              1             0             1 
+   380 disposizioni[5,7,2]
+                    *              0             0             1 
+   381 disposizioni[5,7,3]
+                    *              0             0             1 
+   382 disposizioni[5,7,4]
+                    *              0             0             1 
+   383 disposizioni[5,7,5]
+                    *              0             0             1 
+   384 disposizioni[5,7,6]
+                    *              0             0             1 
+   385 disposizioni[5,7,7]
+                    *              0             0             1 
+   386 disposizioni[5,7,8]
+                    *              0             0             1 
+   387 disposizioni[5,7,9]
+                    *              0             0             1 
+   388 disposizioni[5,8,1]
+                    *              0             0             1 
+   389 disposizioni[5,8,2]
+                    *              0             0             1 
+   390 disposizioni[5,8,3]
+                    *              0             0             1 
+   391 disposizioni[5,8,4]
+                    *              1             0             1 
+   392 disposizioni[5,8,5]
+                    *              0             0             1 
+   393 disposizioni[5,8,6]
+                    *              0             0             1 
+   394 disposizioni[5,8,7]
+                    *              0             0             1 
+   395 disposizioni[5,8,8]
+                    *              0             0             1 
+   396 disposizioni[5,8,9]
+                    *              0             0             1 
+   397 disposizioni[5,9,1]
+                    *              0             0             1 
+   398 disposizioni[5,9,2]
+                    *              0             0             1 
+   399 disposizioni[5,9,3]
+                    *              0             0             1 
+   400 disposizioni[5,9,4]
+                    *              0             0             1 
+   401 disposizioni[5,9,5]
+                    *              0             0             1 
+   402 disposizioni[5,9,6]
+                    *              0             0             1 
+   403 disposizioni[5,9,7]
+                    *              0             0             1 
+   404 disposizioni[5,9,8]
+                    *              0             0             1 
+   405 disposizioni[5,9,9]
+                    *              1             0             1 
+   406 disposizioni[6,1,1]
+                    *              0             0             1 
+   407 disposizioni[6,1,2]
+                    *              0             0             1 
+   408 disposizioni[6,1,3]
+                    *              0             0             1 
+   409 disposizioni[6,1,4]
+                    *              0             0             1 
+   410 disposizioni[6,1,5]
+                    *              0             0             1 
+   411 disposizioni[6,1,6]
+                    *              0             0             1 
+   412 disposizioni[6,1,7]
+                    *              0             0             1 
+   413 disposizioni[6,1,8]
+                    *              1             0             1 
+   414 disposizioni[6,1,9]
+                    *              0             0             1 
+   415 disposizioni[6,2,1]
+                    *              0             0             1 
+   416 disposizioni[6,2,2]
+                    *              0             0             1 
+   417 disposizioni[6,2,3]
+                    *              0             0             1 
+   418 disposizioni[6,2,4]
+                    *              1             0             1 
+   419 disposizioni[6,2,5]
+                    *              0             0             1 
+   420 disposizioni[6,2,6]
+                    *              0             0             1 
+   421 disposizioni[6,2,7]
+                    *              0             0             1 
+   422 disposizioni[6,2,8]
+                    *              0             0             1 
+   423 disposizioni[6,2,9]
+                    *              0             0             1 
+   424 disposizioni[6,3,1]
+                    *              1             0             1 
+   425 disposizioni[6,3,2]
+                    *              0             0             1 
+   426 disposizioni[6,3,3]
+                    *              0             0             1 
+   427 disposizioni[6,3,4]
+                    *              0             0             1 
+   428 disposizioni[6,3,5]
+                    *              0             0             1 
+   429 disposizioni[6,3,6]
+                    *              0             0             1 
+   430 disposizioni[6,3,7]
+                    *              0             0             1 
+   431 disposizioni[6,3,8]
+                    *              0             0             1 
+   432 disposizioni[6,3,9]
+                    *              0             0             1 
+   433 disposizioni[6,4,1]
+                    *              0             0             1 
+   434 disposizioni[6,4,2]
+                    *              0             0             1 
+   435 disposizioni[6,4,3]
+                    *              0             0             1 
+   436 disposizioni[6,4,4]
+                    *              0             0             1 
+   437 disposizioni[6,4,5]
+                    *              0             0             1 
+   438 disposizioni[6,4,6]
+                    *              0             0             1 
+   439 disposizioni[6,4,7]
+                    *              0             0             1 
+   440 disposizioni[6,4,8]
+                    *              0             0             1 
+   441 disposizioni[6,4,9]
+                    *              1             0             1 
+   442 disposizioni[6,5,1]
+                    *              0             0             1 
+   443 disposizioni[6,5,2]
+                    *              0             0             1 
+   444 disposizioni[6,5,3]
+                    *              0             0             1 
+   445 disposizioni[6,5,4]
+                    *              0             0             1 
+   446 disposizioni[6,5,5]
+                    *              0             0             1 
+   447 disposizioni[6,5,6]
+                    *              1             0             1 
+   448 disposizioni[6,5,7]
+                    *              0             0             1 
+   449 disposizioni[6,5,8]
+                    *              0             0             1 
+   450 disposizioni[6,5,9]
+                    *              0             0             1 
+   451 disposizioni[6,6,1]
+                    *              0             0             1 
+   452 disposizioni[6,6,2]
+                    *              0             0             1 
+   453 disposizioni[6,6,3]
+                    *              0             0             1 
+   454 disposizioni[6,6,4]
+                    *              0             0             1 
+   455 disposizioni[6,6,5]
+                    *              0             0             1 
+   456 disposizioni[6,6,6]
+                    *              0             0             1 
+   457 disposizioni[6,6,7]
+                    *              1             0             1 
+   458 disposizioni[6,6,8]
+                    *              0             0             1 
+   459 disposizioni[6,6,9]
+                    *              0             0             1 
+   460 disposizioni[6,7,1]
+                    *              0             0             1 
+   461 disposizioni[6,7,2]
+                    *              1             0             1 
+   462 disposizioni[6,7,3]
+                    *              0             0             1 
+   463 disposizioni[6,7,4]
+                    *              0             0             1 
+   464 disposizioni[6,7,5]
+                    *              0             0             1 
+   465 disposizioni[6,7,6]
+                    *              0             0             1 
+   466 disposizioni[6,7,7]
+                    *              0             0             1 
+   467 disposizioni[6,7,8]
+                    *              0             0             1 
+   468 disposizioni[6,7,9]
+                    *              0             0             1 
+   469 disposizioni[6,8,1]
+                    *              0             0             1 
+   470 disposizioni[6,8,2]
+                    *              0             0             1 
+   471 disposizioni[6,8,3]
+                    *              0             0             1 
+   472 disposizioni[6,8,4]
+                    *              0             0             1 
+   473 disposizioni[6,8,5]
+                    *              1             0             1 
+   474 disposizioni[6,8,6]
+                    *              0             0             1 
+   475 disposizioni[6,8,7]
+                    *              0             0             1 
+   476 disposizioni[6,8,8]
+                    *              0             0             1 
+   477 disposizioni[6,8,9]
+                    *              0             0             1 
+   478 disposizioni[6,9,1]
+                    *              0             0             1 
+   479 disposizioni[6,9,2]
+                    *              0             0             1 
+   480 disposizioni[6,9,3]
+                    *              1             0             1 
+   481 disposizioni[6,9,4]
+                    *              0             0             1 
+   482 disposizioni[6,9,5]
+                    *              0             0             1 
+   483 disposizioni[6,9,6]
+                    *              0             0             1 
+   484 disposizioni[6,9,7]
+                    *              0             0             1 
+   485 disposizioni[6,9,8]
+                    *              0             0             1 
+   486 disposizioni[6,9,9]
+                    *              0             0             1 
+   487 disposizioni[7,1,1]
+                    *              0             0             1 
+   488 disposizioni[7,1,2]
+                    *              0             0             1 
+   489 disposizioni[7,1,3]
+                    *              0             0             1 
+   490 disposizioni[7,1,4]
+                    *              0             0             1 
+   491 disposizioni[7,1,5]
+                    *              0             0             1 
+   492 disposizioni[7,1,6]
+                    *              0             0             1 
+   493 disposizioni[7,1,7]
+                    *              0             0             1 
+   494 disposizioni[7,1,8]
+                    *              0             0             1 
+   495 disposizioni[7,1,9]
+                    *              1             0             1 
+   496 disposizioni[7,2,1]
+                    *              1             0             1 
+   497 disposizioni[7,2,2]
+                    *              0             0             1 
+   498 disposizioni[7,2,3]
+                    *              0             0             1 
+   499 disposizioni[7,2,4]
+                    *              0             0             1 
+   500 disposizioni[7,2,5]
+                    *              0             0             1 
+   501 disposizioni[7,2,6]
+                    *              0             0             1 
+   502 disposizioni[7,2,7]
+                    *              0             0             1 
+   503 disposizioni[7,2,8]
+                    *              0             0             1 
+   504 disposizioni[7,2,9]
+                    *              0             0             1 
+   505 disposizioni[7,3,1]
+                    *              0             0             1 
+   506 disposizioni[7,3,2]
+                    *              0             0             1 
+   507 disposizioni[7,3,3]
+                    *              0             0             1 
+   508 disposizioni[7,3,4]
+                    *              0             0             1 
+   509 disposizioni[7,3,5]
+                    *              0             0             1 
+   510 disposizioni[7,3,6]
+                    *              1             0             1 
+   511 disposizioni[7,3,7]
+                    *              0             0             1 
+   512 disposizioni[7,3,8]
+                    *              0             0             1 
+   513 disposizioni[7,3,9]
+                    *              0             0             1 
+   514 disposizioni[7,4,1]
+                    *              0             0             1 
+   515 disposizioni[7,4,2]
+                    *              0             0             1 
+   516 disposizioni[7,4,3]
+                    *              0             0             1 
+   517 disposizioni[7,4,4]
+                    *              0             0             1 
+   518 disposizioni[7,4,5]
+                    *              0             0             1 
+   519 disposizioni[7,4,6]
+                    *              0             0             1 
+   520 disposizioni[7,4,7]
+                    *              0             0             1 
+   521 disposizioni[7,4,8]
+                    *              1             0             1 
+   522 disposizioni[7,4,9]
+                    *              0             0             1 
+   523 disposizioni[7,5,1]
+                    *              0             0             1 
+   524 disposizioni[7,5,2]
+                    *              0             0             1 
+   525 disposizioni[7,5,3]
+                    *              0             0             1 
+   526 disposizioni[7,5,4]
+                    *              0             0             1 
+   527 disposizioni[7,5,5]
+                    *              1             0             1 
+   528 disposizioni[7,5,6]
+                    *              0             0             1 
+   529 disposizioni[7,5,7]
+                    *              0             0             1 
+   530 disposizioni[7,5,8]
+                    *              0             0             1 
+   531 disposizioni[7,5,9]
+                    *              0             0             1 
+   532 disposizioni[7,6,1]
+                    *              0             0             1 
+   533 disposizioni[7,6,2]
+                    *              0             0             1 
+   534 disposizioni[7,6,3]
+                    *              1             0             1 
+   535 disposizioni[7,6,4]
+                    *              0             0             1 
+   536 disposizioni[7,6,5]
+                    *              0             0             1 
+   537 disposizioni[7,6,6]
+                    *              0             0             1 
+   538 disposizioni[7,6,7]
+                    *              0             0             1 
+   539 disposizioni[7,6,8]
+                    *              0             0             1 
+   540 disposizioni[7,6,9]
+                    *              0             0             1 
+   541 disposizioni[7,7,1]
+                    *              0             0             1 
+   542 disposizioni[7,7,2]
+                    *              0             0             1 
+   543 disposizioni[7,7,3]
+                    *              0             0             1 
+   544 disposizioni[7,7,4]
+                    *              0             0             1 
+   545 disposizioni[7,7,5]
+                    *              0             0             1 
+   546 disposizioni[7,7,6]
+                    *              0             0             1 
+   547 disposizioni[7,7,7]
+                    *              1             0             1 
+   548 disposizioni[7,7,8]
+                    *              0             0             1 
+   549 disposizioni[7,7,9]
+                    *              0             0             1 
+   550 disposizioni[7,8,1]
+                    *              0             0             1 
+   551 disposizioni[7,8,2]
+                    *              1             0             1 
+   552 disposizioni[7,8,3]
+                    *              0             0             1 
+   553 disposizioni[7,8,4]
+                    *              0             0             1 
+   554 disposizioni[7,8,5]
+                    *              0             0             1 
+   555 disposizioni[7,8,6]
+                    *              0             0             1 
+   556 disposizioni[7,8,7]
+                    *              0             0             1 
+   557 disposizioni[7,8,8]
+                    *              0             0             1 
+   558 disposizioni[7,8,9]
+                    *              0             0             1 
+   559 disposizioni[7,9,1]
+                    *              0             0             1 
+   560 disposizioni[7,9,2]
+                    *              0             0             1 
+   561 disposizioni[7,9,3]
+                    *              0             0             1 
+   562 disposizioni[7,9,4]
+                    *              1             0             1 
+   563 disposizioni[7,9,5]
+                    *              0             0             1 
+   564 disposizioni[7,9,6]
+                    *              0             0             1 
+   565 disposizioni[7,9,7]
+                    *              0             0             1 
+   566 disposizioni[7,9,8]
+                    *              0             0             1 
+   567 disposizioni[7,9,9]
+                    *              0             0             1 
+   568 disposizioni[8,1,1]
+                    *              0             0             1 
+   569 disposizioni[8,1,2]
+                    *              0             0             1 
+   570 disposizioni[8,1,3]
+                    *              0             0             1 
+   571 disposizioni[8,1,4]
+                    *              0             0             1 
+   572 disposizioni[8,1,5]
+                    *              1             0             1 
+   573 disposizioni[8,1,6]
+                    *              0             0             1 
+   574 disposizioni[8,1,7]
+                    *              0             0             1 
+   575 disposizioni[8,1,8]
+                    *              0             0             1 
+   576 disposizioni[8,1,9]
+                    *              0             0             1 
+   577 disposizioni[8,2,1]
+                    *              0             0             1 
+   578 disposizioni[8,2,2]
+                    *              0             0             1 
+   579 disposizioni[8,2,3]
+                    *              1             0             1 
+   580 disposizioni[8,2,4]
+                    *              0             0             1 
+   581 disposizioni[8,2,5]
+                    *              0             0             1 
+   582 disposizioni[8,2,6]
+                    *              0             0             1 
+   583 disposizioni[8,2,7]
+                    *              0             0             1 
+   584 disposizioni[8,2,8]
+                    *              0             0             1 
+   585 disposizioni[8,2,9]
+                    *              0             0             1 
+   586 disposizioni[8,3,1]
+                    *              0             0             1 
+   587 disposizioni[8,3,2]
+                    *              0             0             1 
+   588 disposizioni[8,3,3]
+                    *              0             0             1 
+   589 disposizioni[8,3,4]
+                    *              0             0             1 
+   590 disposizioni[8,3,5]
+                    *              0             0             1 
+   591 disposizioni[8,3,6]
+                    *              0             0             1 
+   592 disposizioni[8,3,7]
+                    *              1             0             1 
+   593 disposizioni[8,3,8]
+                    *              0             0             1 
+   594 disposizioni[8,3,9]
+                    *              0             0             1 
+   595 disposizioni[8,4,1]
+                    *              0             0             1 
+   596 disposizioni[8,4,2]
+                    *              0             0             1 
+   597 disposizioni[8,4,3]
+                    *              0             0             1 
+   598 disposizioni[8,4,4]
+                    *              1             0             1 
+   599 disposizioni[8,4,5]
+                    *              0             0             1 
+   600 disposizioni[8,4,6]
+                    *              0             0             1 
+   601 disposizioni[8,4,7]
+                    *              0             0             1 
+   602 disposizioni[8,4,8]
+                    *              0             0             1 
+   603 disposizioni[8,4,9]
+                    *              0             0             1 
+   604 disposizioni[8,5,1]
+                    *              0             0             1 
+   605 disposizioni[8,5,2]
+                    *              0             0             1 
+   606 disposizioni[8,5,3]
+                    *              0             0             1 
+   607 disposizioni[8,5,4]
+                    *              0             0             1 
+   608 disposizioni[8,5,5]
+                    *              0             0             1 
+   609 disposizioni[8,5,6]
+                    *              0             0             1 
+   610 disposizioni[8,5,7]
+                    *              0             0             1 
+   611 disposizioni[8,5,8]
+                    *              0             0             1 
+   612 disposizioni[8,5,9]
+                    *              1             0             1 
+   613 disposizioni[8,6,1]
+                    *              0             0             1 
+   614 disposizioni[8,6,2]
+                    *              1             0             1 
+   615 disposizioni[8,6,3]
+                    *              0             0             1 
+   616 disposizioni[8,6,4]
+                    *              0             0             1 
+   617 disposizioni[8,6,5]
+                    *              0             0             1 
+   618 disposizioni[8,6,6]
+                    *              0             0             1 
+   619 disposizioni[8,6,7]
+                    *              0             0             1 
+   620 disposizioni[8,6,8]
+                    *              0             0             1 
+   621 disposizioni[8,6,9]
+                    *              0             0             1 
+   622 disposizioni[8,7,1]
+                    *              0             0             1 
+   623 disposizioni[8,7,2]
+                    *              0             0             1 
+   624 disposizioni[8,7,3]
+                    *              0             0             1 
+   625 disposizioni[8,7,4]
+                    *              0             0             1 
+   626 disposizioni[8,7,5]
+                    *              0             0             1 
+   627 disposizioni[8,7,6]
+                    *              1             0             1 
+   628 disposizioni[8,7,7]
+                    *              0             0             1 
+   629 disposizioni[8,7,8]
+                    *              0             0             1 
+   630 disposizioni[8,7,9]
+                    *              0             0             1 
+   631 disposizioni[8,8,1]
+                    *              1             0             1 
+   632 disposizioni[8,8,2]
+                    *              0             0             1 
+   633 disposizioni[8,8,3]
+                    *              0             0             1 
+   634 disposizioni[8,8,4]
+                    *              0             0             1 
+   635 disposizioni[8,8,5]
+                    *              0             0             1 
+   636 disposizioni[8,8,6]
+                    *              0             0             1 
+   637 disposizioni[8,8,7]
+                    *              0             0             1 
+   638 disposizioni[8,8,8]
+                    *              0             0             1 
+   639 disposizioni[8,8,9]
+                    *              0             0             1 
+   640 disposizioni[8,9,1]
+                    *              0             0             1 
+   641 disposizioni[8,9,2]
+                    *              0             0             1 
+   642 disposizioni[8,9,3]
+                    *              0             0             1 
+   643 disposizioni[8,9,4]
+                    *              0             0             1 
+   644 disposizioni[8,9,5]
+                    *              0             0             1 
+   645 disposizioni[8,9,6]
+                    *              0             0             1 
+   646 disposizioni[8,9,7]
+                    *              0             0             1 
+   647 disposizioni[8,9,8]
+                    *              1             0             1 
+   648 disposizioni[8,9,9]
+                    *              0             0             1 
+   649 disposizioni[9,1,1]
+                    *              0             0             1 
+   650 disposizioni[9,1,2]
+                    *              0             0             1 
+   651 disposizioni[9,1,3]
+                    *              0             0             1 
+   652 disposizioni[9,1,4]
+                    *              1             0             1 
+   653 disposizioni[9,1,5]
+                    *              0             0             1 
+   654 disposizioni[9,1,6]
+                    *              0             0             1 
+   655 disposizioni[9,1,7]
+                    *              0             0             1 
+   656 disposizioni[9,1,8]
+                    *              0             0             1 
+   657 disposizioni[9,1,9]
+                    *              0             0             1 
+   658 disposizioni[9,2,1]
+                    *              0             0             1 
+   659 disposizioni[9,2,2]
+                    *              0             0             1 
+   660 disposizioni[9,2,3]
+                    *              0             0             1 
+   661 disposizioni[9,2,4]
+                    *              0             0             1 
+   662 disposizioni[9,2,5]
+                    *              0             0             1 
+   663 disposizioni[9,2,6]
+                    *              0             0             1 
+   664 disposizioni[9,2,7]
+                    *              0             0             1 
+   665 disposizioni[9,2,8]
+                    *              1             0             1 
+   666 disposizioni[9,2,9]
+                    *              0             0             1 
+   667 disposizioni[9,3,1]
+                    *              0             0             1 
+   668 disposizioni[9,3,2]
+                    *              1             0             1 
+   669 disposizioni[9,3,3]
+                    *              0             0             1 
+   670 disposizioni[9,3,4]
+                    *              0             0             1 
+   671 disposizioni[9,3,5]
+                    *              0             0             1 
+   672 disposizioni[9,3,6]
+                    *              0             0             1 
+   673 disposizioni[9,3,7]
+                    *              0             0             1 
+   674 disposizioni[9,3,8]
+                    *              0             0             1 
+   675 disposizioni[9,3,9]
+                    *              0             0             1 
+   676 disposizioni[9,4,1]
+                    *              0             0             1 
+   677 disposizioni[9,4,2]
+                    *              0             0             1 
+   678 disposizioni[9,4,3]
+                    *              0             0             1 
+   679 disposizioni[9,4,4]
+                    *              0             0             1 
+   680 disposizioni[9,4,5]
+                    *              0             0             1 
+   681 disposizioni[9,4,6]
+                    *              0             0             1 
+   682 disposizioni[9,4,7]
+                    *              1             0             1 
+   683 disposizioni[9,4,8]
+                    *              0             0             1 
+   684 disposizioni[9,4,9]
+                    *              0             0             1 
+   685 disposizioni[9,5,1]
+                    *              1             0             1 
+   686 disposizioni[9,5,2]
+                    *              0             0             1 
+   687 disposizioni[9,5,3]
+                    *              0             0             1 
+   688 disposizioni[9,5,4]
+                    *              0             0             1 
+   689 disposizioni[9,5,5]
+                    *              0             0             1 
+   690 disposizioni[9,5,6]
+                    *              0             0             1 
+   691 disposizioni[9,5,7]
+                    *              0             0             1 
+   692 disposizioni[9,5,8]
+                    *              0             0             1 
+   693 disposizioni[9,5,9]
+                    *              0             0             1 
+   694 disposizioni[9,6,1]
+                    *              0             0             1 
+   695 disposizioni[9,6,2]
+                    *              0             0             1 
+   696 disposizioni[9,6,3]
+                    *              0             0             1 
+   697 disposizioni[9,6,4]
+                    *              0             0             1 
+   698 disposizioni[9,6,5]
+                    *              0             0             1 
+   699 disposizioni[9,6,6]
+                    *              1             0             1 
+   700 disposizioni[9,6,7]
+                    *              0             0             1 
+   701 disposizioni[9,6,8]
+                    *              0             0             1 
+   702 disposizioni[9,6,9]
+                    *              0             0             1 
+   703 disposizioni[9,7,1]
+                    *              0             0             1 
+   704 disposizioni[9,7,2]
+                    *              0             0             1 
+   705 disposizioni[9,7,3]
+                    *              1             0             1 
+   706 disposizioni[9,7,4]
+                    *              0             0             1 
+   707 disposizioni[9,7,5]
+                    *              0             0             1 
+   708 disposizioni[9,7,6]
+                    *              0             0             1 
+   709 disposizioni[9,7,7]
+                    *              0             0             1 
+   710 disposizioni[9,7,8]
+                    *              0             0             1 
+   711 disposizioni[9,7,9]
+                    *              0             0             1 
+   712 disposizioni[9,8,1]
+                    *              0             0             1 
+   713 disposizioni[9,8,2]
+                    *              0             0             1 
+   714 disposizioni[9,8,3]
+                    *              0             0             1 
+   715 disposizioni[9,8,4]
+                    *              0             0             1 
+   716 disposizioni[9,8,5]
+                    *              0             0             1 
+   717 disposizioni[9,8,6]
+                    *              0             0             1 
+   718 disposizioni[9,8,7]
+                    *              0             0             1 
+   719 disposizioni[9,8,8]
+                    *              0             0             1 
+   720 disposizioni[9,8,9]
+                    *              1             0             1 
+   721 disposizioni[9,9,1]
+                    *              0             0             1 
+   722 disposizioni[9,9,2]
+                    *              0             0             1 
+   723 disposizioni[9,9,3]
+                    *              0             0             1 
+   724 disposizioni[9,9,4]
+                    *              0             0             1 
+   725 disposizioni[9,9,5]
+                    *              1             0             1 
+   726 disposizioni[9,9,6]
+                    *              0             0             1 
+   727 disposizioni[9,9,7]
+                    *              0             0             1 
+   728 disposizioni[9,9,8]
+                    *              0             0             1 
+   729 disposizioni[9,9,9]
+                    *              0             0             1 
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output
