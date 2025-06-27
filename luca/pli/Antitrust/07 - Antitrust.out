@@ -1,0 +1,106 @@
+Problem:    07
+Rows:       31
+Columns:    21 (20 integer, 20 binary)
+Non-zeros:  241
+Status:     INTEGER OPTIMAL
+Objective:  z = 8400 (MINimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 Partizione[1]
+                                   1             1             = 
+     2 Partizione[2]
+                                   1             1             = 
+     3 Partizione[3]
+                                   1             1             = 
+     4 Partizione[4]
+                                   1             1             = 
+     5 Partizione[5]
+                                   1             1             = 
+     6 Partizione[6]
+                                   1             1             = 
+     7 Partizione[7]
+                                   1             1             = 
+     8 Partizione[8]
+                                   1             1             = 
+     9 Partizione[9]
+                                   1             1             = 
+    10 Partizione[10]
+                                   1             1             = 
+    11 Minmax[1,1,1]
+                                8400            -0               
+    12 Minmax[1,1,2]
+                               12800            -0               
+    13 Minmax[1,2,1]
+                                4000            -0               
+    14 Minmax[1,2,2]
+                                8400            -0               
+    15 Minmax[2,1,1]
+                                8400            -0               
+    16 Minmax[2,1,2]
+                                   0            -0               
+    17 Minmax[2,2,1]
+                               16800            -0               
+    18 Minmax[2,2,2]
+                                8400            -0               
+    19 Minmax[3,1,1]
+                                8400            -0               
+    20 Minmax[3,1,2]
+                                3450            -0               
+    21 Minmax[3,2,1]
+                               13350            -0               
+    22 Minmax[3,2,2]
+                                8400            -0               
+    23 Minmax[4,1,1]
+                                8400            -0               
+    24 Minmax[4,1,2]
+                                7450            -0               
+    25 Minmax[4,2,1]
+                                9350            -0               
+    26 Minmax[4,2,2]
+                                8400            -0               
+    27 Minmax[5,1,1]
+                                8400            -0               
+    28 Minmax[5,1,2]
+                                8510            -0               
+    29 Minmax[5,2,1]
+                                8290            -0               
+    30 Minmax[5,2,2]
+                                8400            -0               
+    31 z                        8400                             
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 x[1,1]       *              1             0             1 
+     2 x[1,2]       *              0             0             1 
+     3 x[2,1]       *              1             0             1 
+     4 x[2,2]       *              0             0             1 
+     5 x[3,1]       *              1             0             1 
+     6 x[3,2]       *              0             0             1 
+     7 x[4,1]       *              0             0             1 
+     8 x[4,2]       *              1             0             1 
+     9 x[5,1]       *              0             0             1 
+    10 x[5,2]       *              1             0             1 
+    11 x[6,1]       *              1             0             1 
+    12 x[6,2]       *              0             0             1 
+    13 x[7,1]       *              0             0             1 
+    14 x[7,2]       *              1             0             1 
+    15 x[8,1]       *              0             0             1 
+    16 x[8,2]       *              1             0             1 
+    17 x[9,1]       *              1             0             1 
+    18 x[9,2]       *              0             0             1 
+    19 x[10,1]      *              0             0             1 
+    20 x[10,2]      *              1             0             1 
+    21 delta                    8400                             
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 1.82e-12 on row 16
+        max.rel.err = 1.82e-12 on row 16
+        High quality
+
+End of output
