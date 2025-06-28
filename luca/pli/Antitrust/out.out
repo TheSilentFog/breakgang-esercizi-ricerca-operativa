@@ -1,0 +1,128 @@
+Problem:    mod
+Rows:       31
+Columns:    21 (20 integer, 20 binary)
+Non-zeros:  241
+Status:     INTEGER OPTIMAL
+Objective:  massima_differenza_di_redditi = 8400 (MINimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 monoassegnamento[1]
+                                   1             1             = 
+     2 monoassegnamento[2]
+                                   1             1             = 
+     3 monoassegnamento[3]
+                                   1             1             = 
+     4 monoassegnamento[4]
+                                   1             1             = 
+     5 monoassegnamento[5]
+                                   1             1             = 
+     6 monoassegnamento[6]
+                                   1             1             = 
+     7 monoassegnamento[7]
+                                   1             1             = 
+     8 monoassegnamento[8]
+                                   1             1             = 
+     9 monoassegnamento[9]
+                                   1             1             = 
+    10 monoassegnamento[10]
+                                   1             1             = 
+    11 vincolo_massimo[A,A1,A1]
+                                8400            -0               
+    12 vincolo_massimo[A,A1,A2]
+                               12800            -0               
+    13 vincolo_massimo[A,A2,A1]
+                                4000            -0               
+    14 vincolo_massimo[A,A2,A2]
+                                8400            -0               
+    15 vincolo_massimo[B,A1,A1]
+                                8400            -0               
+    16 vincolo_massimo[B,A1,A2]
+                                   0            -0               
+    17 vincolo_massimo[B,A2,A1]
+                               16800            -0               
+    18 vincolo_massimo[B,A2,A2]
+                                8400            -0               
+    19 vincolo_massimo[C,A1,A1]
+                                8400            -0               
+    20 vincolo_massimo[C,A1,A2]
+                                3450            -0               
+    21 vincolo_massimo[C,A2,A1]
+                               13350            -0               
+    22 vincolo_massimo[C,A2,A2]
+                                8400            -0               
+    23 vincolo_massimo[D,A1,A1]
+                                8400            -0               
+    24 vincolo_massimo[D,A1,A2]
+                                7450            -0               
+    25 vincolo_massimo[D,A2,A1]
+                                9350            -0               
+    26 vincolo_massimo[D,A2,A2]
+                                8400            -0               
+    27 vincolo_massimo[E,A1,A1]
+                                8400            -0               
+    28 vincolo_massimo[E,A1,A2]
+                                8510            -0               
+    29 vincolo_massimo[E,A2,A1]
+                                8290            -0               
+    30 vincolo_massimo[E,A2,A2]
+                                8400            -0               
+    31 massima_differenza_di_redditi
+                                8400                             
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 assegna_filiale_azienda[1,A1]
+                    *              1             0             1 
+     2 assegna_filiale_azienda[1,A2]
+                    *              0             0             1 
+     3 assegna_filiale_azienda[2,A1]
+                    *              1             0             1 
+     4 assegna_filiale_azienda[2,A2]
+                    *              0             0             1 
+     5 assegna_filiale_azienda[3,A1]
+                    *              1             0             1 
+     6 assegna_filiale_azienda[3,A2]
+                    *              0             0             1 
+     7 assegna_filiale_azienda[4,A1]
+                    *              0             0             1 
+     8 assegna_filiale_azienda[4,A2]
+                    *              1             0             1 
+     9 assegna_filiale_azienda[5,A1]
+                    *              0             0             1 
+    10 assegna_filiale_azienda[5,A2]
+                    *              1             0             1 
+    11 assegna_filiale_azienda[6,A1]
+                    *              1             0             1 
+    12 assegna_filiale_azienda[6,A2]
+                    *              0             0             1 
+    13 assegna_filiale_azienda[7,A1]
+                    *              0             0             1 
+    14 assegna_filiale_azienda[7,A2]
+                    *              1             0             1 
+    15 assegna_filiale_azienda[8,A1]
+                    *              0             0             1 
+    16 assegna_filiale_azienda[8,A2]
+                    *              1             0             1 
+    17 assegna_filiale_azienda[9,A1]
+                    *              1             0             1 
+    18 assegna_filiale_azienda[9,A2]
+                    *              0             0             1 
+    19 assegna_filiale_azienda[10,A1]
+                    *              0             0             1 
+    20 assegna_filiale_azienda[10,A2]
+                    *              1             0             1 
+    21 maximized_diff
+                                8400             0               
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output
