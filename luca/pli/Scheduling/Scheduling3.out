@@ -1,0 +1,200 @@
+Problem:    Scheduling
+Rows:       85
+Columns:    49 (42 integer, 42 binary)
+Non-zeros:  217
+Status:     INTEGER OPTIMAL
+Objective:  z3 = 180 (MAXimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 Coppie[1,2]                 1             1             = 
+     2 Coppie[1,3]                 1             1             = 
+     3 Coppie[1,4]                 1             1             = 
+     4 Coppie[1,5]                 1             1             = 
+     5 Coppie[1,6]                 1             1             = 
+     6 Coppie[1,7]                 1             1             = 
+     7 Coppie[2,1]                 1             1             = 
+     8 Coppie[2,3]                 1             1             = 
+     9 Coppie[2,4]                 1             1             = 
+    10 Coppie[2,5]                 1             1             = 
+    11 Coppie[2,6]                 1             1             = 
+    12 Coppie[2,7]                 1             1             = 
+    13 Coppie[3,1]                 1             1             = 
+    14 Coppie[3,2]                 1             1             = 
+    15 Coppie[3,4]                 1             1             = 
+    16 Coppie[3,5]                 1             1             = 
+    17 Coppie[3,6]                 1             1             = 
+    18 Coppie[3,7]                 1             1             = 
+    19 Coppie[4,1]                 1             1             = 
+    20 Coppie[4,2]                 1             1             = 
+    21 Coppie[4,3]                 1             1             = 
+    22 Coppie[4,5]                 1             1             = 
+    23 Coppie[4,6]                 1             1             = 
+    24 Coppie[4,7]                 1             1             = 
+    25 Coppie[5,1]                 1             1             = 
+    26 Coppie[5,2]                 1             1             = 
+    27 Coppie[5,3]                 1             1             = 
+    28 Coppie[5,4]                 1             1             = 
+    29 Coppie[5,6]                 1             1             = 
+    30 Coppie[5,7]                 1             1             = 
+    31 Coppie[6,1]                 1             1             = 
+    32 Coppie[6,2]                 1             1             = 
+    33 Coppie[6,3]                 1             1             = 
+    34 Coppie[6,4]                 1             1             = 
+    35 Coppie[6,5]                 1             1             = 
+    36 Coppie[6,7]                 1             1             = 
+    37 Coppie[7,1]                 1             1             = 
+    38 Coppie[7,2]                 1             1             = 
+    39 Coppie[7,3]                 1             1             = 
+    40 Coppie[7,4]                 1             1             = 
+    41 Coppie[7,5]                 1             1             = 
+    42 Coppie[7,6]                 1             1             = 
+    43 Disgiuntivi[1,2]
+                                 982            10               
+    44 Disgiuntivi[1,3]
+                                  28            10               
+    45 Disgiuntivi[1,4]
+                                  10            10               
+    46 Disgiuntivi[1,5]
+                                 996            10               
+    47 Disgiuntivi[1,6]
+                                  84            10               
+    48 Disgiuntivi[1,7]
+                                  49            10               
+    49 Disgiuntivi[2,1]
+                                  18            14               
+    50 Disgiuntivi[2,3]
+                                  46            14               
+    51 Disgiuntivi[2,4]
+                                  28            14               
+    52 Disgiuntivi[2,5]
+                                  14            14               
+    53 Disgiuntivi[2,6]
+                                 102            14               
+    54 Disgiuntivi[2,7]
+                                  67            14               
+    55 Disgiuntivi[3,1]
+                                 972            21               
+    56 Disgiuntivi[3,2]
+                                 954            21               
+    57 Disgiuntivi[3,4]
+                                 982            21               
+    58 Disgiuntivi[3,5]
+                                 968            21               
+    59 Disgiuntivi[3,6]
+                                  56            21               
+    60 Disgiuntivi[3,7]
+                                  21            21               
+    61 Disgiuntivi[4,1]
+                                 990            18               
+    62 Disgiuntivi[4,2]
+                                 972            18               
+    63 Disgiuntivi[4,3]
+                                  18            18               
+    64 Disgiuntivi[4,5]
+                                 986            18               
+    65 Disgiuntivi[4,6]
+                                  74            18               
+    66 Disgiuntivi[4,7]
+                                  39            18               
+    67 Disgiuntivi[5,1]
+                                   4             4               
+    68 Disgiuntivi[5,2]
+                                 986             4               
+    69 Disgiuntivi[5,3]
+                                  32             4               
+    70 Disgiuntivi[5,4]
+                                  14             4               
+    71 Disgiuntivi[5,6]
+                                  88             4               
+    72 Disgiuntivi[5,7]
+                                  53             4               
+    73 Disgiuntivi[6,1]
+                                 916            23               
+    74 Disgiuntivi[6,2]
+                                 898            23               
+    75 Disgiuntivi[6,3]
+                                 944            23               
+    76 Disgiuntivi[6,4]
+                                 926            23               
+    77 Disgiuntivi[6,5]
+                                 912            23               
+    78 Disgiuntivi[6,7]
+                                 965            23               
+    79 Disgiuntivi[7,1]
+                                 951            35               
+    80 Disgiuntivi[7,2]
+                                 933            35               
+    81 Disgiuntivi[7,3]
+                                 979            35               
+    82 Disgiuntivi[7,4]
+                                 961            35               
+    83 Disgiuntivi[7,5]
+                                 947            35               
+    84 Disgiuntivi[7,6]
+                                  35            35               
+    85 z3                       -275                             
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 x[2,1]       *              1             0             1 
+     2 x[1,2]       *              0             0             1 
+     3 x[3,1]       *              0             0             1 
+     4 x[1,3]       *              1             0             1 
+     5 x[4,1]       *              0             0             1 
+     6 x[1,4]       *              1             0             1 
+     7 x[5,1]       *              1             0             1 
+     8 x[1,5]       *              0             0             1 
+     9 x[6,1]       *              0             0             1 
+    10 x[1,6]       *              1             0             1 
+    11 x[7,1]       *              0             0             1 
+    12 x[1,7]       *              1             0             1 
+    13 x[3,2]       *              0             0             1 
+    14 x[2,3]       *              1             0             1 
+    15 x[4,2]       *              0             0             1 
+    16 x[2,4]       *              1             0             1 
+    17 x[5,2]       *              0             0             1 
+    18 x[2,5]       *              1             0             1 
+    19 x[6,2]       *              0             0             1 
+    20 x[2,6]       *              1             0             1 
+    21 x[7,2]       *              0             0             1 
+    22 x[2,7]       *              1             0             1 
+    23 x[4,3]       *              1             0             1 
+    24 x[3,4]       *              0             0             1 
+    25 x[5,3]       *              1             0             1 
+    26 x[3,5]       *              0             0             1 
+    27 x[6,3]       *              0             0             1 
+    28 x[3,6]       *              1             0             1 
+    29 x[7,3]       *              0             0             1 
+    30 x[3,7]       *              1             0             1 
+    31 x[5,4]       *              1             0             1 
+    32 x[4,5]       *              0             0             1 
+    33 x[6,4]       *              0             0             1 
+    34 x[4,6]       *              1             0             1 
+    35 x[7,4]       *              0             0             1 
+    36 x[4,7]       *              1             0             1 
+    37 x[6,5]       *              0             0             1 
+    38 x[5,6]       *              1             0             1 
+    39 x[7,5]       *              0             0             1 
+    40 x[5,7]       *              1             0             1 
+    41 x[7,6]       *              1             0             1 
+    42 x[6,7]       *              0             0             1 
+    43 t[2]                        0             0            66 
+    44 t[1]                       18            15            40 
+    45 t[3]                       46             0            74 
+    46 t[4]                       28            10            57 
+    47 t[5]                       14             5            26 
+    48 t[6]                      102            13           107 
+    49 t[7]                       67            18            85 
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 5.33e-15 on row 52
+        max.rel.err = 3.55e-16 on row 52
+        High quality
+
+End of output
