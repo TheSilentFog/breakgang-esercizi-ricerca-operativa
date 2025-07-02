@@ -1,0 +1,307 @@
+Problem:    mod
+Rows:       92
+Columns:    50 (42 integer, 42 binary)
+Non-zeros:  225
+Status:     INTEGER OPTIMAL
+Objective:  tempo_complessivo = 125 (MINimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 set_predecessori[1,2]
+                                   1             1             = 
+     2 set_predecessori[1,3]
+                                   1             1             = 
+     3 set_predecessori[1,4]
+                                   1             1             = 
+     4 set_predecessori[1,5]
+                                   1             1             = 
+     5 set_predecessori[1,6]
+                                   1             1             = 
+     6 set_predecessori[1,7]
+                                   1             1             = 
+     7 set_predecessori[2,1]
+                                   1             1             = 
+     8 set_predecessori[2,3]
+                                   1             1             = 
+     9 set_predecessori[2,4]
+                                   1             1             = 
+    10 set_predecessori[2,5]
+                                   1             1             = 
+    11 set_predecessori[2,6]
+                                   1             1             = 
+    12 set_predecessori[2,7]
+                                   1             1             = 
+    13 set_predecessori[3,1]
+                                   1             1             = 
+    14 set_predecessori[3,2]
+                                   1             1             = 
+    15 set_predecessori[3,4]
+                                   1             1             = 
+    16 set_predecessori[3,5]
+                                   1             1             = 
+    17 set_predecessori[3,6]
+                                   1             1             = 
+    18 set_predecessori[3,7]
+                                   1             1             = 
+    19 set_predecessori[4,1]
+                                   1             1             = 
+    20 set_predecessori[4,2]
+                                   1             1             = 
+    21 set_predecessori[4,3]
+                                   1             1             = 
+    22 set_predecessori[4,5]
+                                   1             1             = 
+    23 set_predecessori[4,6]
+                                   1             1             = 
+    24 set_predecessori[4,7]
+                                   1             1             = 
+    25 set_predecessori[5,1]
+                                   1             1             = 
+    26 set_predecessori[5,2]
+                                   1             1             = 
+    27 set_predecessori[5,3]
+                                   1             1             = 
+    28 set_predecessori[5,4]
+                                   1             1             = 
+    29 set_predecessori[5,6]
+                                   1             1             = 
+    30 set_predecessori[5,7]
+                                   1             1             = 
+    31 set_predecessori[6,1]
+                                   1             1             = 
+    32 set_predecessori[6,2]
+                                   1             1             = 
+    33 set_predecessori[6,3]
+                                   1             1             = 
+    34 set_predecessori[6,4]
+                                   1             1             = 
+    35 set_predecessori[6,5]
+                                   1             1             = 
+    36 set_predecessori[6,7]
+                                   1             1             = 
+    37 set_predecessori[7,1]
+                                   1             1             = 
+    38 set_predecessori[7,2]
+                                   1             1             = 
+    39 set_predecessori[7,3]
+                                   1             1             = 
+    40 set_predecessori[7,4]
+                                   1             1             = 
+    41 set_predecessori[7,5]
+                                   1             1             = 
+    42 set_predecessori[7,6]
+                                   1             1             = 
+    43 sovvrapposizioni[1,2]
+                                 972            14               
+    44 sovvrapposizioni[1,3]
+                                  25            21               
+    45 sovvrapposizioni[1,4]
+                                 990            18               
+    46 sovvrapposizioni[1,5]
+                                   4             4               
+    47 sovvrapposizioni[1,6]
+                                 923            23               
+    48 sovvrapposizioni[1,7]
+                                 958            35               
+    49 sovvrapposizioni[2,1]
+                                  28            10               
+    50 sovvrapposizioni[2,3]
+                                  53            21               
+    51 sovvrapposizioni[2,4]
+                                  18            18               
+    52 sovvrapposizioni[2,5]
+                                  32             4               
+    53 sovvrapposizioni[2,6]
+                                 951            23               
+    54 sovvrapposizioni[2,7]
+                                 986            35               
+    55 sovvrapposizioni[3,1]
+                                 975            10               
+    56 sovvrapposizioni[3,2]
+                                 947            14               
+    57 sovvrapposizioni[3,4]
+                                 965            18               
+    58 sovvrapposizioni[3,5]
+                                 979             4               
+    59 sovvrapposizioni[3,6]
+                                 898            23               
+    60 sovvrapposizioni[3,7]
+                                 933            35               
+    61 sovvrapposizioni[4,1]
+                                  10            10               
+    62 sovvrapposizioni[4,2]
+                                 982            14               
+    63 sovvrapposizioni[4,3]
+                                  35            21               
+    64 sovvrapposizioni[4,5]
+                                  14             4               
+    65 sovvrapposizioni[4,6]
+                                 933            23               
+    66 sovvrapposizioni[4,7]
+                                 968            35               
+    67 sovvrapposizioni[5,1]
+                                 996            10               
+    68 sovvrapposizioni[5,2]
+                                 968            14               
+    69 sovvrapposizioni[5,3]
+                                  21            21               
+    70 sovvrapposizioni[5,4]
+                                 986            18               
+    71 sovvrapposizioni[5,6]
+                                 919            23               
+    72 sovvrapposizioni[5,7]
+                                 954            35               
+    73 sovvrapposizioni[6,1]
+                                  77            10               
+    74 sovvrapposizioni[6,2]
+                                  49            14               
+    75 sovvrapposizioni[6,3]
+                                 102            21               
+    76 sovvrapposizioni[6,4]
+                                  67            18               
+    77 sovvrapposizioni[6,5]
+                                  81             4               
+    78 sovvrapposizioni[6,7]
+                                  35            35               
+    79 sovvrapposizioni[7,1]
+                                  42            10               
+    80 sovvrapposizioni[7,2]
+                                  14            14               
+    81 sovvrapposizioni[7,3]
+                                  67            21               
+    82 sovvrapposizioni[7,4]
+                                  32            18               
+    83 sovvrapposizioni[7,5]
+                                  46             4               
+    84 sovvrapposizioni[7,6]
+                                 965            23               
+    85 maximize_fine[1]
+                                 100            10               
+    86 maximize_fine[2]
+                                  72            14               
+    87 maximize_fine[3]
+                                 125            21               
+    88 maximize_fine[4]
+                                  90            18               
+    89 maximize_fine[5]
+                                 104             4               
+    90 maximize_fine[6]
+                                  23            23               
+    91 maximize_fine[7]
+                                  58            35               
+    92 tempo_complessivo
+                                 125                             
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 scheduling_start[1]
+                                  25            15            40 
+     2 scheduling_start[2]
+                                  53             0            66 
+     3 scheduling_start[3]
+                                   0             0            74 
+     4 scheduling_start[4]
+                                  35            10            57 
+     5 scheduling_start[5]
+                                  21             5            26 
+     6 scheduling_start[6]
+                                 102            13           107 
+     7 scheduling_start[7]
+                                  67            18            85 
+     8 predecessori[2,1]
+                    *              1             0             1 
+     9 predecessori[1,2]
+                    *              0             0             1 
+    10 predecessori[3,1]
+                    *              0             0             1 
+    11 predecessori[1,3]
+                    *              1             0             1 
+    12 predecessori[4,1]
+                    *              1             0             1 
+    13 predecessori[1,4]
+                    *              0             0             1 
+    14 predecessori[5,1]
+                    *              0             0             1 
+    15 predecessori[1,5]
+                    *              1             0             1 
+    16 predecessori[6,1]
+                    *              1             0             1 
+    17 predecessori[1,6]
+                    *              0             0             1 
+    18 predecessori[7,1]
+                    *              1             0             1 
+    19 predecessori[1,7]
+                    *              0             0             1 
+    20 predecessori[3,2]
+                    *              0             0             1 
+    21 predecessori[2,3]
+                    *              1             0             1 
+    22 predecessori[4,2]
+                    *              0             0             1 
+    23 predecessori[2,4]
+                    *              1             0             1 
+    24 predecessori[5,2]
+                    *              0             0             1 
+    25 predecessori[2,5]
+                    *              1             0             1 
+    26 predecessori[6,2]
+                    *              1             0             1 
+    27 predecessori[2,6]
+                    *              0             0             1 
+    28 predecessori[7,2]
+                    *              1             0             1 
+    29 predecessori[2,7]
+                    *              0             0             1 
+    30 predecessori[4,3]
+                    *              1             0             1 
+    31 predecessori[3,4]
+                    *              0             0             1 
+    32 predecessori[5,3]
+                    *              1             0             1 
+    33 predecessori[3,5]
+                    *              0             0             1 
+    34 predecessori[6,3]
+                    *              1             0             1 
+    35 predecessori[3,6]
+                    *              0             0             1 
+    36 predecessori[7,3]
+                    *              1             0             1 
+    37 predecessori[3,7]
+                    *              0             0             1 
+    38 predecessori[5,4]
+                    *              0             0             1 
+    39 predecessori[4,5]
+                    *              1             0             1 
+    40 predecessori[6,4]
+                    *              1             0             1 
+    41 predecessori[4,6]
+                    *              0             0             1 
+    42 predecessori[7,4]
+                    *              1             0             1 
+    43 predecessori[4,7]
+                    *              0             0             1 
+    44 predecessori[6,5]
+                    *              1             0             1 
+    45 predecessori[5,6]
+                    *              0             0             1 
+    46 predecessori[7,5]
+                    *              1             0             1 
+    47 predecessori[5,7]
+                    *              0             0             1 
+    48 predecessori[7,6]
+                    *              0             0             1 
+    49 predecessori[6,7]
+                    *              1             0             1 
+    50 massima_fine              125             0               
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output

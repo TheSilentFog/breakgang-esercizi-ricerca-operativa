@@ -1,0 +1,95 @@
+GLPK 4.65 - SENSITIVITY ANALYSIS REPORT                                                                         Page   1
+
+Problem:    Vendemmia
+Objective:  z = 17151.81034 (MAXimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+     1 Disponibili[1]
+                    BS     437.41379     112.58621          -Inf      385.51724      -3.50000   15620.86207 Produzione_min[2]
+                                            .          550.00000      437.41379       8.40000   20826.08621 Produzione_max[3]
+
+     2 Disponibili[2]
+                    BS     615.34483    1004.65517          -Inf      615.34483      -8.40000   11982.91379 Produzione_max[3]
+                                            .         1620.00000      667.24138       3.50000   19305.51724 Produzione_min[2]
+
+     3 Disponibili[3]
+                    NU     430.00000        .               -Inf         .          -39.88793        .      Produzione_min[1]
+                                          39.88793     430.00000      540.67797          +Inf   21566.52542 Disponibili[1]
+
+     4 Produzione_min[1]
+                    BS      74.13793     -74.13793        .              .           -2.45000   16970.17241 Produzione_min[2]
+                                            .               +Inf       74.13793       8.40000   17774.56897 Produzione_max[3]
+
+     5 Produzione_min[2]
+                    NL        .             .             .              .               -Inf   17151.81034 Produzione_max[1]
+                                          -2.45000          +Inf       74.13793       2.45000   16970.17241 Produzione_min[1]
+
+     6 Produzione_min[3]
+                    BS      74.13793     -74.13793        .            74.13793      -8.40000   16529.05172 Produzione_max[3]
+                                            .               +Inf       74.13793          +Inf          +Inf
+
+     7 Produzione_min[4]
+                    NL        .             .             .              .               -Inf   17151.81034 Produzione_max[1]
+                                         -19.03276          +Inf       67.18750      19.03276   15873.04687 Produzione_min[1]
+
+     8 Produzione_min[5]
+                    NL        .             .             .              .               -Inf   17151.81034 Produzione_max[1]
+                                         -29.38793          +Inf       63.23529      29.38793   15293.45588 Produzione_min[1]
+
+     9 Produzione_max[1]
+                    BS        .             .               -Inf      -74.13793      -2.45000   17151.81034 Produzione_min[2]
+                                            .             .            74.13793       8.40000   17151.81034 Produzione_max[3]
+
+    10 Produzione_max[2]
+                    BS     -74.13793      74.13793          -Inf      -74.13793          -Inf          +Inf
+                                            .             .              .            2.45000   16970.17241 Produzione_min[2]
+
+GLPK 4.65 - SENSITIVITY ANALYSIS REPORT                                                                         Page   2
+
+Problem:    Vendemmia
+Objective:  z = 17151.81034 (MAXimum)
+
+   No. Row name     St      Activity         Slack   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+    11 Produzione_max[3]
+                    NU        .             .               -Inf         .           -8.40000   17151.81034 Produzione_max[1]
+                                           8.40000        .            74.13793          +Inf   17774.56897 Produzione_min[1]
+
+    12 Produzione_max[4]
+                    BS     -74.13793      74.13793          -Inf      -74.13793          -Inf          +Inf
+                                            .             .              .           17.24844   15873.04687 Produzione_min[4]
+
+    13 Produzione_max[5]
+                    BS     -74.13793      74.13793          -Inf      -74.13793          -Inf          +Inf
+                                            .             .              .           25.06618   15293.45588 Produzione_min[5]
+
+    14 z            BS   17151.81034  -17151.81034          -Inf    17151.81034      -1.00000        .      Produzione_max[3]
+                                            .               +Inf    17151.81034          +Inf          +Inf
+
+GLPK 4.65 - SENSITIVITY ANALYSIS REPORT                                                                         Page   3
+
+Problem:    Vendemmia
+Objective:  z = 17151.81034 (MAXimum)
+
+   No. Column name  St      Activity      Obj coef   Lower bound       Activity      Obj coef  Obj value at Limiting
+                                          Marginal   Upper bound          range         range   break point variable
+------ ------------ -- ------------- ------------- -------------  ------------- ------------- ------------- ------------
+     1 x[1]         BS     370.68966       7.00000          -Inf      296.55172       4.55000   16243.62069 Produzione_min[2]
+                                            .               +Inf      370.68966      15.40000   20265.60345 Produzione_max[3]
+
+     2 x[2]         BS     222.41379       4.55000          -Inf      189.70588     -52.26667    4515.00000 Produzione_min[5]
+                                            .               +Inf      296.55172       7.00000   17696.72414 Produzione_min[2]
+
+     3 x[3]         BS     370.68966      15.40000          -Inf      370.68966       7.00000   14038.01724 Produzione_max[3]
+                                            .               +Inf      370.68966          +Inf          +Inf
+
+     4 x[4]         BS     222.41379      11.90000          -Inf      189.70588     -44.91667    4515.00000 Produzione_min[5]
+                                            .               +Inf      268.75000      39.49750   23289.87500 Produzione_min[4]
+
+     5 x[5]         BS     296.55172      17.50000          -Inf      268.75000     -28.49583    3511.66667 Produzione_min[4]
+                                            .               +Inf      316.17647     112.19444   45233.61111 Produzione_min[5]
+
+End of report

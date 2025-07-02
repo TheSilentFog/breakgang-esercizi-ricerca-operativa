@@ -1,0 +1,19 @@
+I vini sono 5, i tipi di vitigno sono 3.
+
+Tabella 1. Composizione dei vini [frazione] e quantità vendemmiate [Kg].
+
+          1    2    3    4    5   Vendemmia
+1	 1.0  0.3  0.0  0.0  0.0     550
+2	 0.0  0.7  1.0  0.4  0.0     620
+3	 0.0  0.0  0.0  0.6  1.0     430
+
+Tabella 2. Frazioni minime e massime e valore commerciale [Euro/litro] di ogni vino.
+
+        min	max	prezzo
+1	0.20	0.25	10.0
+2	0.15	0.20	 6.5
+3	0.20	0.25	22.0
+4	0.15	0.20	17.0
+5	0.20	0.25	25.0
+
+Coefficiente di conversione: da ogni chilogrammo di uva si ricavano 0.7 litri di vino.

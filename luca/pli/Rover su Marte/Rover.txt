@@ -1,0 +1,62 @@
+Sono stati segnalati 6 siti interessanti.
+Il rover è nella posizione indicata come sito n.7.
+
+===================================================
+
+Tabella 1: Tempi di spostamento tra i siti (minuti)
+
+     1   2   3   4   5   6  7
+ 1   0  13  14  16  13  13 13 
+ 2  13   0  15  14  16  14 11
+ 3  14  15   0  15  18  13 17
+ 4  16  14  15   0  17  16 18
+ 5  13  16  18  17   0  18 15
+ 6  13  14  13  16  18   0 15
+ 7  13  11  17  18  15  15  0
+
+===================================================
+
+Tabella 2: Consumo energetico per gli spostamenti: 8 Joule / minuto,
+           indipendentemente dalla posizione.
+
+===================================================
+
+Tabella 3: Tempi di esplorazione dei siti (minuti)
+
+Sito    Tempo
+  1      35
+  2      20
+  3      40
+  4      60
+  5      25
+  6      10
+
+===================================================
+
+Tabella 4: Consumo energetico per l'esplorazione dei siti (Joule)
+
+Sito    Tempo
+  1      60
+  2      45
+  3      70
+  4     110
+  5      50
+  6      25
+
+===================================================
+
+Tabella 5: Valore atteso di ogni esplorazione
+
+Sito    Tempo
+  1      90
+  2      50
+  3      20
+  4     100
+  5     120
+  6      50
+
+===================================================
+
+Energia disponibile: 1000 Joule
+Tempo disponibile: 400 minuti
+

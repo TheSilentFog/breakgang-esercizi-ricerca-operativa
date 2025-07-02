@@ -1,0 +1,61 @@
+Problem:    mod2
+Rows:       14
+Columns:    5 (5 integer, 0 binary)
+Non-zeros:  62
+Status:     INTEGER OPTIMAL
+Objective:  alcolismo = 16834.5 (MAXimum)
+
+   No.   Row name        Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 vincolo_produzione[1]
+                               297.9                         385 
+     2 vincolo_produzione[2]
+                               420.3                         434 
+     3 vincolo_produzione[3]
+                               298.8                         301 
+     4 vincolo_produzione_perc_low[1]
+                                48.6            -0               
+     5 vincolo_produzione_perc_low[2]
+                                0.45            -0               
+     6 vincolo_produzione_perc_low[3]
+                                48.6            -0               
+     7 vincolo_produzione_perc_low[4]
+                                0.45            -0               
+     8 vincolo_produzione_perc_low[5]
+                                 3.6            -0               
+     9 vincolo_produzione_perc_upp[1]
+                               -2.25                          -0 
+    10 vincolo_produzione_perc_upp[2]
+                               -50.4                          -0 
+    11 vincolo_produzione_perc_upp[3]
+                               -2.25                          -0 
+    12 vincolo_produzione_perc_upp[4]
+                               -50.4                          -0 
+    13 vincolo_produzione_perc_upp[5]
+                              -47.25                          -0 
+    14 alcolismo             16834.5                             
+
+   No. Column name       Activity     Lower bound   Upper bound
+------ ------------    ------------- ------------- -------------
+     1 produzione[1]
+                    *             28             0               
+     2 produzione[2]
+                    *             17             0               
+     3 produzione[3]
+                    *             28             0               
+     4 produzione[4]
+                    *             17             0               
+     5 produzione[5]
+                    *             23             0               
+
+Integer feasibility conditions:
+
+KKT.PE: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+00 on row 0
+        max.rel.err = 0.00e+00 on row 0
+        High quality
+
+End of output
